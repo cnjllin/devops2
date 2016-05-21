@@ -3,6 +3,8 @@
 import os
 import imp
 import json
+import logging
+
 
 
 class AutoLoad():
@@ -39,6 +41,7 @@ class AutoLoad():
         """
         self.func = func
         if self.module is None:
+            logging.error('error message')
             return False
         return hasattr(self.module, self.func)
 
@@ -100,6 +103,7 @@ class JsonRpc():
     def execute(self):
         if self.jsonData.get("id", None) is None:
             self.jsonError(-1, 102, "id没有传")
+            logging.error(self.jsonError(-1, 102, "id没有传"))
             return self._response
         if self.validate():
             # 数据验证通过
@@ -122,22 +126,29 @@ class JsonRpc():
         for k in ["jsonrpc", "method", "auth", "params"]:
             if not self.jsonData.has_key(k):
                 self.jsonError(self.jsonData["id"], 102, "{}没有传数据".format(k))
+                logging.error(self.jsonError(self.jsonData["id"], 102, "{}没有传数据".format(k)))
         if self.jsonData.get("jsonrpc") != "2.0":
             self.jsonError(-1, 107, "jsonrpc版本信息不对, 应该为{}".format(self.VERSION))
+            logging.error(self.jsonError(-1, 107, "jsonrpc版本信息不对, 应该为{}".format(self.VERSION))
             return False
 
         action = self.jsonData.get("method")
         sp = action.split(".")
         if len(sp) != 2:
             self.jsonError(-1, 108, "method格式错误, 应该分隔为两个字符串")
+            logging.error(self.jsonError(-1, 108, "method格式错误, 应该分隔为两个字符串"))
             return False
         if not sp[0] or not sp[1]:
             self.jsonError(-1, 108, "method格式错误, 方法或者函数不能为空")
+            logging.error(self.jsonError(-1, 108, "method格式错误, 方法或者函数不能为空"))
             return False
         if not str(self.jsonData['id']).isdigit():
             self.jsonError(-1, 109, "id必须为数字")
+            logging.error(self.jsonError(-1, 109, "id必须为数字"))
+            return False
         if not isinstance(self.jsonData["params"], dict):
             self.jsonError(-1, 110, "params只能为字典")
+            logging.error(self.jsonError(-1, 110, "params只能为字典"))
             return False
 
         # jsonrpc的值为2.0
@@ -193,17 +204,20 @@ class JsonRpc():
         if not at.isValidModule(module_name):
             response.errorCode = 120
             response.errorMessage = "模块不存在"
+            logging.error(response.errorMessage)
             return response
 
         if not at.isValidMethod(func_name):
             response.errorCode = 121
             response.errorMessage = "{} 模块下没有{} 这个方法".format(module_name, func_name)
+            logging.error(response.errorMessage)
             return response
         if self.requireAuthentication(module_name, func_name):
             # 需要登录/需要验证
             if auth is None:
                 response.errorCode = 122
                 response.errorMessage = "这个操作需要提供auth"
+                logging.error(response.errorMessage)
                 return response
         try:
             called = at.getCallMethod()
@@ -212,9 +226,11 @@ class JsonRpc():
             else:
                 response.errorCode = 123
                 response.errorMessage = "{}下的{}方法不能被执行".format(module_name, func_name)
+                logging.error(response.errorMessage)
         except Exception, e:
             response.errorCode = -1
             response.errorMessage = e.message
+            logging.error(response.errorMessage)
         return response
 
     def processResult(self, response):
@@ -234,6 +250,11 @@ class JsonRpc():
 
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.DEBUG,  
+                    format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',  
+                    datefmt='%a, %d %b %Y %H:%M:%S',  
+                    filename='/log/test.log',  
+                    filemode='w')
     # at = AutoLoad()
     # print at.isValidModule("reboot")
     # print at.isValidMethod("test")

@@ -1,0 +1,1104 @@
+2016-05-22 10:17:12,085 - app - views.py- DEBUG - 访问日志
+2016-05-22 10:17:34,597 - app - views.py- DEBUG - 访问日志
+2016-05-22 10:17:36,473 - app - views.py- DEBUG - 访问日志
+2016-05-22 10:44:54,310 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 10:44:54,311 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:reboot
+2016-05-22 10:44:54,311 - app - __init__.py- DEBUG - 加载 reboot 模块
+2016-05-22 10:44:54,311 - app - __init__.py- DEBUG - 加载 reboot 模块成功
+2016-05-22 10:44:54,312 - app - __init__.py- DEBUG - 验证模块 reboot 下的函数是否存在 error 属性
+2016-05-22 11:02:38,245 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 11:02:38,245 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 11:02:38,245 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 11:02:38,246 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:reboot
+2016-05-22 11:02:38,246 - app - __init__.py- DEBUG - 加载 reboot 模块成功
+2016-05-22 11:02:38,246 - app - __init__.py- DEBUG - 验证模块 reboot 下的函数是否存在 error 属性
+2016-05-22 11:02:38,246 - app - __init__.py- WARNING - reboot.error 这个操作需要提供auth
+2016-05-22 11:02:38,246 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 11:02:38,246 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 11:04:39,793 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 11:04:39,793 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 11:04:39,794 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 11:04:39,794 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:reboot
+2016-05-22 11:04:39,794 - app - __init__.py- DEBUG - 加载 reboot 模块成功
+2016-05-22 11:04:39,794 - app - __init__.py- DEBUG - 验证模块 reboot 下的函数是否存在 error 属性
+2016-05-22 11:04:39,794 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 11:04:39,794 - app - __init__.py- WARNING - 调用模块出错
+2016-05-22 11:04:39,794 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 11:04:39,794 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 11:06:01,616 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 11:06:01,616 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 11:06:01,616 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 11:06:01,617 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:reboot
+2016-05-22 11:06:01,617 - app - __init__.py- DEBUG - 加载 reboot 模块成功
+2016-05-22 11:06:01,617 - app - __init__.py- DEBUG - 验证模块 reboot 下的函数是否存在 test 属性
+2016-05-22 11:06:01,617 - app - __init__.py- WARNING - reboot.test 这个操作需要提供auth
+2016-05-22 11:06:01,617 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 11:06:01,617 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 11:06:27,154 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 11:06:27,154 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 11:06:27,154 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 11:06:27,154 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:reboot
+2016-05-22 11:06:27,154 - app - __init__.py- DEBUG - 加载 reboot 模块成功
+2016-05-22 11:06:27,154 - app - __init__.py- DEBUG - 验证模块 reboot 下的函数是否存在 test 属性
+2016-05-22 11:06:27,154 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 11:06:27,155 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 11:07:30,002 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 11:07:30,002 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 11:07:30,002 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 11:07:30,002 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:reboot
+2016-05-22 11:07:30,003 - app - __init__.py- DEBUG - 加载 reboot 模块成功
+2016-05-22 11:07:30,003 - app - __init__.py- DEBUG - 验证模块 reboot 下的函数是否存在 test 属性
+2016-05-22 11:07:30,003 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 11:07:30,003 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 11:13:21,278 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 11:13:21,279 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 11:13:21,279 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 11:13:21,279 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:reboot
+2016-05-22 11:13:21,280 - app - __init__.py- DEBUG - 加载 reboot 模块成功
+2016-05-22 11:13:21,280 - app - __init__.py- DEBUG - 验证模块 reboot 下的函数是否存在 test 属性
+2016-05-22 11:13:21,280 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 11:13:21,280 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 12:20:32,299 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 12:20:32,300 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 12:20:32,300 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 12:20:32,300 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:reboot
+2016-05-22 12:20:32,301 - app - __init__.py- DEBUG - 加载 reboot 模块成功
+2016-05-22 12:20:32,301 - app - __init__.py- DEBUG - 验证模块 reboot 下的函数是否存在 test 属性
+2016-05-22 12:20:32,301 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 12:20:32,301 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 12:22:19,887 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 12:22:19,887 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 12:22:19,887 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 12:22:19,887 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 12:22:19,888 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 12:22:19,888 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 create 属性
+2016-05-22 12:22:19,888 - app - __init__.py- WARNING - idc.create 这个操作需要提供auth
+2016-05-22 12:22:19,888 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 12:22:19,888 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 12:23:57,378 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 12:23:57,378 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 12:23:57,378 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 12:23:57,378 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 12:23:57,378 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 12:23:57,378 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 create 属性
+2016-05-22 12:23:57,379 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 12:23:57,444 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 12:26:08,007 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 12:26:08,007 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 12:26:08,007 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 12:26:08,007 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 12:26:08,008 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 12:26:08,008 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 create 属性
+2016-05-22 12:26:08,008 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 12:26:08,011 - app - idc.py- WARNING - 插入错误: (_mysql_exceptions.OperationalError) (1048, "Column 'idc_name' cannot be null") 
+2016-05-22 12:26:08,011 - app - __init__.py- WARNING - create 调用方法出错
+2016-05-22 12:26:08,011 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 12:26:08,012 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 12:27:48,877 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 12:27:48,877 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 12:27:48,877 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 12:27:48,877 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 12:27:48,879 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 12:27:48,879 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 create 属性
+2016-05-22 12:27:48,879 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 12:27:48,926 - app - idc.py- WARNING - 插入错误: (_mysql_exceptions.OperationalError) (1048, "Column 'idc_name' cannot be null") 
+2016-05-22 12:27:48,926 - app - __init__.py- WARNING - create 调用方法出错
+2016-05-22 12:27:48,926 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 12:27:48,926 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 12:29:05,632 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 12:29:05,632 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 12:29:05,632 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 12:29:05,632 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 12:29:05,633 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 12:29:05,633 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 create 属性
+2016-05-22 12:29:05,633 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 12:29:05,633 - app - idc.py- WARNING - 参数错误, idc_name 不能为空
+2016-05-22 12:29:05,633 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 12:30:15,054 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 12:30:15,054 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 12:30:15,055 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 12:30:15,055 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 12:30:15,056 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 12:30:15,056 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 create 属性
+2016-05-22 12:30:15,056 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 12:30:15,056 - app - idc.py- WARNING - 参数错误, idc_name 不能为空
+2016-05-22 12:30:15,056 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 12:30:38,680 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 12:30:38,680 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 12:30:38,680 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 12:30:38,680 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 12:30:38,681 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 12:30:38,681 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 create 属性
+2016-05-22 12:30:38,681 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 12:30:38,681 - app - idc.py- WARNING - 参数错误, idc_name 不能为空
+2016-05-22 12:30:38,681 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 13:50:45,115 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 13:50:45,116 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 13:50:45,116 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 13:50:45,116 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 13:50:45,116 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 13:50:45,116 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 create 属性
+2016-05-22 13:50:45,116 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 13:50:45,116 - app - idc.py- WARNING - 参数错误, name1 不在idc表里
+2016-05-22 13:50:45,117 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 13:55:31,009 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 13:55:31,010 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 13:55:31,010 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 13:55:31,010 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 13:55:31,011 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 13:55:31,011 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 create 属性
+2016-05-22 13:55:31,011 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 13:55:31,011 - app - idc.py- WARNING - 参数错误, name1 不在idc表里
+2016-05-22 13:55:31,011 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 13:56:27,428 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 13:56:27,428 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 13:56:27,428 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 13:56:27,429 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 13:56:27,430 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 13:56:27,430 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 create 属性
+2016-05-22 13:56:27,430 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 13:56:27,430 - app - idc.py- WARNING - 参数错误, name1 不在idc表里
+2016-05-22 13:56:27,430 - app - __init__.py- WARNING - create 调用方法出错
+2016-05-22 13:56:27,430 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 13:56:27,430 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 13:57:07,534 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 13:57:07,534 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 13:57:07,534 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 13:57:07,534 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 13:57:07,534 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 13:57:07,534 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 create 属性
+2016-05-22 13:57:07,534 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 13:57:07,534 - app - idc.py- WARNING - 参数错误, email 不能为空
+2016-05-22 13:57:07,535 - app - __init__.py- WARNING - create 调用方法出错
+2016-05-22 13:57:07,535 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 13:57:07,535 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 14:23:19,427 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 14:23:19,428 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:23:19,428 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 14:23:19,428 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 14:23:19,429 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:23:19,430 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 14:23:19,430 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:23:19,507 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:24:36,629 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 14:24:36,629 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:24:36,629 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 14:24:36,629 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 14:24:36,630 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:24:36,630 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 14:24:36,630 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:24:36,663 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:28:10,586 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 14:28:10,586 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:28:10,586 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 14:28:10,586 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 14:28:10,587 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:28:10,587 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 14:28:10,587 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:28:10,624 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:31:50,256 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 14:31:50,256 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:31:50,257 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 14:31:50,257 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 14:31:50,258 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:31:50,258 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 14:31:50,259 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:31:50,308 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:31:59,962 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 14:31:59,963 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:31:59,963 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 14:31:59,963 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 14:31:59,963 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:31:59,963 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 create 属性
+2016-05-22 14:31:59,964 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:31:59,972 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:32:03,324 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 14:32:03,324 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:32:03,324 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 14:32:03,324 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 14:32:03,324 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:32:03,325 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 14:32:03,325 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:32:03,327 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:32:24,212 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 14:32:24,212 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:32:24,212 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 14:32:24,213 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 14:32:24,213 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:32:24,213 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 14:32:24,213 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:32:24,216 - app - __init__.py- WARNING - get 调用方法出错
+2016-05-22 14:32:24,216 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:32:24,217 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 14:32:34,341 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 14:32:34,341 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:32:34,341 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 14:32:34,341 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 14:32:34,343 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:32:34,343 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 14:32:34,343 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:32:34,394 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:33:11,900 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 14:33:11,900 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:33:11,901 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 14:33:11,901 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 14:33:11,903 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:33:11,903 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 14:33:11,903 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:33:11,970 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:34:09,358 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 14:34:09,358 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:34:09,358 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 14:34:09,358 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 14:34:09,360 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:34:09,360 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 14:34:09,360 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:34:09,409 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:34:33,058 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 14:34:33,059 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:34:33,059 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 14:34:33,059 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 14:34:33,060 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:34:33,060 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 14:34:33,060 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:34:33,097 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:39:02,479 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 14:39:02,479 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:39:02,479 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 14:39:02,479 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 14:39:02,481 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:39:02,481 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 14:39:02,481 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:39:02,523 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:44:42,789 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 14:44:42,790 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:44:42,790 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 14:44:42,790 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 14:44:42,792 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:44:42,792 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 14:44:42,792 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:44:42,792 - app - __init__.py- WARNING - get 调用方法出错
+2016-05-22 14:44:42,792 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:44:42,792 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 14:45:13,943 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 14:45:13,944 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:45:13,944 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 14:45:13,944 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 14:45:13,946 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:45:13,946 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 14:45:13,947 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:45:14,006 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:45:35,169 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 14:45:35,169 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:45:35,169 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 14:45:35,169 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 14:45:35,170 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:45:35,170 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 14:45:35,170 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:45:35,215 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:47:26,386 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 14:47:26,387 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:47:26,387 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 14:47:26,387 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 14:47:26,388 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:47:26,389 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 14:47:26,389 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:47:26,389 - app - __init__.py- WARNING - get 调用方法出错
+2016-05-22 14:47:26,389 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:47:26,389 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 14:52:32,256 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 14:52:32,256 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:52:32,256 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 14:52:32,256 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 14:52:32,258 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:52:32,258 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 14:52:32,258 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:52:32,258 - app - __init__.py- WARNING - get 调用方法出错
+2016-05-22 14:52:32,258 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:52:32,258 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 14:53:06,242 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 14:53:06,242 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:53:06,242 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 14:53:06,242 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 14:53:06,244 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:53:06,244 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 14:53:06,244 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:53:06,244 - app - __init__.py- WARNING - get 调用方法出错
+2016-05-22 14:53:06,244 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:53:06,244 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 14:53:42,518 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 14:53:42,519 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:53:42,519 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 14:53:42,519 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 14:53:42,521 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:53:42,521 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 14:53:42,521 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:53:42,521 - app - __init__.py- WARNING - get 调用方法出错
+2016-05-22 14:53:42,522 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:53:42,522 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 14:54:04,269 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 14:54:04,269 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:54:04,269 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 14:54:04,270 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 14:54:04,271 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:54:04,271 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 14:54:04,272 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:54:04,327 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:54:40,521 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 14:54:40,521 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:54:40,522 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 14:54:40,522 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 14:54:40,524 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:54:40,524 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 14:54:40,524 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:54:40,559 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:56:14,608 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 14:56:14,608 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:56:14,608 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 14:56:14,608 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 14:56:14,610 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:56:14,610 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 14:56:14,610 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:56:14,656 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:58:26,454 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 14:58:26,454 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:58:26,455 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 14:58:26,455 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 14:58:26,458 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:58:26,458 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 14:58:26,458 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:58:26,496 - app - __init__.py- WARNING - get 调用方法出错
+2016-05-22 14:58:26,497 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:58:26,497 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 14:58:50,680 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 14:58:50,680 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 14:58:50,680 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 14:58:50,680 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 14:58:50,682 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 14:58:50,682 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 14:58:50,682 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 14:58:50,698 - app - __init__.py- WARNING - get 调用方法出错
+2016-05-22 14:58:50,698 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 14:58:50,698 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 15:00:03,036 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 15:00:03,036 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:00:03,036 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 15:00:03,036 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 15:00:03,038 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:00:03,038 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 15:00:03,038 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:00:03,078 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:08:57,566 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 15:08:57,566 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:08:57,566 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 15:08:57,566 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 15:08:57,569 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:08:57,569 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 update 属性
+2016-05-22 15:08:57,569 - app - __init__.py- WARNING - idc 模块下没有update 这个方法
+2016-05-22 15:08:57,569 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:08:57,569 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 15:10:11,940 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 15:10:11,940 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:10:11,940 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 15:10:11,940 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 15:10:11,942 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:10:11,942 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 create 属性
+2016-05-22 15:10:11,942 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:10:11,995 - app - idc.py- WARNING - 插入错误: (_mysql_exceptions.IntegrityError) (1062, "Duplicate entry 'songxiang' for key 'ix_idc_name'") 
+2016-05-22 15:10:11,995 - app - __init__.py- WARNING - create 调用方法出错
+2016-05-22 15:10:11,995 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:10:11,996 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 15:10:51,533 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 15:10:51,533 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:10:51,533 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 15:10:51,533 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 15:10:51,533 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:10:51,533 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 update 属性
+2016-05-22 15:10:51,533 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:10:51,533 - app - __init__.py- WARNING - update 调用方法出错
+2016-05-22 15:10:51,533 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:10:51,534 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 15:11:45,257 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 15:11:45,258 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:11:45,258 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 15:11:45,258 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 15:11:45,258 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:11:45,258 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 update 属性
+2016-05-22 15:11:45,258 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:11:45,258 - app - __init__.py- WARNING - update 调用方法出错
+2016-05-22 15:11:45,259 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:11:45,259 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 15:13:03,302 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 15:13:03,302 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:13:03,302 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 15:13:03,302 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 15:13:03,304 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:13:03,304 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 update 属性
+2016-05-22 15:13:03,304 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:13:03,304 - app - __init__.py- WARNING - update 调用方法出错
+2016-05-22 15:13:03,304 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:13:03,304 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 15:15:38,632 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 15:15:38,632 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:15:38,632 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 15:15:38,632 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 15:15:38,634 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:15:38,634 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 update 属性
+2016-05-22 15:15:38,634 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:15:38,634 - app - __init__.py- WARNING - update 调用方法出错
+2016-05-22 15:15:38,635 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:15:38,635 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 15:16:03,776 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 15:16:03,776 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:16:03,777 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 15:16:03,777 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 15:16:03,778 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:16:03,778 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 update 属性
+2016-05-22 15:16:03,779 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:16:03,779 - app - __init__.py- WARNING - update 调用方法出错
+2016-05-22 15:16:03,779 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:16:03,779 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 15:17:50,897 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 15:17:50,897 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:17:50,897 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 15:17:50,898 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 15:17:50,899 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:17:50,899 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 update 属性
+2016-05-22 15:17:50,899 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:17:50,900 - app - __init__.py- WARNING - update 调用方法出错
+2016-05-22 15:17:50,900 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:17:50,900 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 15:19:27,062 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 15:19:27,063 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:19:27,063 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 15:19:27,063 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 15:19:27,065 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:19:27,065 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 update 属性
+2016-05-22 15:19:27,065 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:19:27,065 - app - idc.py- WARNING - 需要提供where条件
+2016-05-22 15:19:27,065 - app - __init__.py- WARNING - update 调用方法出错
+2016-05-22 15:19:27,065 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:19:27,065 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 15:21:24,753 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 15:21:24,753 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:21:24,753 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 15:21:24,753 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 15:21:24,755 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:21:24,755 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 update 属性
+2016-05-22 15:21:24,755 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:21:24,755 - app - idc.py- WARNING - .......需要提供where条件
+2016-05-22 15:21:24,755 - app - __init__.py- WARNING - update 调用方法出错
+2016-05-22 15:21:24,755 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:21:24,755 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 15:21:35,983 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 15:21:35,983 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:21:35,983 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 15:21:35,983 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 15:21:35,985 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:21:35,985 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 update 属性
+2016-05-22 15:21:35,985 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:21:35,985 - app - idc.py- WARNING - 需要提供where条件
+2016-05-22 15:21:35,985 - app - __init__.py- WARNING - update 调用方法出错
+2016-05-22 15:21:35,985 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:21:35,986 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 15:21:45,790 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 15:21:45,790 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:21:45,790 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 15:21:45,790 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 15:21:45,792 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:21:45,792 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 update 属性
+2016-05-22 15:21:45,792 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:21:45,792 - app - idc.py- WARNING - 需要提供where条件
+2016-05-22 15:21:45,792 - app - __init__.py- WARNING - update 调用方法出错
+2016-05-22 15:21:45,793 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:21:45,793 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 15:22:04,337 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 15:22:04,337 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:22:04,337 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 15:22:04,337 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 15:22:04,340 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:22:04,340 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 update 属性
+2016-05-22 15:22:04,340 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:22:04,340 - app - idc.py- WARNING - 需要提供where条件
+2016-05-22 15:22:04,340 - app - __init__.py- WARNING - update 调用方法出错
+2016-05-22 15:22:04,340 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:22:04,340 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 15:22:10,790 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 15:22:10,790 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:22:10,791 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 15:22:10,791 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 15:22:10,793 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:22:10,793 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 update 属性
+2016-05-22 15:22:10,793 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:22:10,793 - app - idc.py- WARNING - 需要提供where条件
+2016-05-22 15:22:10,793 - app - __init__.py- WARNING - update 调用方法出错
+2016-05-22 15:22:10,793 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:22:10,794 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 15:22:14,296 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 15:22:14,296 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:22:14,296 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 15:22:14,296 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 15:22:14,297 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:22:14,297 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 update 属性
+2016-05-22 15:22:14,297 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:22:14,298 - app - idc.py- WARNING - 需要提供where条件
+2016-05-22 15:22:14,298 - app - __init__.py- WARNING - update 调用方法出错
+2016-05-22 15:22:14,298 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:22:14,298 - app - __init__.py- DEBUG - 处理jsonError
+2016-05-22 15:22:33,182 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 15:22:33,182 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:22:33,182 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 15:22:33,182 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 15:22:33,184 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:22:33,184 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 update 属性
+2016-05-22 15:22:33,184 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:22:33,249 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:28:56,368 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 15:28:56,368 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:28:56,369 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 15:28:56,369 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 15:28:56,371 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:28:56,371 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 update 属性
+2016-05-22 15:28:56,371 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:28:56,422 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 15:32:03,219 - app - __init__.py- DEBUG - 进入API执行体
+2016-05-22 15:32:03,220 - app - __init__.py- DEBUG - 验证json格式成功
+2016-05-22 15:32:03,220 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 15:32:03,220 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 15:32:03,221 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 15:32:03,221 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 update 属性
+2016-05-22 15:32:03,221 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 15:32:03,224 - app - __init__.py- DEBUG - 处理执行后的结果
+2016-05-22 16:14:21,915 - app - views.py- DEBUG - 访问日志
+2016-05-22 16:14:32,183 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 16:14:32,184 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 16:14:32,185 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:14:32,185 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 16:14:32,185 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:25:26,412 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 16:25:26,412 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 16:25:26,413 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:25:26,413 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 16:25:26,413 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:25:36,720 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 16:25:36,720 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 16:25:36,721 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:25:36,721 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 16:25:36,721 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:26:53,529 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 16:26:53,529 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 16:26:53,530 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:26:53,530 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 update 属性
+2016-05-22 16:26:53,530 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:26:53,530 - app - idc.py- WARNING - 没有要更新数据
+2016-05-22 16:26:53,530 - app - __init__.py- WARNING - 调用模块执行中出错: 没有要更新数据
+2016-05-22 16:26:59,658 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 16:26:59,658 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 16:26:59,658 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:26:59,658 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 16:26:59,658 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:27:56,321 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 16:27:56,321 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 16:27:56,321 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:27:56,321 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 16:27:56,321 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:28:04,249 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 16:28:04,249 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 16:28:04,250 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:28:04,250 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 update 属性
+2016-05-22 16:28:04,250 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:28:04,250 - app - idc.py- WARNING - 没有要更新数据
+2016-05-22 16:28:04,250 - app - __init__.py- WARNING - 调用模块执行中出错: 没有要更新数据
+2016-05-22 16:28:06,011 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 16:28:06,011 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 16:28:06,011 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:28:06,011 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 16:28:06,012 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:28:33,380 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 16:28:33,380 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 16:28:33,380 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:28:33,380 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 16:28:33,380 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:28:42,431 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 16:28:42,431 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 16:28:42,432 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:28:42,432 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 update 属性
+2016-05-22 16:28:42,432 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:28:42,432 - app - idc.py- WARNING - 没有要更新数据
+2016-05-22 16:28:42,432 - app - __init__.py- WARNING - 调用模块执行中出错: 没有要更新数据
+2016-05-22 16:28:43,943 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 16:28:43,943 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 16:28:43,943 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:28:43,943 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 16:28:43,944 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:30:27,932 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 16:30:27,932 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 16:30:27,932 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:30:27,932 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 16:30:27,932 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:30:36,981 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 16:30:36,981 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 16:30:36,982 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:30:36,982 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 update 属性
+2016-05-22 16:30:36,982 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:30:38,410 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 16:30:38,410 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 16:30:38,410 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:30:38,410 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 16:30:38,410 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:36:35,274 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 16:36:35,274 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 16:36:35,275 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:36:35,276 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 16:36:35,276 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:51:09,791 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 16:51:09,791 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 16:51:09,791 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:51:09,792 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 create 属性
+2016-05-22 16:51:09,792 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:51:12,561 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 16:51:12,561 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 16:51:12,562 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:51:12,562 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 16:51:12,562 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:51:50,773 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 16:51:50,773 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 16:51:50,773 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:51:50,774 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 create 属性
+2016-05-22 16:51:50,774 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 16:51:52,396 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 16:51:52,396 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 16:51:52,396 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 16:51:52,397 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 16:51:52,397 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 17:14:04,475 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 17:14:04,476 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 17:14:04,477 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 17:14:04,477 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 17:14:04,477 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 18:20:55,851 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 18:20:55,851 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 18:20:55,852 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 18:20:55,852 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 18:20:55,852 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 18:21:00,237 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 18:21:00,237 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 18:21:00,238 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 18:21:00,238 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 18:21:00,238 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 18:21:01,982 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 18:21:01,982 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 18:21:01,982 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 18:21:01,982 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 18:21:01,983 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 18:22:51,768 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 18:22:51,769 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 18:22:51,769 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 18:22:51,770 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 18:22:51,770 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 18:22:53,967 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 18:22:53,968 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 18:22:53,968 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 18:22:53,968 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 18:22:53,968 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 18:22:55,401 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 18:22:55,401 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 18:22:55,402 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 18:22:55,402 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 18:22:55,402 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 18:34:43,393 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 18:34:43,394 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 18:34:43,394 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 18:34:43,395 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 18:34:43,395 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 18:34:46,248 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 18:34:46,248 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 18:34:46,248 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 18:34:46,248 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 18:34:46,249 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 18:38:29,722 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 18:38:29,724 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 18:38:29,724 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 18:38:29,725 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 18:38:29,725 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-22 18:39:16,020 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-22 18:39:16,022 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-22 18:39:16,022 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-22 18:39:16,023 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-22 18:39:16,023 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 15:54:34,417 - app - views.py- DEBUG - 访问日志
+2016-05-28 18:47:10,477 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 18:47:10,477 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 18:47:10,478 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 18:47:10,478 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 18:47:10,478 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 18:59:09,867 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 18:59:09,867 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 18:59:09,869 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 18:59:09,869 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 18:59:09,869 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:00:00,953 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:00:00,953 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:00:00,953 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:00:00,954 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:00:00,954 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:04:36,089 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:04:36,089 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:04:36,091 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:04:36,091 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:04:36,091 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:05:02,429 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:05:02,429 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:05:02,429 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:05:02,429 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:05:02,429 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:08:07,919 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:08:07,919 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:08:07,920 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:08:07,920 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:08:07,920 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:10:05,366 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:10:05,367 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:10:05,367 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:10:05,367 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:10:05,368 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:11:01,831 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:11:01,832 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:11:01,833 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:11:01,833 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:11:01,833 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:11:04,925 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:11:04,926 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:11:04,926 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:11:04,926 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:11:04,927 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:11:08,114 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:11:08,114 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:11:08,115 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:11:08,115 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:11:08,115 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:11:50,209 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:11:50,210 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:11:50,211 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:11:50,211 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:11:50,211 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:11:54,831 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:11:54,831 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:11:54,831 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:11:54,832 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:11:54,832 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:12:05,182 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:12:05,182 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:12:05,183 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:12:05,183 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:12:05,183 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:12:08,139 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:12:08,139 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:12:08,140 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:12:08,140 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:12:08,140 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:13:34,457 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:13:34,457 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:13:34,457 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:13:34,457 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:13:34,458 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:13:38,626 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:13:38,627 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:13:38,627 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:13:38,627 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:13:38,627 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:13:42,345 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:13:42,345 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:13:42,346 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:13:42,346 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:13:42,346 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:14:06,997 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:14:06,997 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:14:06,997 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:14:06,997 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:14:06,998 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:14:09,780 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:14:09,781 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:14:09,782 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:14:09,782 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:14:09,782 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:14:16,880 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:14:16,880 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:14:16,881 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:14:16,881 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:14:16,884 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:16:35,137 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:16:35,138 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:16:35,138 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:16:35,138 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:16:35,138 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:16:39,860 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:16:39,861 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:16:39,862 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:16:39,862 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:16:39,862 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:30:19,485 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:30:19,486 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:30:19,488 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:30:19,488 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:30:19,488 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:30:25,167 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:30:25,167 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:30:25,168 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:30:25,168 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:30:25,168 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:30:28,033 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:30:28,034 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:30:28,034 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:30:28,035 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 delete 属性
+2016-05-28 19:30:28,035 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:30:28,035 - app - __init__.py- WARNING - 调用模块执行中出错: delete() keywords must be strings
+2016-05-28 19:33:02,783 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:33:02,783 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:33:02,785 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:33:02,785 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:33:02,785 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:33:04,963 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:33:04,963 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:33:04,963 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:33:04,964 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 delete 属性
+2016-05-28 19:33:04,964 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:33:04,964 - app - __init__.py- WARNING - 调用模块执行中出错: delete() keywords must be strings
+2016-05-28 19:34:07,407 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:34:07,407 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:34:07,407 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:34:07,407 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 delete 属性
+2016-05-28 19:34:07,407 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:34:07,408 - app - __init__.py- WARNING - 调用模块执行中出错: delete() keywords must be strings
+2016-05-28 19:36:30,908 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:36:30,908 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:36:30,910 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:36:30,911 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:36:30,911 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:36:34,612 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:36:34,612 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:36:34,613 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:36:34,613 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 delete 属性
+2016-05-28 19:36:34,613 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:36:34,613 - app - __init__.py- WARNING - 调用模块执行中出错: delete() keywords must be strings
+2016-05-28 19:39:11,672 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:39:11,673 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:39:11,674 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:39:11,674 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:39:11,674 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:39:58,112 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:39:58,112 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:39:58,114 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:39:58,114 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:39:58,132 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:40:07,533 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:40:07,533 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:40:07,534 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:40:07,534 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:40:07,534 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:41:10,261 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:41:10,262 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:41:10,263 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:41:10,263 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:41:10,264 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:41:13,553 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:41:13,553 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:41:13,554 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:41:13,554 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 delete 属性
+2016-05-28 19:41:13,554 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:41:13,554 - app - __init__.py- WARNING - 调用模块执行中出错: delete() keywords must be strings
+2016-05-28 19:45:15,893 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:45:15,894 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:45:15,895 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:45:15,896 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 delete 属性
+2016-05-28 19:45:15,896 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:45:15,896 - app - __init__.py- WARNING - 调用模块执行中出错: delete() keywords must be strings
+2016-05-28 19:45:46,252 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:45:46,253 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:45:46,253 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:45:46,253 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:45:46,253 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:52:13,693 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:52:13,695 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:52:13,696 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:52:13,697 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:52:13,697 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:52:16,628 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:52:16,629 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:52:16,629 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:52:16,630 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 delete 属性
+2016-05-28 19:52:16,630 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:52:16,630 - app - __init__.py- WARNING - 调用模块执行中出错: delete() keywords must be strings
+2016-05-28 19:53:08,330 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:53:08,330 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:53:08,330 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:53:08,331 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:53:08,331 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:53:44,156 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:53:44,156 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:53:44,156 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:53:44,156 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:53:44,157 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:53:51,780 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:53:51,781 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:53:51,781 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:53:51,781 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 delete 属性
+2016-05-28 19:53:51,781 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:53:51,781 - app - __init__.py- WARNING - 调用模块执行中出错: delete() keywords must be strings
+2016-05-28 19:54:03,975 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:54:03,975 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:54:03,976 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:54:03,976 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 delete 属性
+2016-05-28 19:54:03,976 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:54:03,976 - app - __init__.py- WARNING - 调用模块执行中出错: delete() keywords must be strings
+2016-05-28 19:55:21,962 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:55:21,962 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:55:21,963 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:55:21,963 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:55:21,963 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:55:27,765 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:55:27,765 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:55:27,765 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:55:27,766 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 delete 属性
+2016-05-28 19:55:27,766 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:55:27,766 - app - __init__.py- WARNING - 调用模块执行中出错: delete() keywords must be strings
+2016-05-28 19:55:39,438 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:55:39,438 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:55:39,439 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:55:39,439 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:55:39,439 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:55:41,867 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:55:41,867 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:55:41,868 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:55:41,868 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 delete 属性
+2016-05-28 19:55:41,868 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:55:41,868 - app - __init__.py- WARNING - 调用模块执行中出错: local variable 'id' referenced before assignment
+2016-05-28 19:56:56,115 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:56:56,115 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:56:56,115 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:56:56,115 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:56:56,116 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:56:59,452 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:56:59,452 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:56:59,453 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:56:59,453 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 delete 属性
+2016-05-28 19:56:59,453 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:56:59,453 - app - __init__.py- WARNING - 调用模块执行中出错: local variable 'id' referenced before assignment
+2016-05-28 19:57:24,421 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:57:24,421 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:57:24,422 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:57:24,422 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:57:24,422 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:57:28,348 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:57:28,348 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:57:28,348 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:57:28,349 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 delete 属性
+2016-05-28 19:57:28,349 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:57:28,349 - app - __init__.py- WARNING - 调用模块执行中出错: local variable 'id' referenced before assignment
+2016-05-28 19:58:12,205 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:58:12,206 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:58:12,207 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:58:12,207 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 19:58:12,208 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:58:14,304 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 19:58:14,305 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 19:58:14,306 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 19:58:14,306 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 delete 属性
+2016-05-28 19:58:14,306 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 19:58:14,306 - app - __init__.py- WARNING - 调用模块执行中出错: local variable 'id' referenced before assignment
+2016-05-28 20:01:02,438 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 20:01:02,439 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 20:01:02,442 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 20:01:02,442 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-28 20:01:02,442 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 20:01:05,601 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-28 20:01:05,602 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-28 20:01:05,602 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-28 20:01:05,602 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 delete 属性
+2016-05-28 20:01:05,603 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-28 20:01:05,603 - app - __init__.py- WARNING - 调用模块执行中出错: local variable 'id' referenced before assignment
+2016-05-29 01:53:50,029 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-29 01:53:50,029 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-29 01:53:50,032 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-29 01:53:50,032 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-29 01:53:50,032 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-29 01:53:54,409 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-29 01:53:54,410 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-29 01:53:54,410 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-29 01:53:54,411 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 delete 属性
+2016-05-29 01:53:54,411 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-29 01:53:54,411 - app - __init__.py- WARNING - 调用模块执行中出错: 必须要有id
+2016-05-29 01:53:58,391 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-29 01:53:58,392 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-29 01:53:58,392 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-29 01:53:58,393 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-29 01:53:58,393 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-29 01:54:30,784 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-29 01:54:30,784 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-29 01:54:30,785 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-29 01:54:30,785 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-29 01:54:30,785 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-29 01:54:56,728 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-29 01:54:56,729 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-29 01:54:56,731 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-29 01:54:56,731 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-29 01:54:56,731 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-29 01:55:01,106 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-29 01:55:01,106 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-29 01:55:01,107 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-29 01:55:01,107 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 delete 属性
+2016-05-29 01:55:01,107 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-29 01:55:01,107 - app - __init__.py- WARNING - 调用模块执行中出错: 必须要有id
+2016-05-29 02:18:17,127 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-29 02:18:17,127 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-29 02:18:17,129 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-29 02:18:17,129 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-29 02:18:17,129 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-29 02:18:20,929 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-29 02:18:20,930 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-29 02:18:20,930 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-29 02:18:20,930 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 delete 属性
+2016-05-29 02:18:20,930 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-29 02:18:20,930 - app - __init__.py- WARNING - 调用模块执行中出错: 必须要有id
+2016-05-29 02:21:33,961 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-29 02:21:33,961 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-29 02:21:33,963 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-29 02:21:33,963 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-29 02:21:33,963 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-29 02:21:37,295 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-29 02:21:37,295 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-29 02:21:37,296 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-29 02:21:37,296 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 delete 属性
+2016-05-29 02:21:37,296 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-29 02:21:37,296 - app - __init__.py- WARNING - 调用模块执行中出错: 'scoped_session' object has no attribute 'filter'
+2016-05-29 02:21:42,421 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-29 02:21:42,421 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-29 02:21:42,421 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-29 02:21:42,422 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-29 02:21:42,422 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-29 02:24:09,087 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-29 02:24:09,087 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-29 02:24:09,089 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-29 02:24:09,089 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-29 02:24:09,089 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-29 02:24:12,050 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-29 02:24:12,051 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-29 02:24:12,051 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-29 02:24:12,051 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 delete 属性
+2016-05-29 02:24:12,051 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-29 02:24:12,052 - app - __init__.py- WARNING - 调用模块执行中出错: 'function' object has no attribute 'filter'
+2016-05-29 02:25:02,357 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-29 02:25:02,357 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-29 02:25:02,359 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-29 02:25:02,359 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-29 02:25:02,359 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-29 02:25:05,105 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-29 02:25:05,105 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-29 02:25:05,105 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-29 02:25:05,106 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 delete 属性
+2016-05-29 02:25:05,106 - app - __init__.py- DEBUG - 获取可执行的函数
+2016-05-29 02:25:06,582 - app - __init__.py- DEBUG - 自动加载模块目录为:/Users/songxiang/Desktop/newdevops/reboot-website/app/modules
+2016-05-29 02:25:06,582 - app - __init__.py- DEBUG - 验证模块是否可用,模块名为:idc
+2016-05-29 02:25:06,583 - app - __init__.py- DEBUG - 加载 idc 模块成功
+2016-05-29 02:25:06,583 - app - __init__.py- DEBUG - 验证模块 idc 下的函数是否存在 get 属性
+2016-05-29 02:25:06,583 - app - __init__.py- DEBUG - 获取可执行的函数

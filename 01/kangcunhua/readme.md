@@ -197,7 +197,7 @@ make
 make install
 python -V          # 查看版本
 ```
-### 软连接
+### 软连接：修改老版本的ln指向
 本地镜像没有过执行这两条命令
 
 ```shell

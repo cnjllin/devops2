@@ -2,73 +2,74 @@
 # -*- coding: utf-8 -*-
 # @Author: kangcunhua
 # @Date:   2016-05-23 17:12:52
-# @Last Modified by:   kangcunhua
-# @Last Modified time: 2016-05-27 11:39:43
+# @Last Modified by:   kang.cunhua@qq.com
+# @Last Modified time: 2016-06-02 21:52:10
 
 import json
 import time
+import inspect
 
 
-class JsonRPC(object):
-    """[summary]
+class JsonRpc(object):
+    """Summary
+        接收post过来的json数据，进行验证后，执行指定调用，返回数据；
 
-    [description]
-    + 101  模块不存在
-    + 102  模块加载失败
-    + 103  指定模块下的函数不存在
-    + 104  jsonrpc版本不对，应该是2.0
-    + 105  id不正确，应该是1
+    Attributes:
+        jsondata (TYPE): Description
+        lazyImport (TYPE): Description
+        module (TYPE): Description
+        params (TYPE): Description
+        response (TYPE): Description
+        response_preform (TYPE): Description
     """
 
     def __init__(self, jsondata):
+        """Summary
+
+        Args:
+            jsondata (TYPE): Description
+        """
         self.jsondata = jsondata
         self.response_preform = Response_preform()
         self.module_name, self.funcname = self.jsondata.get("method", "").split(".")
         print "模块名：%s，函数名：%s" % (self.module_name, self.funcname)
         self.lazyImport = LazyImport(self.module_name)
         self.module = None
-        self.err_dic = {
-            101: "模块不存在",
-            102: "模块加载失败",
-            103: "指定模块下的函数不存在",
-            104: "jsonrpc版本不对，应该是2.0",
-            105: "id不正确，应该是1"
-        }
+        self.params = self.jsondata.get("params")
 
     def execute(self):
+        """Summary
+
+        Returns:
+            TYPE: Description
+        """
         # 验证id # 验证jsondata
-        if self.validata_all():
+        if self.runAllValidata():
             print "验证通过：" + "等待调用方法！"
-            result = getattr(self.module, self.funcname)(self.jsondata.get("params"))
-            # result = self.lazyImport.(self.funcname)(self.jsondata.get("params")) # 这个直接调用不会写
+            result = getattr(self.module, self.funcname)(**self.params)
+            # str1 = "{}.{}".format(self.module, self.funcname)
+            # result = eval(str1)(**self.params)
+            # result = self.lazyImport.(self.funcname)(self.jsondata.get("params")) #
+            # 这个直接调用不会写
             print result
             self.response = self.response_preform.processresult(result)
         else:
-            self.response = self.response_preform.jsonError(self.jsondata["id"], 100, "jsonrpc调用失败，详见系统后台日志！")
+            self.response = self.response_preform.jsonError(
+                self.jsondata["id"], 100, "jsonrpc调用失败，详见系统后台日志！")
         return self.response
 
-    def callMethod(self, module, fun, params, auth):
-        res = Response()
-        at = AutoLoad(module)
-        at.isValidModule
-        res.error_code = 10
-        res.error_message = "模块不可用"
-        return res
-        at.isValidMethod()
-        return res
-        flag = requiresAuthentication()  # 判断module, func 是否需要登陆
-
-        # 需要登陆：
-        #     有没有token
-        #     验证权限
-        #         失败： return res
-        try:
-            called = at.getCallMethod()
-            res.data = called(**params)
-        except Exception, e:
-            res.error_code = 30
-            res.error_message = e.message
-            return res
+    def validata_withoutlogin(self):
+        """
+        不需要登陆也可直接访问的白名单列表
+        """
+        whitelist = ["idc.getIdc"]
+        if "{}.{}".format(self.module_name, self.funcname) in whitelist:
+            print "whitelist:" + "{}.{}".format(self.module_name, self.funcname)
+            validata_result = True
+        else:
+            self.response_preform.printlogs("你需要登录后才能访问此方法！")
+            validata_result = False
+        return validata_result
 
     def validate_mandatory(self):
         """[summary]验证json的元素是否包括完整
@@ -85,27 +86,44 @@ class JsonRPC(object):
         return validata_result
 
     def validata_id(self):
+        """Summary
+
+        Returns:
+            TYPE: Description
+        """
         if self.jsondata["id"] == "1":
             print "id:" + self.jsondata["id"]
             validata_result = True
         else:
-            # self.response_preform.jsonError(self.jsondata["id"], 104, "ID不正确，应该为1")
+            # self.response_preform.jsonError(self.jsondata["id"], 104,
+            # "ID不正确，应该为1")
             self.response_preform.printlogs("ID不正确，应该为1")
             validata_result = False
         return validata_result
 
     def validata_version(self):
+        """Summary
 
+        Returns:
+            TYPE: Description
+        """
         if self.jsondata["jsonRpcVersion"] == "2.0":
             print "jsonRpcVersion:" + self.jsondata["jsonRpcVersion"]
             # 通过：
             validata_result = True
         else:
-            # self.response_preform.jsonError(self.jsondata["id"], errno, "jsonrpc版本不正确，应该为2.0")
+            # self.response_preform.jsonError(self.jsondata["id"], errno,
+            # "jsonrpc版本不正确，应该为2.0")
             self.response_preform.printlogs("jsonrpc版本不正确，应该为2.0")
             validata_result = False
+        return validata_result
 
     def validata_HasModule(self):
+        """Summary
+
+        Returns:
+            TYPE: Description
+        """
         if self.module:
             # 已加载，不再重复加载，可以写日志：提示已经加载过了
             print self.module
@@ -123,6 +141,11 @@ class JsonRPC(object):
         return validata_result
 
     def validata_hasFunction(self):
+        """Summary
+
+        Returns:
+            TYPE: Description
+        """
         # 这个条件判断意义不大(not self.module)
         if hasattr(self.module, self.funcname):
             validata_result = True
@@ -131,39 +154,46 @@ class JsonRPC(object):
             validata_result = False
         return validata_result
 
-    def validata_all(self):
+    def runAllValidata(self):
         """[summary]验证json的元素是否正确
 
-        [description]Entropy同学的这段代码太精彩了，学习了
+        [description]手工维护validata list容易出错，改造成inspect
+        #[self.validate_mandatory, self.validata_id, self.validata_HasModule, self.validata_hasFunction]:
         """
         validata_result = True
-        for func in [self.validate_mandatory, self.validata_id, self.validata_HasModule, self.validata_hasFunction]:
-            if not func():
-                # self.response_preform.jsonError(self.jsondata["id"], errno, "jsonrpc调用失败，详见系统后台日志！")
-                # print func()
+        for func in list(inspect.getmembers(self, predicate=inspect.ismethod)):
+            if (func[0][:8] == 'validata') and (not func[1]()):
+                # print "====" + str(func[1]())
                 validata_result = False
         return validata_result
-
-    def requiresAuthentication(self,):
-        # idc.get  需要登陆 return True
-        # user.login 不需要登陆 return False
-        pass
 
 
 class Response_preform(object):
     """docstring for Response_preform
-        对于返回值的组装预处理
-        目前对于出错的情况存在覆盖现象，暂未处理合并
-        一种办法是，详细报错记录到日志，合并一抽象报错信息返回调用端；
+    对于返回值的组装预处理
+    目前对于出错的情况存在覆盖现象，暂未处理合并
+    一种办法是，详细报错记录到日志，合并一抽象报错信息返回调用端；
+
+    Attributes:
+        result (TYPE): Description
     """
 
     def __init__(self):
+        """Summary
+        """
         super(Response_preform, self).__init__()
         # self.arg = arg
         self.result = None
 
     def processresult(self, data):
+        """Summary
 
+        Args:
+            data (TYPE): Description
+
+        Returns:
+            TYPE: Description
+        """
         format_sucess = {
             "jsonrpc": "2.0",
             "result": data,
@@ -173,6 +203,16 @@ class Response_preform(object):
         return self.result
 
     def jsonError(self, id, errno, data=None):
+        """Summary
+
+        Args:
+            id (TYPE): Description
+            errno (TYPE): Description
+            data (None, optional): Description
+
+        Returns:
+            TYPE: Description
+        """
         format_error = {
             "jsonrpc": "2.0",
             "id": id,
@@ -189,43 +229,10 @@ class Response_preform(object):
         [简化打印至命令行]
 
         Arguments:
+            errmsg (TYPE): Description
             args {[string]} -- [详细报错信息]
         """
-        print "[" + time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())) + "]" + errmsg
-
-
-class AutoLoad(object):
-    """[summary]
-    思路，参考，此处 暂不用
-    [description]
-    """
-    # 1 动态加载模块
-    # 2 执行成功加载的模块
-    # idc.get()
-
-    def _load_module(self,):
-        # 加载模块
-        pass
-
-    def isValidMethod(self,):
-        # 验证模块下有没有指定方法
-        # 有：return True
-        # 没有： return False
-        pass
-
-    def isValidModule(self,):
-        # 验证模块是否存在（ls modules / idc.py）
-        # 有： import idc(这里会有导入失败)
-        self.module
-        return True
-        # 没有：
-        return False
-
-    def getCallMethod(self,):
-        # 模块成功加载
-        # 加载失败 return none
-        # 加载成功 return idc.get()
-        pass
+        print time.strftime('%Y-%m-%d %H:%M:%S ', time.localtime(time.time())) + errmsg
 
 
 class LazyImport(object):
@@ -233,6 +240,11 @@ class LazyImport(object):
 
     [description]
     调用__getattr__前，需先调用setAndReturnModule初始化module
+
+    Attributes:
+        module (TYPE): Description
+        module_name (TYPE): Description
+        modules_package (str): Description
     """
     #“单下划线” 开始的成员变量叫做保护变量，意思是只有类对象和子类对象自己能访问到这些变量；
     #“双下划线” 开始的是私有成员，意思是只有类对象自己能访问，连子类对象也不能访问到这个数据;
@@ -240,47 +252,67 @@ class LazyImport(object):
     # 2.单下划线是Python程序员使用类时的约定，表明程序员不希望类的用户直接访问属性。仅仅是一种约定！实际上，实例._变量，可以被访问
 
     def __init__(self, module_name):
+        """Summary
+
+        Args:
+            module_name (TYPE): Description
+        """
+        # 加入相对路径，来查找modules路径
+        # sys.path.append('../../')
         self.modules_package = "modules"
         self.module_name = module_name
         self.module = None
 
     def __getattr__(self, funcname):
+        """Summary
+
+        Args:
+            funcname (TYPE): Description
+
+        Returns:
+            TYPE: Description
+        """
         return getattr(self.module, funcname)
 
     def getFullPackage(self):
-        return self.modules_package + "." + self.module_name
+        """Summary
+
+        Returns:
+            TYPE: Description
+        """
+        return "{}.{}".format(self.modules_package, self.module_name)
 
     def setAndReturnModule(self):
+        """Summary
+
+        Returns:
+            TYPE: Description
+        """
         self.module = __import__(self.getFullPackage(), fromlist=[self.module_name])
         return self.module
 
 
-class Response(object):
-    """[summary]
-    思路，参考，此处 暂不用
-    [description]
+class Request(object):
+    """Summary
+
+    Attributes:
+        testflag (TYPE): Description
     """
 
-    def __init__(self):
-        self.userName = None
-        self.id = None
-        self.result = None
-        self.errorCode = None
-        self.errorMessage = None
-
-    def toResponse(self):
-        if self.errorMessage:
-            return {"jsonrpc": "2.0", "id": self.id, "error_code": self.error_msg, "error_msg": self.error_message}
-        else:
-            return {"jsonrpc": "2.0", "id": self.id, "result": self.result}
-
-
-class Request(object):
-
     def __init__(self, testflag):
+        """Summary
+
+        Args:
+            testflag (TYPE): Description
+        """
         self.testflag = testflag
 
     def sendRequest(self):
+        """Summary
+
+        Returns:
+            TYPE: Description
+        """
         # 发送测试用的正确数据
         format_Request = {
             "jsonRpcVersion": "2.0",
@@ -305,50 +337,16 @@ class Request(object):
             return format_Request_err
 
 
-class Test_imoprt(object):
-    """docstring for Test_imoprt"""
-
-    def __init__(self, arg):
-        super(Test_imoprt, self).__init__()
-        self.arg = arg
-
-    def get(self):
-
-        # mn = "modules.idc"
-        mn = "modules.idc_err"
-        try:
-            module = __import__(mn)
-            self.mr_result = True
-        except Exception, e:
-            # raise e
-            self.mr_result = False
-
-        # import tt.jsontest
-        if self.mr_result:
-            print "test import sucess!"
-        else:
-            print "test import failed!"
-        return self.mr_result
-
-
-# 测试动态导入类
-# tt = Test_imoprt("modulename")
-# tt.get()
-# 测试懒加载类
-# tt1 = LazyImport("idc")
-# print tt1.setAndReturnModule()
-# print tt1.getIdc()
-
 if __name__ == '__main__':
 
     print "===============发送正常数据测试返回执行结果：==============="
     requestTmp = Request(True)
-    jsonrpcTmp = JsonRPC(requestTmp.sendRequest())
+    jsonrpcTmp = JsonRpc(requestTmp.sendRequest())
     print "测试execute方法：" + jsonrpcTmp.execute()
 
     print "===============测试报错信息测试返回报错信息：==============="
     requestTmp = Request(False)
-    jsonrpcTmp = JsonRPC(requestTmp.sendRequest())
+    jsonrpcTmp = JsonRpc(requestTmp.sendRequest())
     print "测试execute方法：" + jsonrpcTmp.execute()
 
 
@@ -369,26 +367,31 @@ if __name__ == '__main__':
 
 # output
 
-# [vagrant@OpsDev2 Lesson01]$ python jsonrpc.py
+# (python27env) [vagrant@OpsDev2 vagrant]$ python jsonrpc.py
 # ===============发送正常数据测试返回执行结果：===============
 # 模块名：idc，函数名：getIdc
+# <module 'modules.idc' from '/vagrant/modules/idc.pyc'>
 # id:1
-# <module 'modules.idc' from '/PythonHome/wwwroot/Lesson01/modules/idc.pyc'>
+# jsonRpcVersion:2.0
+# whitelist:idc.getIdc
 # 验证通过：等待调用方法！
-# 测试getIdc()方法
+# 测试getIdc()方法:返回传过来的参数{'idcId': '2'}
 # 测试execute方法：{
 #     "jsonrpc": "2.0",
-#     "result": "测试getIdc()方法",
+#     "result": "测试getIdc()方法:返回传过来的参数{'idcId': '2'}",
 #     "id": 1
 # }
 # ===============测试报错信息测试返回报错信息：===============
 # 模块名：idc，函数名：getIdc_err
-# [2016-05-27 11:31:41]ID不正确，应该为1
-# <module 'modules.idc' from '/PythonHome/wwwroot/Lesson01/modules/idc.pyc'>
-# [2016-05-27 11:31:41]模块idc没有此函数getIdc_err
+# <module 'modules.idc' from '/vagrant/modules/idc.pyc'>
+# 2016-06-02 21:48:46 模块idc没有此函数getIdc_err
+# 2016-06-02 21:48:46 ID不正确，应该为1
+# 2016-06-02 21:48:46 jsonrpc版本不正确，应该为2.0
+# 2016-06-02 21:48:46 你需要登录后才能访问此方法！
 # 测试execute方法：{
 #     "error_code": 100,
 #     "jsonrpc": "2.0",
 #     "id": "2",
 #     "errmsg": "jsonrpc调用失败，详见系统后台日志！"
 # }
+# (python27env) [vagrant@OpsDev2 vagrant]$

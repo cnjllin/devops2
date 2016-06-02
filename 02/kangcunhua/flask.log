@@ -1,0 +1,428 @@
+2016-06-01 19:50:17,105 - app - views.py- DEBUG - 访问首页
+2016-06-01 19:54:35,909 - app - views.py- DEBUG - 访问首页
+2016-06-01 20:19:58,910 - app - views.py- DEBUG - 访问首页
+2016-06-01 20:32:12,401 - app - views.py- DEBUG - 用户请求的content-type为： , 不予处理
+2016-06-01 21:03:58,718 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-01 21:07:55,683 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-01 21:11:23,415 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-01 21:12:48,596 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-01 21:17:13,684 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-01 21:17:33,771 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-01 21:17:44,843 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-01 21:18:01,753 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-01 21:19:51,960 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-01 21:21:05,223 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-01 21:21:29,237 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-01 21:22:14,404 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-01 21:23:45,954 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-01 21:23:57,608 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-01 21:26:30,473 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-01 21:28:05,912 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-01 21:28:05,919 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "1.0", "params": {"idcId": "2"}, "method": "idc.getIdc_err", "auth": "kch", "id": "2"}
+2016-06-01 21:28:42,910 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-01 21:28:42,916 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "1.0", "params": {"idcId": "2"}, "method": "idc.getIdc_err", "auth": "kch", "id": "2"}
+2016-06-01 21:29:53,899 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-01 21:29:53,908 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "1.0", "params": {"idcId": "2"}, "method": "idc.getIdc_err", "auth": "kch", "id": "2"}
+2016-06-01 21:37:56,801 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-01 21:37:56,810 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "1.0", "params": {"idcId": "2"}, "method": "idc.getIdc_err", "auth": "kch", "id": "2"}
+2016-06-01 21:46:59,502 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-01 21:46:59,509 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "1.0", "params": {"idcId": "2"}, "method": "idc.getIdc_err", "auth": "kch", "id": "2"}
+2016-06-01 21:47:34,490 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-01 21:47:34,498 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "1.0", "params": {"idcId": "2"}, "method": "idc.getIdc_err", "auth": "kch", "id": "2"}
+2016-06-02 10:53:50,192 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-02 10:53:50,222 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "1.0", "params": {"idcId": "2"}, "method": "idc.getIdc_err", "auth": "kch", "id": "2"}
+2016-06-02 11:10:53,177 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-02 11:10:53,182 - app - views.py- DEBUG - 用户请求的content-type为： application/json_err, 不予处理
+2016-06-02 14:39:31,462 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-02 14:39:31,564 - app - views.py- DEBUG - 用户请求的content-type为： application/json_err, 不予处理
+2016-06-02 14:40:23,055 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-02 14:40:23,056 - app - __init__.py- DEBUG - 初始化类：JsonRpc结束！
+2016-06-02 14:40:23,065 - app - views.py- DEBUG - 用户请求的content-type为： application/json_err, 不予处理
+2016-06-02 14:53:15,993 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-02 14:53:15,994 - app - __init__.py- DEBUG - 初始化：JsonRpc类！
+2016-06-02 14:53:15,998 - app - __init__.py- DEBUG - 当前延迟加载的类为：<module 'modules.idc' from '/vagrant/modules/idc.pyc'>！
+2016-06-02 14:53:16,087 - app - __init__.py- DEBUG - 验证是否需要登录，当前函数为：runAllValidata；
+2016-06-02 14:53:16,094 - app - views.py- DEBUG - 用户请求的content-type为： application/json_err, 不予处理
+2016-06-02 15:04:37,700 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-02 15:04:37,701 - app - __init__.py- DEBUG - 初始化：JsonRpc类！
+2016-06-02 15:04:37,735 - app - __init__.py- DEBUG - 验证模块idc是否存在，当前执行：runAllValidata函数
+2016-06-02 15:04:37,738 - app - __init__.py- DEBUG - 当前延迟加载的类为：<module 'modules.idc' from '/vagrant/modules/idc.pyc'>！
+2016-06-02 15:04:37,742 - app - __init__.py- DEBUG - 验证模块idc是否有此函数getIdc，当前执行：runAllValidata函数
+2016-06-02 15:04:37,744 - app - __init__.py- DEBUG - 验证Json的id要素，当前执行：runAllValidata函数
+2016-06-02 15:04:37,748 - app - __init__.py- DEBUG - 验证Json的jsonRpcVersion要素，当前执行：runAllValidata函数
+2016-06-02 15:04:37,752 - app - __init__.py- DEBUG - 验证是否需要登录，当前执行：runAllValidata函数
+2016-06-02 15:04:37,756 - app - views.py- DEBUG - 用户请求的content-type为： application/json_err, 不予处理
+2016-06-02 15:23:57,564 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-02 15:23:57,565 - app - __init__.py- DEBUG - 初始化：JsonRpc类！
+2016-06-02 15:23:57,594 - app - __init__.py- DEBUG - 验证函数入口execute;
+2016-06-02 15:23:57,594 - app - __init__.py- DEBUG - 验证模块idc是否存在;
+2016-06-02 15:23:57,599 - app - __init__.py- DEBUG - 当前延迟加载的类为：<module 'modules.idc' from '/vagrant/modules/idc.pyc'>！
+2016-06-02 15:23:57,599 - app - __init__.py- DEBUG - 验证模块idc是否有此函数getIdc;
+2016-06-02 15:23:57,599 - app - __init__.py- DEBUG - 验证Json的id要素;
+2016-06-02 15:23:57,599 - app - __init__.py- DEBUG - 验证Json的jsonRpcVersion要素;
+2016-06-02 15:23:57,599 - app - __init__.py- DEBUG - 验证是否需要登录;
+2016-06-02 15:23:57,604 - app - views.py- DEBUG - 用户请求的content-type为： application/json_err, 不予处理
+2016-06-02 15:25:44,151 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-02 15:25:44,151 - app - __init__.py- DEBUG - 初始化：JsonRpc类！
+2016-06-02 15:25:44,178 - app - __init__.py- DEBUG - 验证函数入口execute;
+2016-06-02 15:25:44,179 - app - __init__.py- DEBUG - 验证模块idc是否存在;
+2016-06-02 15:25:44,185 - app - __init__.py- DEBUG - 当前延迟加载的类为：<module 'modules.idc' from '/vagrant/modules/idc.pyc'>！
+2016-06-02 15:25:44,185 - app - __init__.py- DEBUG - 验证模块idc是否有此函数getIdc;
+2016-06-02 15:25:44,185 - app - __init__.py- DEBUG - 验证Json的id要素;
+2016-06-02 15:25:44,185 - app - __init__.py- DEBUG - 验证Json的jsonRpcVersion要素;
+2016-06-02 15:25:44,185 - app - __init__.py- DEBUG - 验证是否需要登录;
+2016-06-02 15:25:44,190 - app - views.py- DEBUG - 用户请求的content-type为： application/json_err, 不予处理
+2016-06-02 15:26:18,782 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-02 15:26:18,783 - app - __init__.py- DEBUG - 初始化：JsonRpc类！
+2016-06-02 15:26:18,816 - app - __init__.py- DEBUG - 验证函数入口execute;
+2016-06-02 15:26:18,817 - app - __init__.py- DEBUG - 验证模块idc是否存在;
+2016-06-02 15:26:18,821 - app - __init__.py- DEBUG - 当前延迟加载的类为：<module 'modules.idc' from '/vagrant/modules/idc.pyc'>！
+2016-06-02 15:26:18,822 - app - __init__.py- DEBUG - 验证模块idc是否有此函数getIdc;
+2016-06-02 15:26:18,822 - app - __init__.py- DEBUG - 验证Json的id要素;
+2016-06-02 15:26:18,822 - app - __init__.py- DEBUG - 验证Json的jsonRpcVersion要素;
+2016-06-02 15:26:18,822 - app - __init__.py- DEBUG - 验证是否需要登录;
+2016-06-02 15:26:18,827 - app - views.py- DEBUG - 用户请求的content-type为： application/json_err, 不予处理
+2016-06-02 15:34:21,609 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-02 15:34:21,610 - app - __init__.py- DEBUG - 初始化：JsonRpc类！
+2016-06-02 15:34:21,610 - app - __init__.py- DEBUG - 初始化：Response_preform类！
+2016-06-02 15:34:21,610 - app - __init__.py- DEBUG - 初始化：LazyImport类！
+2016-06-02 15:34:21,640 - app - __init__.py- DEBUG - 验证函数入口execute;
+2016-06-02 15:34:21,640 - app - __init__.py- DEBUG - 验证模块idc是否存在;
+2016-06-02 15:34:21,644 - app - __init__.py- DEBUG - 当前延迟加载的类为：<module 'modules.idc' from '/vagrant/modules/idc.pyc'>！
+2016-06-02 15:34:21,645 - app - __init__.py- DEBUG - 验证模块idc是否有此函数getIdc;
+2016-06-02 15:34:21,645 - app - __init__.py- DEBUG - 验证Json的id要素;
+2016-06-02 15:34:21,645 - app - __init__.py- DEBUG - 验证Json的jsonRpcVersion要素;
+2016-06-02 15:34:21,645 - app - __init__.py- DEBUG - 验证是否需要登录;
+2016-06-02 15:34:21,649 - app - __init__.py- DEBUG - 通过函数execute组装调用成功返回的json信息;
+2016-06-02 15:34:21,653 - app - views.py- DEBUG - 用户请求的content-type为： application/json_err, 不予处理
+2016-06-02 15:36:38,316 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-02 15:36:38,317 - app - __init__.py- DEBUG - 初始化：JsonRpc类！
+2016-06-02 15:36:38,317 - app - __init__.py- DEBUG - 初始化：Response_preform类！
+2016-06-02 15:36:38,317 - app - __init__.py- DEBUG - 初始化：LazyImport类！
+2016-06-02 15:36:38,345 - app - __init__.py- DEBUG - 验证函数入口execute;
+2016-06-02 15:36:38,346 - app - __init__.py- DEBUG - 验证模块idc是否存在;
+2016-06-02 15:36:38,349 - app - __init__.py- DEBUG - 当前延迟加载的类为：<module 'modules.idc' from '/vagrant/modules/idc.pyc'>！
+2016-06-02 15:36:38,350 - app - __init__.py- DEBUG - 验证模块idc是否有此函数getIdc;
+2016-06-02 15:36:38,350 - app - __init__.py- DEBUG - 验证Json的id要素;
+2016-06-02 15:36:38,350 - app - __init__.py- DEBUG - 验证Json的jsonRpcVersion要素;
+2016-06-02 15:36:38,350 - app - __init__.py- DEBUG - 验证是否需要登录;
+2016-06-02 15:36:38,350 - app - __init__.py- DEBUG - 组装调用成功返回的json信息;
+2016-06-02 15:36:38,354 - app - views.py- DEBUG - 用户请求的content-type为： application/json_err, 不予处理
+2016-06-02 15:40:58,521 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-02 15:40:58,522 - app - __init__.py- DEBUG - 初始化：JsonRpc类！
+2016-06-02 15:40:58,522 - app - __init__.py- DEBUG - 初始化：Response_preform类！
+2016-06-02 15:40:58,523 - app - __init__.py- DEBUG - 初始化：LazyImport类！
+2016-06-02 15:40:58,528 - app - __init__.py- DEBUG - 验证函数入口execute;
+2016-06-02 15:40:58,530 - app - __init__.py- DEBUG - 验证模块idc是否存在;
+2016-06-02 15:40:58,530 - app - __init__.py- DEBUG - 当前延迟加载的类为：<module 'modules.idc' from '/vagrant/modules/idc.pyc'>！
+2016-06-02 15:40:58,531 - app - __init__.py- DEBUG - 验证模块idc是否有此函数getIdc;
+2016-06-02 15:40:58,531 - app - __init__.py- DEBUG - 验证Json的id要素;
+2016-06-02 15:40:58,533 - app - __init__.py- DEBUG - 验证Json的jsonRpcVersion要素;
+2016-06-02 15:40:58,533 - app - __init__.py- DEBUG - 验证是否需要登录;
+2016-06-02 15:40:58,534 - app - __init__.py- DEBUG - 组装调用成功返回的json信息;
+2016-06-02 15:40:58,543 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "1.0", "params": {"idcId": "2"}, "method": "idc.getIdc_err", "auth": "kch", "id": "2"}
+2016-06-02 15:40:58,543 - app - __init__.py- DEBUG - 初始化：JsonRpc类！
+2016-06-02 15:40:58,543 - app - __init__.py- DEBUG - 初始化：Response_preform类！
+2016-06-02 15:40:58,544 - app - __init__.py- DEBUG - 初始化：LazyImport类！
+2016-06-02 15:40:58,550 - app - __init__.py- DEBUG - 验证函数入口execute;
+2016-06-02 15:40:58,550 - app - __init__.py- DEBUG - 验证模块idc是否存在;
+2016-06-02 15:40:58,550 - app - __init__.py- DEBUG - 当前延迟加载的类为：<module 'modules.idc' from '/vagrant/modules/idc.pyc'>！
+2016-06-02 15:40:58,552 - app - __init__.py- DEBUG - 验证模块idc是否有此函数getIdc_err;
+2016-06-02 15:40:58,553 - app - __init__.py- DEBUG - 当前模块idc查找函数getIdc_err失败;
+2016-06-02 15:40:58,553 - app - __init__.py- DEBUG - 执行函数validata_hasFunction验证失败;
+2016-06-02 15:40:58,553 - app - __init__.py- DEBUG - 验证Json的id要素;
+2016-06-02 15:40:58,554 - app - __init__.py- DEBUG - 执行函数validata_id验证失败;
+2016-06-02 15:40:58,554 - app - __init__.py- DEBUG - 验证Json的jsonRpcVersion要素;
+2016-06-02 15:40:58,557 - app - __init__.py- DEBUG - 执行函数validata_version验证失败;
+2016-06-02 15:40:58,557 - app - __init__.py- DEBUG - 验证是否需要登录;
+2016-06-02 15:40:58,558 - app - __init__.py- DEBUG - 执行函数validata_withoutlogin验证失败;
+2016-06-02 15:40:58,559 - app - __init__.py- DEBUG - 通过函数组装调用失败返回的json信息;
+2016-06-02 15:40:58,565 - app - views.py- DEBUG - 用户请求的content-type为： application/json_err, 不予处理
+2016-06-02 15:42:19,497 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-02 15:42:19,498 - app - __init__.py- DEBUG - 初始化：JsonRpc类！
+2016-06-02 15:42:19,498 - app - __init__.py- DEBUG - 初始化：Response_preform类！
+2016-06-02 15:42:19,498 - app - __init__.py- DEBUG - 初始化：LazyImport类！
+2016-06-02 15:42:19,501 - app - __init__.py- DEBUG - 验证函数入口execute;
+2016-06-02 15:42:19,501 - app - __init__.py- DEBUG - 验证模块idc是否存在;
+2016-06-02 15:42:19,502 - app - __init__.py- DEBUG - 当前延迟加载的类为：<module 'modules.idc' from '/vagrant/modules/idc.pyc'>！
+2016-06-02 15:42:19,502 - app - __init__.py- DEBUG - 验证模块idc是否有此函数getIdc;
+2016-06-02 15:42:19,502 - app - __init__.py- DEBUG - 验证Json的id要素;
+2016-06-02 15:42:19,504 - app - __init__.py- DEBUG - 验证Json的jsonRpcVersion要素;
+2016-06-02 15:42:19,505 - app - __init__.py- DEBUG - 验证是否需要登录;
+2016-06-02 15:42:19,505 - app - __init__.py- DEBUG - 组装调用成功返回的json信息;
+2016-06-02 15:42:19,510 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "1.0", "params": {"idcId": "2"}, "method": "idc.getIdc_err", "auth": "kch", "id": "2"}
+2016-06-02 15:42:19,511 - app - __init__.py- DEBUG - 初始化：JsonRpc类！
+2016-06-02 15:42:19,511 - app - __init__.py- DEBUG - 初始化：Response_preform类！
+2016-06-02 15:42:19,512 - app - __init__.py- DEBUG - 初始化：LazyImport类！
+2016-06-02 15:42:19,515 - app - __init__.py- DEBUG - 验证函数入口execute;
+2016-06-02 15:42:19,515 - app - __init__.py- DEBUG - 验证模块idc是否存在;
+2016-06-02 15:42:19,515 - app - __init__.py- DEBUG - 当前延迟加载的类为：<module 'modules.idc' from '/vagrant/modules/idc.pyc'>！
+2016-06-02 15:42:19,515 - app - __init__.py- DEBUG - 验证模块idc是否有此函数getIdc_err;
+2016-06-02 15:42:19,516 - app - __init__.py- DEBUG - 当前模块idc查找函数getIdc_err失败;
+2016-06-02 15:42:19,516 - app - __init__.py- DEBUG - 执行函数validata_hasFunction验证失败;
+2016-06-02 15:42:19,516 - app - __init__.py- DEBUG - 验证Json的id要素;
+2016-06-02 15:42:19,516 - app - __init__.py- DEBUG - 执行函数validata_id验证失败;
+2016-06-02 15:42:19,517 - app - __init__.py- DEBUG - 验证Json的jsonRpcVersion要素;
+2016-06-02 15:42:19,517 - app - __init__.py- DEBUG - 执行函数validata_version验证失败;
+2016-06-02 15:42:19,517 - app - __init__.py- DEBUG - 验证是否需要登录;
+2016-06-02 15:42:19,517 - app - __init__.py- DEBUG - 执行函数validata_withoutlogin验证失败;
+2016-06-02 15:42:19,518 - app - __init__.py- DEBUG - 通过函数组装调用失败返回的json信息;
+2016-06-02 15:42:19,524 - app - views.py- DEBUG - 用户请求的content-type为： application/json_err, 不予处理
+2016-06-02 15:43:20,419 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-02 15:43:20,419 - app - __init__.py- DEBUG - 初始化：JsonRpc类！
+2016-06-02 15:43:20,419 - app - __init__.py- DEBUG - ===初始化：Response_preform类====！
+2016-06-02 15:43:20,420 - app - __init__.py- DEBUG - 初始化：LazyImport类！
+2016-06-02 15:43:20,456 - app - __init__.py- DEBUG - 验证函数入口execute;
+2016-06-02 15:43:20,457 - app - __init__.py- DEBUG - 验证模块idc是否存在;
+2016-06-02 15:43:20,462 - app - __init__.py- DEBUG - 当前延迟加载的类为：<module 'modules.idc' from '/vagrant/modules/idc.pyc'>！
+2016-06-02 15:43:20,462 - app - __init__.py- DEBUG - 验证模块idc是否有此函数getIdc;
+2016-06-02 15:43:20,462 - app - __init__.py- DEBUG - 验证Json的id要素;
+2016-06-02 15:43:20,462 - app - __init__.py- DEBUG - 验证Json的jsonRpcVersion要素;
+2016-06-02 15:43:20,463 - app - __init__.py- DEBUG - 验证是否需要登录;
+2016-06-02 15:43:20,463 - app - __init__.py- DEBUG - 组装调用成功返回的json信息;
+2016-06-02 15:43:20,470 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "1.0", "params": {"idcId": "2"}, "method": "idc.getIdc_err", "auth": "kch", "id": "2"}
+2016-06-02 15:43:20,470 - app - __init__.py- DEBUG - 初始化：JsonRpc类！
+2016-06-02 15:43:20,471 - app - __init__.py- DEBUG - ===初始化：Response_preform类====！
+2016-06-02 15:43:20,472 - app - __init__.py- DEBUG - 初始化：LazyImport类！
+2016-06-02 15:43:20,476 - app - __init__.py- DEBUG - 验证函数入口execute;
+2016-06-02 15:43:20,477 - app - __init__.py- DEBUG - 验证模块idc是否存在;
+2016-06-02 15:43:20,477 - app - __init__.py- DEBUG - 当前延迟加载的类为：<module 'modules.idc' from '/vagrant/modules/idc.pyc'>！
+2016-06-02 15:43:20,477 - app - __init__.py- DEBUG - 验证模块idc是否有此函数getIdc_err;
+2016-06-02 15:43:20,477 - app - __init__.py- DEBUG - 当前模块idc查找函数getIdc_err失败;
+2016-06-02 15:43:20,478 - app - __init__.py- DEBUG - 执行函数validata_hasFunction验证失败;
+2016-06-02 15:43:20,478 - app - __init__.py- DEBUG - 验证Json的id要素;
+2016-06-02 15:43:20,478 - app - __init__.py- DEBUG - 执行函数validata_id验证失败;
+2016-06-02 15:43:20,479 - app - __init__.py- DEBUG - 验证Json的jsonRpcVersion要素;
+2016-06-02 15:43:20,479 - app - __init__.py- DEBUG - 执行函数validata_version验证失败;
+2016-06-02 15:43:20,479 - app - __init__.py- DEBUG - 验证是否需要登录;
+2016-06-02 15:43:20,482 - app - __init__.py- DEBUG - 执行函数validata_withoutlogin验证失败;
+2016-06-02 15:43:20,482 - app - __init__.py- DEBUG - 通过函数组装调用失败返回的json信息;
+2016-06-02 15:43:20,488 - app - views.py- DEBUG - 用户请求的content-type为： application/json_err, 不予处理
+2016-06-02 15:44:21,510 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-02 15:44:21,510 - app - __init__.py- DEBUG - 初始化：JsonRpc类！
+2016-06-02 15:44:21,513 - app - __init__.py- DEBUG - ===初始化：Response_preform类====！
+2016-06-02 15:44:21,513 - app - __init__.py- DEBUG - 初始化：LazyImport类！
+2016-06-02 15:44:21,545 - app - __init__.py- DEBUG - 验证函数入口execute;
+2016-06-02 15:44:21,546 - app - __init__.py- DEBUG - 验证模块idc是否存在;
+2016-06-02 15:44:21,550 - app - __init__.py- DEBUG - 当前延迟加载的类为：<module 'modules.idc' from '/vagrant/modules/idc.pyc'>！
+2016-06-02 15:44:21,551 - app - __init__.py- DEBUG - 验证模块idc是否有此函数getIdc;
+2016-06-02 15:44:21,551 - app - __init__.py- DEBUG - 验证Json的id要素;
+2016-06-02 15:44:21,551 - app - __init__.py- DEBUG - 验证Json的jsonRpcVersion要素;
+2016-06-02 15:44:21,551 - app - __init__.py- DEBUG - 验证是否需要登录;
+2016-06-02 15:44:21,552 - app - __init__.py- DEBUG - 组装调用成功返回的json信息;
+2016-06-02 15:44:21,556 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "1.0", "params": {"idcId": "2"}, "method": "idc.getIdc_err", "auth": "kch", "id": "2"}
+2016-06-02 15:44:21,558 - app - __init__.py- DEBUG - 初始化：JsonRpc类！
+2016-06-02 15:44:21,558 - app - __init__.py- DEBUG - ===初始化：Response_preform类====！
+2016-06-02 15:44:21,558 - app - __init__.py- DEBUG - 初始化：LazyImport类！
+2016-06-02 15:44:21,561 - app - __init__.py- DEBUG - 验证函数入口execute;
+2016-06-02 15:44:21,561 - app - __init__.py- DEBUG - 验证模块idc是否存在;
+2016-06-02 15:44:21,561 - app - __init__.py- DEBUG - 当前延迟加载的类为：<module 'modules.idc' from '/vagrant/modules/idc.pyc'>！
+2016-06-02 15:44:21,561 - app - __init__.py- DEBUG - 验证模块idc是否有此函数getIdc_err;
+2016-06-02 15:44:21,562 - app - __init__.py- DEBUG - 当前模块idc查找函数getIdc_err失败;
+2016-06-02 15:44:21,562 - app - __init__.py- DEBUG - 执行函数validata_hasFunction验证失败;
+2016-06-02 15:44:21,562 - app - __init__.py- DEBUG - 验证Json的id要素;
+2016-06-02 15:44:21,562 - app - __init__.py- DEBUG - 执行函数validata_id验证失败;
+2016-06-02 15:44:21,563 - app - __init__.py- DEBUG - 验证Json的jsonRpcVersion要素;
+2016-06-02 15:44:21,563 - app - __init__.py- DEBUG - 执行函数validata_version验证失败;
+2016-06-02 15:44:21,564 - app - __init__.py- DEBUG - 验证是否需要登录;
+2016-06-02 15:44:21,564 - app - __init__.py- DEBUG - 执行函数validata_withoutlogin验证失败;
+2016-06-02 15:44:21,564 - app - __init__.py- DEBUG - 通过函数组装调用失败返回的json信息;
+2016-06-02 15:44:21,569 - app - views.py- DEBUG - 用户请求的content-type为： application/json_err, 不予处理
+2016-06-02 15:44:41,147 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-02 15:44:41,148 - app - __init__.py- DEBUG - 初始化：JsonRpc类！
+2016-06-02 15:44:41,148 - app - __init__.py- DEBUG - ===初始化：Response_preform类====！
+2016-06-02 15:44:41,148 - app - __init__.py- DEBUG - 初始化：LazyImport类！
+2016-06-02 15:44:41,178 - app - __init__.py- DEBUG - 验证函数入口execute;
+2016-06-02 15:44:41,179 - app - __init__.py- DEBUG - 验证模块idc是否存在;
+2016-06-02 15:44:41,183 - app - __init__.py- DEBUG - 当前延迟加载的类为：<module 'modules.idc' from '/vagrant/modules/idc.pyc'>！
+2016-06-02 15:44:41,184 - app - __init__.py- DEBUG - 验证模块idc是否有此函数getIdc;
+2016-06-02 15:44:41,184 - app - __init__.py- DEBUG - 验证Json的id要素;
+2016-06-02 15:44:41,184 - app - __init__.py- DEBUG - 验证Json的jsonRpcVersion要素;
+2016-06-02 15:44:41,184 - app - __init__.py- DEBUG - 验证是否需要登录;
+2016-06-02 15:44:41,184 - app - __init__.py- DEBUG - 组装调用成功返回的json信息;
+2016-06-02 15:44:41,189 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "1.0", "params": {"idcId": "2"}, "method": "idc.getIdc_err", "auth": "kch", "id": "2"}
+2016-06-02 15:44:41,189 - app - __init__.py- DEBUG - 初始化：JsonRpc类！
+2016-06-02 15:44:41,190 - app - __init__.py- DEBUG - ===初始化：Response_preform类====！
+2016-06-02 15:44:41,190 - app - __init__.py- DEBUG - 初始化：LazyImport类！
+2016-06-02 15:44:41,194 - app - __init__.py- DEBUG - 验证函数入口execute;
+2016-06-02 15:44:41,194 - app - __init__.py- DEBUG - 验证模块idc是否存在;
+2016-06-02 15:44:41,194 - app - __init__.py- DEBUG - 当前延迟加载的类为：<module 'modules.idc' from '/vagrant/modules/idc.pyc'>！
+2016-06-02 15:44:41,195 - app - __init__.py- DEBUG - 验证模块idc是否有此函数getIdc_err;
+2016-06-02 15:44:41,195 - app - __init__.py- DEBUG - 当前模块idc查找函数getIdc_err失败;
+2016-06-02 15:44:41,195 - app - __init__.py- DEBUG - 执行函数validata_hasFunction验证失败;
+2016-06-02 15:44:41,195 - app - __init__.py- DEBUG - 验证Json的id要素;
+2016-06-02 15:44:41,196 - app - __init__.py- DEBUG - 执行函数validata_id验证失败;
+2016-06-02 15:44:41,196 - app - __init__.py- DEBUG - 验证Json的jsonRpcVersion要素;
+2016-06-02 15:44:41,196 - app - __init__.py- DEBUG - 执行函数validata_version验证失败;
+2016-06-02 15:44:41,196 - app - __init__.py- DEBUG - 验证是否需要登录;
+2016-06-02 15:44:41,197 - app - __init__.py- DEBUG - 执行函数validata_withoutlogin验证失败;
+2016-06-02 15:44:41,198 - app - __init__.py- DEBUG - 通过函数组装调用失败返回的json信息;
+2016-06-02 15:44:41,203 - app - views.py- DEBUG - 用户请求的content-type为： application/json_err, 不予处理
+2016-06-02 15:46:54,659 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-02 15:46:54,659 - app - __init__.py- DEBUG - ======初始化：JsonRpc类======！
+2016-06-02 15:46:54,659 - app - __init__.py- DEBUG - 初始化：Response_preform类！
+2016-06-02 15:46:54,660 - app - __init__.py- DEBUG - 初始化：LazyImport类！
+2016-06-02 15:46:54,697 - app - __init__.py- DEBUG - 验证函数入口execute;
+2016-06-02 15:46:54,698 - app - __init__.py- DEBUG - 验证模块idc是否存在;
+2016-06-02 15:46:54,703 - app - __init__.py- DEBUG - 当前延迟加载的类为：<module 'modules.idc' from '/vagrant/modules/idc.pyc'>！
+2016-06-02 15:46:54,703 - app - __init__.py- DEBUG - 验证模块idc是否有此函数getIdc;
+2016-06-02 15:46:54,703 - app - __init__.py- DEBUG - 验证Json的id要素;
+2016-06-02 15:46:54,703 - app - __init__.py- DEBUG - 验证Json的jsonRpcVersion要素;
+2016-06-02 15:46:54,703 - app - __init__.py- DEBUG - 验证是否需要登录;
+2016-06-02 15:46:54,704 - app - __init__.py- DEBUG - 组装调用成功返回的json信息;
+2016-06-02 15:46:54,710 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "1.0", "params": {"idcId": "2"}, "method": "idc.getIdc_err", "auth": "kch", "id": "2"}
+2016-06-02 15:46:54,710 - app - __init__.py- DEBUG - ======初始化：JsonRpc类======！
+2016-06-02 15:46:54,711 - app - __init__.py- DEBUG - 初始化：Response_preform类！
+2016-06-02 15:46:54,711 - app - __init__.py- DEBUG - 初始化：LazyImport类！
+2016-06-02 15:46:54,715 - app - __init__.py- DEBUG - 验证函数入口execute;
+2016-06-02 15:46:54,716 - app - __init__.py- DEBUG - 验证模块idc是否存在;
+2016-06-02 15:46:54,716 - app - __init__.py- DEBUG - 当前延迟加载的类为：<module 'modules.idc' from '/vagrant/modules/idc.pyc'>！
+2016-06-02 15:46:54,716 - app - __init__.py- DEBUG - 验证模块idc是否有此函数getIdc_err;
+2016-06-02 15:46:54,717 - app - __init__.py- DEBUG - 当前模块idc查找函数getIdc_err失败;
+2016-06-02 15:46:54,717 - app - __init__.py- DEBUG - 执行函数validata_hasFunction验证失败;
+2016-06-02 15:46:54,718 - app - __init__.py- DEBUG - 验证Json的id要素;
+2016-06-02 15:46:54,718 - app - __init__.py- DEBUG - 执行函数validata_id验证失败;
+2016-06-02 15:46:54,718 - app - __init__.py- DEBUG - 验证Json的jsonRpcVersion要素;
+2016-06-02 15:46:54,719 - app - __init__.py- DEBUG - 执行函数validata_version验证失败;
+2016-06-02 15:46:54,720 - app - __init__.py- DEBUG - 验证是否需要登录;
+2016-06-02 15:46:54,721 - app - __init__.py- DEBUG - 执行函数validata_withoutlogin验证失败;
+2016-06-02 15:46:54,721 - app - __init__.py- DEBUG - 通过函数组装调用失败返回的json信息;
+2016-06-02 15:46:54,726 - app - views.py- DEBUG - 用户请求的content-type为： application/json_err, 不予处理
+2016-06-02 15:49:05,573 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-02 15:49:05,573 - app - __init__.py- DEBUG - ======初始化：JsonRpc类======！
+2016-06-02 15:49:05,573 - app - __init__.py- DEBUG - 初始化：Response_preform类！
+2016-06-02 15:49:05,573 - app - __init__.py- DEBUG - 初始化：LazyImport类！
+2016-06-02 15:49:05,577 - app - __init__.py- DEBUG - 验证函数入口execute;
+2016-06-02 15:49:05,577 - app - __init__.py- DEBUG - 验证模块idc是否存在;
+2016-06-02 15:49:05,578 - app - __init__.py- DEBUG - 当前延迟加载的类为：<module 'modules.idc' from '/vagrant/modules/idc.pyc'>！
+2016-06-02 15:49:05,578 - app - __init__.py- DEBUG - 验证模块idc是否有此函数getIdc;
+2016-06-02 15:49:05,578 - app - __init__.py- DEBUG - 验证Json的id要素;
+2016-06-02 15:49:05,579 - app - __init__.py- DEBUG - 验证Json的jsonRpcVersion要素;
+2016-06-02 15:49:05,579 - app - __init__.py- DEBUG - 验证是否需要登录;
+2016-06-02 15:49:05,579 - app - __init__.py- DEBUG - 组装调用成功返回的json信息;
+2016-06-02 15:49:05,584 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "1.0", "params": {"idcId": "2"}, "method": "idc.getIdc_err", "auth": "kch", "id": "2"}
+2016-06-02 15:49:05,585 - app - __init__.py- DEBUG - ======初始化：JsonRpc类======！
+2016-06-02 15:49:05,585 - app - __init__.py- DEBUG - 初始化：Response_preform类！
+2016-06-02 15:49:05,585 - app - __init__.py- DEBUG - 初始化：LazyImport类！
+2016-06-02 15:49:05,588 - app - __init__.py- DEBUG - 验证函数入口execute;
+2016-06-02 15:49:05,589 - app - __init__.py- DEBUG - 验证模块idc是否存在;
+2016-06-02 15:49:05,589 - app - __init__.py- DEBUG - 当前延迟加载的类为：<module 'modules.idc' from '/vagrant/modules/idc.pyc'>！
+2016-06-02 15:49:05,590 - app - __init__.py- DEBUG - 验证模块idc是否有此函数getIdc_err;
+2016-06-02 15:49:05,590 - app - __init__.py- DEBUG - 当前模块idc查找函数getIdc_err失败;
+2016-06-02 15:49:05,590 - app - __init__.py- DEBUG - 执行函数validata_hasFunction验证失败;
+2016-06-02 15:49:05,590 - app - __init__.py- DEBUG - 验证Json的id要素;
+2016-06-02 15:49:05,590 - app - __init__.py- DEBUG - 执行函数validata_id验证失败;
+2016-06-02 15:49:05,591 - app - __init__.py- DEBUG - 验证Json的jsonRpcVersion要素;
+2016-06-02 15:49:05,591 - app - __init__.py- DEBUG - 执行函数validata_version验证失败;
+2016-06-02 15:49:05,591 - app - __init__.py- DEBUG - 验证是否需要登录;
+2016-06-02 15:49:05,591 - app - __init__.py- DEBUG - 执行函数validata_withoutlogin验证失败;
+2016-06-02 15:49:05,591 - app - __init__.py- DEBUG - 通过函数组装调用失败返回的json信息;
+2016-06-02 15:49:05,602 - app - views.py- DEBUG - 用户请求的content-type为： application/json_err, 不予处理
+2016-06-02 15:50:09,842 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-02 15:50:09,843 - app - __init__.py- DEBUG - ======初始化：JsonRpc类======！
+2016-06-02 15:50:09,843 - app - __init__.py- DEBUG - 初始化：Response_preform类！
+2016-06-02 15:50:09,843 - app - __init__.py- DEBUG - 初始化：LazyImport类！
+2016-06-02 15:50:09,846 - app - __init__.py- DEBUG - 验证函数入口execute;
+2016-06-02 15:50:09,846 - app - __init__.py- DEBUG - 验证模块idc是否存在;
+2016-06-02 15:50:09,847 - app - __init__.py- DEBUG - 当前延迟加载的类为：<module 'modules.idc' from '/vagrant/modules/idc.pyc'>！
+2016-06-02 15:50:09,847 - app - __init__.py- DEBUG - 验证模块idc是否有此函数getIdc;
+2016-06-02 15:50:09,848 - app - __init__.py- DEBUG - 验证Json的id要素;
+2016-06-02 15:50:09,848 - app - __init__.py- DEBUG - 验证Json的jsonRpcVersion要素;
+2016-06-02 15:50:09,848 - app - __init__.py- DEBUG - 验证是否需要登录;
+2016-06-02 15:50:09,848 - app - __init__.py- DEBUG - 组装调用成功返回的json信息;
+2016-06-02 15:50:09,852 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "1.0", "params": {"idcId": "2"}, "method": "idc.getIdc_err", "auth": "kch", "id": "2"}
+2016-06-02 15:50:09,852 - app - __init__.py- DEBUG - ======初始化：JsonRpc类======！
+2016-06-02 15:50:09,853 - app - __init__.py- DEBUG - 初始化：Response_preform类！
+2016-06-02 15:50:09,853 - app - __init__.py- DEBUG - 初始化：LazyImport类！
+2016-06-02 15:50:09,858 - app - __init__.py- DEBUG - 验证函数入口execute;
+2016-06-02 15:50:09,858 - app - __init__.py- DEBUG - 验证模块idc是否存在;
+2016-06-02 15:50:09,858 - app - __init__.py- DEBUG - 当前延迟加载的类为：<module 'modules.idc' from '/vagrant/modules/idc.pyc'>！
+2016-06-02 15:50:09,858 - app - __init__.py- DEBUG - 验证模块idc是否有此函数getIdc_err;
+2016-06-02 15:50:09,858 - app - __init__.py- DEBUG - 当前模块idc查找函数getIdc_err失败;
+2016-06-02 15:50:09,859 - app - __init__.py- DEBUG - 执行函数validata_hasFunction验证失败;
+2016-06-02 15:50:09,859 - app - __init__.py- DEBUG - 验证Json的id要素;
+2016-06-02 15:50:09,859 - app - __init__.py- DEBUG - 执行函数validata_id验证失败;
+2016-06-02 15:50:09,859 - app - __init__.py- DEBUG - 验证Json的jsonRpcVersion要素;
+2016-06-02 15:50:09,859 - app - __init__.py- DEBUG - 执行函数validata_version验证失败;
+2016-06-02 15:50:09,860 - app - __init__.py- DEBUG - 验证是否需要登录;
+2016-06-02 15:50:09,860 - app - __init__.py- DEBUG - 执行函数validata_withoutlogin验证失败;
+2016-06-02 15:50:09,860 - app - __init__.py- DEBUG - 通过函数组装调用失败返回的json信息;
+2016-06-02 15:50:09,865 - app - views.py- DEBUG - 用户请求的content-type为： application/json_err, 不予处理
+2016-06-02 16:06:32,880 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-02 16:06:32,881 - app - __init__.py- DEBUG - ======初始化：JsonRpc类======！
+2016-06-02 16:06:32,881 - app - __init__.py- DEBUG - 初始化：Response_preform类！
+2016-06-02 16:06:32,881 - app - __init__.py- DEBUG - 初始化：LazyImport类！
+2016-06-02 16:06:32,909 - app - __init__.py- DEBUG - 验证函数入口execute;
+2016-06-02 16:06:32,910 - app - __init__.py- DEBUG - 验证模块idc是否存在;
+2016-06-02 16:06:32,915 - app - __init__.py- DEBUG - 当前延迟加载的类为：<module 'modules.idc' from '/vagrant/modules/idc.pyc'>！
+2016-06-02 16:06:32,915 - app - __init__.py- DEBUG - 验证模块idc是否有此函数getIdc;
+2016-06-02 16:06:32,916 - app - __init__.py- DEBUG - 验证Json的id要素;
+2016-06-02 16:06:32,916 - app - __init__.py- DEBUG - 验证Json的id要素成功;
+2016-06-02 16:06:32,916 - app - __init__.py- DEBUG - 验证Json的jsonRpcVersion要素;
+2016-06-02 16:06:32,916 - app - __init__.py- DEBUG - 验证Json的jsonRpcVersion要素成功;
+2016-06-02 16:06:32,917 - app - __init__.py- DEBUG - 验证是否需要登录;
+2016-06-02 16:06:32,917 - app - __init__.py- DEBUG - 该调用在白名单内，无需登录！
+2016-06-02 16:06:32,917 - app - __init__.py- DEBUG - json数据通过验证，等待调用方法并返回结果！
+2016-06-02 16:06:32,918 - app - __init__.py- DEBUG - 组装调用成功返回的json信息;
+2016-06-02 16:06:32,923 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "1.0", "params": {"idcId": "2"}, "method": "idc.getIdc_err", "auth": "kch", "id": "2"}
+2016-06-02 16:06:32,923 - app - __init__.py- DEBUG - ======初始化：JsonRpc类======！
+2016-06-02 16:06:32,924 - app - __init__.py- DEBUG - 初始化：Response_preform类！
+2016-06-02 16:06:32,925 - app - __init__.py- DEBUG - 初始化：LazyImport类！
+2016-06-02 16:06:32,928 - app - __init__.py- DEBUG - 验证函数入口execute;
+2016-06-02 16:06:32,928 - app - __init__.py- DEBUG - 验证模块idc是否存在;
+2016-06-02 16:06:32,929 - app - __init__.py- DEBUG - 当前延迟加载的类为：<module 'modules.idc' from '/vagrant/modules/idc.pyc'>！
+2016-06-02 16:06:32,929 - app - __init__.py- DEBUG - 验证模块idc是否有此函数getIdc_err;
+2016-06-02 16:06:32,929 - app - __init__.py- DEBUG - 当前模块idc查找函数getIdc_err失败;
+2016-06-02 16:06:32,930 - app - __init__.py- DEBUG - 执行函数validata_hasFunction验证失败;
+2016-06-02 16:06:32,930 - app - __init__.py- DEBUG - 验证Json的id要素;
+2016-06-02 16:06:32,930 - app - __init__.py- ERROR - 验证Json的id要素失败;
+2016-06-02 16:06:32,930 - app - __init__.py- DEBUG - 执行函数validata_id验证失败;
+2016-06-02 16:06:32,931 - app - __init__.py- DEBUG - 验证Json的jsonRpcVersion要素;
+2016-06-02 16:06:32,931 - app - __init__.py- ERROR - 验证Json的jsonRpcVersion要素失败;
+2016-06-02 16:06:32,931 - app - __init__.py- DEBUG - 执行函数validata_version验证失败;
+2016-06-02 16:06:32,931 - app - __init__.py- DEBUG - 验证是否需要登录;
+2016-06-02 16:06:32,932 - app - __init__.py- ERROR - 你需要登录后才能访问此方法！
+2016-06-02 16:06:32,933 - app - __init__.py- DEBUG - 执行函数validata_withoutlogin验证失败;
+2016-06-02 16:06:32,933 - app - __init__.py- ERROR - jsonrpc调用失败，详见系统后台日志！
+2016-06-02 16:06:32,933 - app - __init__.py- DEBUG - 通过函数组装调用失败返回的json信息;
+2016-06-02 16:06:32,937 - app - views.py- DEBUG - 用户请求的content-type为： application/json_err, 不予处理
+2016-06-02 21:37:10,733 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "2.0", "params": {"idcId": "2"}, "method": "idc.getIdc", "auth": "kch", "id": "1"}
+2016-06-02 21:37:10,733 - app - __init__.py- DEBUG - ======初始化：JsonRpc类======！
+2016-06-02 21:37:10,733 - app - __init__.py- DEBUG - 初始化：Response_preform类！
+2016-06-02 21:37:10,734 - app - __init__.py- DEBUG - 初始化：LazyImport类！
+2016-06-02 21:37:10,820 - app - __init__.py- DEBUG - 验证函数入口execute;
+2016-06-02 21:37:10,820 - app - __init__.py- DEBUG - 验证模块idc是否存在;
+2016-06-02 21:37:10,824 - app - __init__.py- DEBUG - 当前延迟加载的类为：<module 'modules.idc' from '/vagrant/modules/idc.pyc'>！
+2016-06-02 21:37:10,824 - app - __init__.py- DEBUG - 验证模块idc是否有此函数getIdc;
+2016-06-02 21:37:10,824 - app - __init__.py- DEBUG - 当前模块idc查找函数getIdc成功;
+2016-06-02 21:37:10,825 - app - __init__.py- DEBUG - 验证Json的id要素;
+2016-06-02 21:37:10,825 - app - __init__.py- DEBUG - 验证Json的id要素成功;
+2016-06-02 21:37:10,825 - app - __init__.py- DEBUG - 验证Json的jsonRpcVersion要素;
+2016-06-02 21:37:10,825 - app - __init__.py- DEBUG - 验证Json的jsonRpcVersion要素成功;
+2016-06-02 21:37:10,826 - app - __init__.py- DEBUG - 验证是否需要登录;
+2016-06-02 21:37:10,826 - app - __init__.py- DEBUG - 该调用在白名单内，无需登录！
+2016-06-02 21:37:10,829 - app - __init__.py- DEBUG - 验证通过execute;
+2016-06-02 21:37:10,829 - app - __init__.py- DEBUG - json数据通过验证，等待调用方法并返回结果！
+2016-06-02 21:37:10,829 - app - __init__.py- DEBUG - 组装调用成功返回的json信息;
+2016-06-02 21:37:10,834 - app - views.py- DEBUG - 请求json数据为： {"jsonRpcVersion": "1.0", "params": {"idcId": "2"}, "method": "idc.getIdc_err", "auth": "kch", "id": "2"}
+2016-06-02 21:37:10,835 - app - __init__.py- DEBUG - ======初始化：JsonRpc类======！
+2016-06-02 21:37:10,836 - app - __init__.py- DEBUG - 初始化：Response_preform类！
+2016-06-02 21:37:10,836 - app - __init__.py- DEBUG - 初始化：LazyImport类！
+2016-06-02 21:37:10,840 - app - __init__.py- DEBUG - 验证函数入口execute;
+2016-06-02 21:37:10,840 - app - __init__.py- DEBUG - 验证模块idc是否存在;
+2016-06-02 21:37:10,841 - app - __init__.py- DEBUG - 当前延迟加载的类为：<module 'modules.idc' from '/vagrant/modules/idc.pyc'>！
+2016-06-02 21:37:10,841 - app - __init__.py- DEBUG - 验证模块idc是否有此函数getIdc_err;
+2016-06-02 21:37:10,841 - app - __init__.py- ERROR - 当前模块idc查找函数getIdc_err失败;
+2016-06-02 21:37:10,842 - app - __init__.py- DEBUG - 执行函数validata_hasFunction验证失败;
+2016-06-02 21:37:10,842 - app - __init__.py- DEBUG - 验证Json的id要素;
+2016-06-02 21:37:10,843 - app - __init__.py- ERROR - 验证Json的id要素失败;
+2016-06-02 21:37:10,843 - app - __init__.py- DEBUG - 执行函数validata_id验证失败;
+2016-06-02 21:37:10,844 - app - __init__.py- DEBUG - 验证Json的jsonRpcVersion要素;
+2016-06-02 21:37:10,844 - app - __init__.py- ERROR - 验证Json的jsonRpcVersion要素失败;
+2016-06-02 21:37:10,844 - app - __init__.py- DEBUG - 执行函数validata_version验证失败;
+2016-06-02 21:37:10,845 - app - __init__.py- DEBUG - 验证是否需要登录;
+2016-06-02 21:37:10,845 - app - __init__.py- ERROR - 你需要登录后才能访问此方法！
+2016-06-02 21:37:10,846 - app - __init__.py- DEBUG - 执行函数validata_withoutlogin验证失败;
+2016-06-02 21:37:10,847 - app - __init__.py- ERROR - jsonrpc调用失败，详见系统后台日志！
+2016-06-02 21:37:10,848 - app - __init__.py- DEBUG - 通过函数组装调用失败返回的json信息;
+2016-06-02 21:37:10,854 - app - views.py- DEBUG - 用户请求的content-type为： application/json_err, 不予处理

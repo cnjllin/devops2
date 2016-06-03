@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""Summary
-"""
 # @Author: kang.cunhua
 # @Email: kang.cunhua@qq.com
 # @Date:   2016-06-01 17:01:34
 # @Last Modified by:   kang.cunhua@qq.com
-# @Last Modified time: 2016-06-02 21:30:33
+# @Last Modified time: 2016-06-03 09:45:01
+"""jsonRpc处理相关工具类
+"""
 import json
 import time
 import sys
@@ -18,21 +18,20 @@ from flask import current_app
 class JsonRpc(object):
     """Summary
         接收post过来的json数据，进行验证后，执行指定调用，返回数据；
-
     Attributes:
-        jsondata (TYPE): Description
-        lazyImport (TYPE): Description
-        module (TYPE): Description
-        params (TYPE): Description
-        response (TYPE): Description
-        response_preform (TYPE): Description
+        jsondata (Json): Json数据
+        lazyImport (LazyImport): 延迟加载类
+        module (Module): 模块
+        params (dic): 接收传递过来的参数对
+        response (json.dumps): 存储返回的json数据
+        response_preform (Response_preform): 返回json数据格式化
     """
 
     def __init__(self, jsondata):
-        """Summary
+        """初始化JsonRpc类
 
         Args:
-            jsondata (TYPE): Description
+            jsondata (Json): Json数据
         """
         current_app.logger.debug("======初始化：{}类======！".format(self.__class__.__name__))
         self.jsondata = jsondata
@@ -44,10 +43,10 @@ class JsonRpc(object):
         self.params = self.jsondata.get("params")
 
     def execute(self):
-        """Summary
+        """执行RPC调用总入口
 
         Returns:
-            TYPE: Description
+            response (json.dumps): 存储返回的json数据
         """
         # 验证id # 验证jsondata
         if self.runAllValidata():
@@ -98,10 +97,10 @@ class JsonRpc(object):
         return validata_result
 
     def validata_id(self):
-        """Summary
+        """Summary验证ID是否正确
 
         Returns:
-            TYPE: Description
+            bool: 返回验证结果True or false
         """
         current_app.logger.debug("验证Json的id要素;")
         if self.jsondata["id"] == "1":
@@ -115,10 +114,10 @@ class JsonRpc(object):
         return validata_result
 
     def validata_version(self):
-        """Summary
+        """Summary验证Json版本是否正确
 
         Returns:
-            TYPE: Description
+            bool: 返回验证结果True or false
         """
         current_app.logger.debug("验证Json的jsonRpcVersion要素;")
         if self.jsondata["jsonRpcVersion"] == "2.0":
@@ -135,10 +134,10 @@ class JsonRpc(object):
         return validata_result
 
     def validata_HasModule(self):
-        """Summary
+        """Summary验证模块是否存在
 
         Returns:
-            TYPE: Description
+            bool: 返回验证结果True or false
         """
         current_app.logger.debug("验证模块{}是否存在;".format(self.module_name))
         if self.module:
@@ -160,10 +159,10 @@ class JsonRpc(object):
         return validata_result
 
     def validata_hasFunction(self):
-        """Summary
+        """Summary验证函数是否存在
 
         Returns:
-            TYPE: Description
+            bool: 返回验证结果True or false
         """
         current_app.logger.debug("验证模块{}是否有此函数{};".format(self.module_name, self.funcname))
 
@@ -180,7 +179,9 @@ class JsonRpc(object):
         """[summary]验证json的元素是否正确
 
         [description]手工维护validata list容易出错，改造成inspect
-        #[self.validate_mandatory, self.validata_id, self.validata_HasModule, self.validata_hasFunction]:
+        [self.validate_mandatory, self.validata_id, self.validata_HasModule, self.validata_hasFunction]:
+        Returns:
+        bool: 返回验证结果True or false
         """
         current_app.logger.debug("验证函数入口{};".format(inspect.stack()[1][3]))
         validata_result = True
@@ -201,11 +202,11 @@ class Response_preform(object):
     一种办法是，详细报错记录到日志，合并一抽象报错信息返回调用端；
 
     Attributes:
-        result (TYPE): Description
+        result (json): 格式化后的json数据
     """
 
     def __init__(self):
-        """Summary
+        """Summary 初始化返回数据预处理类
         """
         current_app.logger.debug("初始化：{}类！".format(self.__class__.__name__))
         super(Response_preform, self).__init__()
@@ -213,13 +214,13 @@ class Response_preform(object):
         self.result = None
 
     def processresult(self, data):
-        """Summary
+        """Summary格式化成功调用后的返回结果
 
         Args:
-            data (TYPE): Description
+            data (dic): RPC调用执行结果
 
         Returns:
-            TYPE: Description
+            json: 格式化成功调用后的返回结果
         """
         format_sucess = {
             "jsonrpc": "2.0",
@@ -231,15 +232,15 @@ class Response_preform(object):
         return self.result
 
     def jsonError(self, id, errno, data=None):
-        """Summary
+        """Summary格式化调用失败后的返回结果
 
         Args:
-            id (TYPE): Description
-            errno (TYPE): Description
-            data (None, optional): Description
+            id (string): jsonRPC的id元素
+            errno (String): jsonRPC的errno元素
+            data (None, optional): 调用函数返回的dic
 
         Returns:
-            TYPE: Description
+            json: 格式化调用失败后的返回结果
         """
         format_error = {
             "jsonrpc": "2.0",
@@ -258,22 +259,22 @@ class Response_preform(object):
         [简化打印至命令行]
 
         Arguments:
-            errmsg (TYPE): Description
+            errmsg (string): Description
             args {[string]} -- [详细报错信息]
         """
         print time.strftime('%Y-%m-%d %H:%M:%S ', time.localtime(time.time())) + errmsg
 
 
 class LazyImport(object):
-    """[summary]
+    """[summary]延迟加载类
 
     [description]
     调用__getattr__前，需先调用setAndReturnModule初始化module
 
     Attributes:
-        module (TYPE): Description
-        module_name (TYPE): Description
-        modules_package (str): Description
+        module (Module): 延迟加载的模块
+        module_name (str): 模块名
+        modules_package (str): 包名
     """
     #“单下划线” 开始的成员变量叫做保护变量，意思是只有类对象和子类对象自己能访问到这些变量；
     #“双下划线” 开始的是私有成员，意思是只有类对象自己能访问，连子类对象也不能访问到这个数据;
@@ -284,7 +285,7 @@ class LazyImport(object):
         """Summary
 
         Args:
-            module_name (TYPE): Description
+            module_name (str): 模块名
         """
         current_app.logger.debug("初始化：{}类！".format(self.__class__.__name__))
         # 加入相对路径，来查找modules路径
@@ -297,10 +298,10 @@ class LazyImport(object):
         """Summary
 
         Args:
-            funcname (TYPE): Description
+            funcname (str): 函数名
 
         Returns:
-            TYPE: Description
+            func: 函数
         """
         return getattr(self.module, funcname)
 
@@ -308,12 +309,12 @@ class LazyImport(object):
         """Summary
 
         Returns:
-            TYPE: Description
+            str: 返回附加包名的模块名
         """
         return "{}.{}".format(self.modules_package, self.module_name)
 
     def setAndReturnModule(self):
-        """Summary
+        """Summary延迟加载类，并初始化加载后的模块
 
         Returns:
             TYPE: Description
@@ -323,25 +324,25 @@ class LazyImport(object):
 
 
 class Request(object):
-    """Summary
+    """Summary模拟发送请求的类
 
     Attributes:
-        testflag (TYPE): Description
+        testflag (bool): 测试开关
     """
 
     def __init__(self, testflag):
         """Summary
 
         Args:
-            testflag (TYPE): Description
+            testflag (bool): 测试开关
         """
         self.testflag = testflag
 
     def sendRequest(self):
-        """Summary
+        """Summary模拟发送测试数据
 
         Returns:
-            TYPE: Description
+            json: 测试用的json数据
         """
         # 发送测试用的正确数据
         format_Request = {

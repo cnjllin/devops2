@@ -1,0 +1,7 @@
+█ [ D:\PythonHome\Python_OpsDev2\Lesson03 ] git add .
+fatal: Unable to create 'D:/PythonHome/Python_OpsDev2/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+

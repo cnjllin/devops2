@@ -1,0 +1,993 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"s",
+				"str"
+			],
+			[
+				"is",
+				"isValidMethod	function"
+			],
+			[
+				"isv",
+				"isValidModule	statement"
+			],
+			[
+				"fale",
+				"False	keyword"
+			],
+			[
+				"l",
+				"loads	function"
+			],
+			[
+				"or",
+				"order_by_list"
+			],
+			[
+				"order",
+				"order_by"
+			],
+			[
+				"user",
+				"user_phone"
+			],
+			[
+				"idc",
+				"idc_name"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "modules/idc.py",
+			"settings":
+			{
+				"buffer_size": 4750,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "{\n  // --------------------\n  // sublime-better-completions-Package (sbc package)\n  // --------------------\n  // API files is contains the *keyword* such as `html`, `jquery`, `myglossary` with lowercase as filename `sbc-api-${filename}.sublime-settings` place in `/packages/User/` (your own) or `/packages/${this-package}/sublime-completions/` (package build-in).\n  // After you enable, disable or added new your own completions, you might need restart your Sublime Text Editor.\n  //\n  // Your own setting file `sbc-setting.sublime-settings` need to place in `/packages/User/` and contains all your api setting property that you want to enable.\n  //\n  // --------------------\n  // APIs Setup\n  // --------------------\n  // `true` means enable it.\n  // `false` means disable it.\n  \"completion_active_list\": {\n    // build-in completions\n    \"css-properties\": false,\n    \"gruntjs-plugins\": false,\n    \"html\": false,\n    \"lodash\": false,\n    \"javascript\": false,\n    \"jquery\": false,\n    \"jquery-sq\": false, // Single Quote\n    \"php\": false,\n    \"phpci\": false,\n    \"sql\": false,\n    \"twitter-bootstrap\": false,\n    \"twitter-bootstrap-less-variables\": false,\n    \"twitter-bootstrap3\": false,\n    \"underscorejs\": false,\n    \"react\": false,\n\n    // Your own completions?\n    // ~/Library/Application\\ Support/Sublime\\ Text\\ 3/Packages/User/sbc-api-my-angularjs.sublime-settings\n    \"my-angularjs\": false,\n\n    // ~/Library/Application\\ Support/Sublime\\ Text\\ 3/Packages/User/sbc-api-my-glossary.sublime-settings\n    \"my-glossary\": false,\n\n    // ~/Library/Application\\ Support/Sublime\\ Text\\ 3/Packages/User/sbc-api-my-html.sublime-settings\n    \"my-html\": false,\n\n    // ~/Library/Application\\ Support/Sublime\\ Text\\ 3/Packages/User/sbc-api-my-javascript.sublime-settings\n    \"my-javascript\": false\n  }\n}\n",
+			"file": "/D/Program/Sublime Text 3x64/Data/Packages/Better Completion/sbc-setting.sublime-settings",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 1800,
+				"line_ending": "Windows",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "/D/Program/Sublime Text 3x64/Data/Packages/User/sbc-setting.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 1128,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/models.py",
+			"settings":
+			{
+				"buffer_size": 908,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "terminal.glue",
+			"settings":
+			{
+				"buffer_size": 2086,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "document/2016.06.01.md",
+			"settings":
+			{
+				"buffer_size": 2579,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/templates/resources/server_idc_list.html",
+			"settings":
+			{
+				"buffer_size": 3045,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/main/resources.py",
+			"settings":
+			{
+				"buffer_size": 3679,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 335.0,
+		"last_filter": "pcd",
+		"selected_items":
+		[
+			[
+				"pcd",
+				"Package Control: Disable Package→禁用插件"
+			],
+			[
+				"pci",
+				"Package Control: Install Package→安装插件"
+			],
+			[
+				"vagrant halt",
+				"Vagrant: Halt"
+			],
+			[
+				"vagrant up",
+				"Vagrant: Up"
+			],
+			[
+				"pcr",
+				"Package Control: Remove Package→删除插件"
+			],
+			[
+				"pce",
+				"Package Control: Enable Package→启用插件"
+			],
+			[
+				"vag",
+				"Anaconda: Vagrant Up"
+			],
+			[
+				"vagr",
+				"Vagrant: Up"
+			],
+			[
+				"vagrantu",
+				"Vagrant: Up"
+			]
+		],
+		"width": 608.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/PythonHome/Python_OpsDev2/Lesson03",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/app",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/modules"
+	],
+	"file_history":
+	[
+		"/D/Program/Sublime Text 3x64/Data/Packages/Anaconda/README.md",
+		"/D/Program/Sublime Text 3x64/Data/Packages/Anaconda/Default (Windows).sublime-keymap",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/terminal.glue",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/app/templates/public/success.html",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/app/templates/public/cmdb_left.html",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/app/templates/resources/server_list.html",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/app/main/views.py",
+		"/D/Program/Sublime Text 3x64/Data/Packages/User/AutoDocstring.sublime-settings",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/app/base/__init__.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/app/main/__init__.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/app/utils/__init__.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/document/2016.06.01.md",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/test/testutil.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/test/testidc.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/readme.md",
+		"/D/Program/Sublime Text 3x64/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/D/Program/Sublime Text 3x64/Data/Packages/AutoDocstring/AutoDocstring.sublime-settings",
+		"/D/Program/Sublime Text 3x64/Data/Packages/User/Preferences.sublime-settings",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/modules/idc.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/mycmdb.sublime-project",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/test/testAPI.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/test/jsonrpc.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/config.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/Vagrantfile",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/document/2016.06.06_debug.md",
+		"/C/Users/kangcunhua/AppData/Local/Temp/HZ$D.904.313/idc.py",
+		"/C/Users/kangcunhua/AppData/Local/Temp/HZ$D.904.312/views.py",
+		"/C/Users/kangcunhua/AppData/Local/Temp/HZ$D.904.311/views.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson05/Vagrantfile",
+		"/C/Users/kangcunhua/Desktop/Vagrantfile",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/document/2016.06.04.md",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/app/models.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/migrations/env.py",
+		"/C/Users/kangcunhua/AppData/Local/Temp/HZ$D.222.1266/config.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/document/2016.06.03.md",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/migrations/alembic.ini",
+		"/C/Users/kangcunhua/AppData/Local/Temp/HZ$D.222.1267/__init__.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/manage.py",
+		"/D/Program/Sublime Text 3x64/Data/Packages/Glue/keymaps/Default (Windows).sublime-keymap",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/document/terminal.glue",
+		"/C/Users/kangcunhua/AppData/Local/Temp/HZ$D.222.1265/models.py",
+		"/C/Users/kangcunhua/AppData/Local/Temp/HZ$D.222.1264/manufacturers.py",
+		"/C/Users/kangcunhua/AppData/Local/Temp/HZ$D.222.1263/idc.py",
+		"/D/Program/Sublime Text 3x64/Data/Packages/User/Anaconda.sublime-settings",
+		"/D/Program/Sublime Text 3x64/Data/Packages/User/Python.sublime-settings",
+		"/D/Program/Sublime Text 3x64/Data/Packages/Anaconda/Anaconda.sublime-settings",
+		"/D/Program/Sublime Text 3x64/Data/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/D/Program/Sublime Text 3x64/Data/Packages/SublimeLinter/Default (Windows).sublime-keymap",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/app/._.DS_Store",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/app/__init__.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/requirements.txt",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/app/templates/404.html",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/jsonrpc.py",
+		"/D/vagrant_server/anaconda/server.py",
+		"/D/vagrant_server/anaconda/config.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson02/Vagrantfile",
+		"/D/PythonHome/Python_OpsDev2/Lesson02/mycmdb.sublime-project",
+		"/D/Program/Sublime Text 3x64/Data/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/PythonHome/Python_OpsDev2/Lesson02/test.py",
+		"/D/Program/Sublime Text 3x64/Data/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/kangcunhua/Downloads/Python.sublime-settings",
+		"/D/PythonHome/Python_OpsDev2/Lesson02/jsonrpc.py",
+		"/D/Program/Sublime Text 3x64/Data/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/D/Program/Sublime Text 3x64/Data/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/D/PythonHome/Python_OpsDev2/Lesson02/sf.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson02/manage.py",
+		"/D/Program/pstart/PStart.xml",
+		"/D/Reboot/Vagrantfile",
+		"/C/Users/kangcunhua/Desktop/Sublime Text 3x64/Data/Packages/User/Vagrant.sublime-settings",
+		"/D/PythonHome/Python_OpsDev2/Lesson02/lessson02.sublime-project",
+		"/C/Users/kangcunhua/Desktop/Sublime Text 3x64/Data/Packages/User/Preferences.sublime-settings",
+		"/C/Users/kangcunhua/Desktop/Sublime Text 3x64/Data/Packages/Vagrant/Vagrant.sublime-settings",
+		"/C/Users/kangcunhua/Desktop/Sublime Text 3x64/Data/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/kangcunhua/Desktop/Sublime Text 3x64/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/D/PythonHome/Python_OpsDev2/Lesson02/document/2016.05.30.md",
+		"/C/Users/kangcunhua/Desktop/Sublime Text 3x64/Data/Packages/User/Anaconda.sublime-settings",
+		"/D/PythonHome/Python_OpsDev2/Lesson02/document/ttd.py"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"document",
+			"pep"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "modules/idc.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4750,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4308,
+								4308
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								6,
+								3,
+								10,
+								18,
+								14,
+								7,
+								205,
+								43,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"git_savvy.file_path": "D:\\PythonHome\\Python_OpsDev2\\Lesson03\\modules\\idc.py",
+							"git_savvy.repo_path": "D:/PythonHome/Python_OpsDev2",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2322.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/Program/Sublime Text 3x64/Data/Packages/Better Completion/sbc-setting.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1800,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1800
+							]
+						],
+						"settings":
+						{
+							"git_savvy.file_path": "D:\\Program\\Sublime Text 3x64\\Data\\Packages\\Better Completion\\sbc-setting.sublime-settings",
+							"git_savvy.repo_path": "D:/PythonHome/Python_OpsDev2",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 486.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/Program/Sublime Text 3x64/Data/Packages/User/sbc-setting.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								777,
+								777
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								6,
+								12,
+								15,
+								57,
+								2,
+								6,
+								190,
+								101,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"git_savvy.file_path": "D:\\Program\\Sublime Text 3x64\\Data\\Packages\\User\\sbc-setting.sublime-settings",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/models.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 908,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								908,
+								908
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								6,
+								3,
+								10,
+								18,
+								14,
+								7,
+								73,
+								219,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"git_savvy.file_path": "D:\\PythonHome\\Python_OpsDev2\\Lesson03\\app\\models.py",
+							"git_savvy.repo_path": "D:/PythonHome/Python_OpsDev2",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "terminal.glue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2086,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2086,
+								2086
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								6,
+								6,
+								15,
+								14,
+								14,
+								8,
+								119,
+								134,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"git_savvy.file_path": "D:\\PythonHome\\Python_OpsDev2\\Lesson03\\terminal.glue",
+							"git_savvy.repo_path": "D:/PythonHome/Python_OpsDev2",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 391.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "document/2016.06.01.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2579,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								599,
+								599
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								6,
+								3,
+								10,
+								18,
+								14,
+								7,
+								177,
+								205,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"git_savvy.file_path": "D:\\PythonHome\\Python_OpsDev2\\Lesson03\\document\\2016.06.01.md",
+							"git_savvy.repo_path": "D:/PythonHome/Python_OpsDev2",
+							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/templates/resources/server_idc_list.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3045,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1942,
+								1925
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								6,
+								7,
+								22,
+								10,
+								40,
+								12,
+								205,
+								246,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"git_savvy.file_path": "D:\\PythonHome\\Python_OpsDev2\\Lesson03\\app\\templates\\resources\\server_idc_list.html",
+							"git_savvy.repo_path": "D:/PythonHome/Python_OpsDev2",
+							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja2).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 918.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/main/resources.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3679,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2808,
+								2821
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								6,
+								7,
+								22,
+								18,
+								48,
+								1,
+								45,
+								141,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"git_savvy.file_path": "D:\\PythonHome\\Python_OpsDev2\\Lesson03\\app\\main\\resources.py",
+							"git_savvy.repo_path": "D:/PythonHome/Python_OpsDev2",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1404.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 219.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Anaconda Python Builder",
+	"project": "mycmdb.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 248.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"build_systems":
+	[
+		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "Anaconda Python Builder",
+			"selector": "source.python",
+			"shell_cmd": "\"D:/Program/python27/python.exe\" -u \"$file\""
+		}
+	],
+	"folders":
+	[
+		{
+			"path": ".",
+			"folder_exclude_patterns":
+            [
+                ".vagrant"
+	        ],
+            "file_exclude_patterns":
+            [
+                "*.pyc",
+                "*.log",
+                "vagrant*",
+                "*.glue"
+            ],
+        },
+	]
+}

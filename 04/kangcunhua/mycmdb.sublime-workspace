@@ -51,24 +51,34 @@
 			"file": "modules/idc.py",
 			"settings":
 			{
-				"buffer_size": 4711,
+				"buffer_size": 2331,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "readme.md",
+			"contents": "##进度\n + 首页： http://127.0.0.1:8000/dashboard/ \n + IT资产-->IDC信息： http://127.0.0.1:8000/resources/idc/ \n    - 列表，添加、修改、删除 \n + IT资产-->服务器： 列表 http://127.0.0.1:8000/resources/server/list/ \n    - 添加页面 http://127.0.0.1:8000/resources/server/add/ \n    - 添加功能尚未完成\n\nSigned-off-by: mdr <358608208@qq.com>\n\n\n## To make a commit, type your commit message and press CTRL-ENTER. To cancel\n## the commit, close the window. To sign off on the commit, press CTRL-S.\n\n## You may also reference or close a GitHub issue with this commit.  To do so,\n## type `#` followed by the `tab` key.  You will be shown a list of issues\n## related to the current repo.  You may also type `owner/repo#` plus the `tab`\n## key to reference an issue in a different GitHub repo.\n\n",
 			"settings":
 			{
-				"buffer_size": 30887,
-				"line_ending": "Windows"
+				"buffer_size": 741,
+				"line_ending": "Windows",
+				"name": "COMMIT: Python_OpsDev2",
+				"scratch": true
 			}
 		},
 		{
-			"file": "terminal.glue",
+			"file": "mycmdb.sublime-project",
 			"settings":
 			{
-				"buffer_size": 341,
-				"line_ending": "Windows"
+				"buffer_size": 531,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "mycmdb.sublime-workspace",
+			"settings":
+			{
+				"buffer_size": 12938,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -95,17 +105,17 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 197.0,
-		"last_filter": "git push",
+		"height": 392.0,
+		"last_filter": "git co",
 		"selected_items":
 		[
 			[
-				"git push",
-				"git: push"
-			],
-			[
 				"git co",
 				"git: commit"
+			],
+			[
+				"git push",
+				"git: push"
 			],
 			[
 				"git status",
@@ -152,7 +162,7 @@
 				"Vagrant: Up"
 			]
 		],
-		"width": 506.0
+		"width": 608.0
 	},
 	"console":
 	{
@@ -172,10 +182,14 @@
 	},
 	"expanded_folders":
 	[
-		"/D/PythonHome/devops2/03/kangcunhua"
+		"/D/PythonHome/devops2/04/kangcunhua"
 	],
 	"file_history":
 	[
+		"/D/PythonHome/Python_OpsDev2/Lesson04/readme.md",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/terminal.glue",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/app/__init__.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/manage.py",
 		"/D/PythonHome/devops2/03/kangcunhua/app/main/resources.py",
 		"/D/PythonHome/devops2/03/kangcunhua/app/templates/resources/server_idc_list.html",
 		"/D/PythonHome/devops2/03/kangcunhua/document/2016.06.01.md",
@@ -294,7 +308,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -303,15 +317,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4711,
+						"buffer_size": 2331,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4278,
-								4278
+								0,
+								0
 							]
 						],
 						"settings":
@@ -370,98 +384,53 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 112.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "readme.md",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 30887,
+						"buffer_size": 741,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1080,
-								1080
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"c_time":
-							[
-								128,
-								3,
-								99,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								113,
-								0,
-								67,
-								10,
-								7,
-								224,
-								6,
-								12,
-								20,
-								33,
-								31,
-								0,
-								183,
-								187,
-								113,
-								1,
-								133,
-								113,
-								2,
-								82,
-								113,
-								3,
-								46
-							],
-							"git_savvy.file_path": "D:\\PythonHome\\devops2\\03\\kangcunhua\\readme.md",
-							"git_savvy.repo_path": "D:/PythonHome/devops2",
-							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"git_savvy.commit_on_close": false,
+							"git_savvy.commit_view": true,
+							"git_savvy.commit_view.amend": false,
+							"git_savvy.commit_view.help_text": "\n\n## To make a commit, type your commit message and press CTRL-ENTER. To cancel\n## the commit, close the window. To sign off on the commit, press CTRL-S.\n\n## You may also reference or close a GitHub issue with this commit.  To do so,\n## type `#` followed by the `tab` key.  You will be shown a list of issues\n## related to the current repo.  You may also type `owner/repo#` plus the `tab`\n## key to reference an issue in a different GitHub repo.\n\n",
+							"git_savvy.commit_view.include_unstaged": false,
+							"git_savvy.get_long_text_view": true,
+							"git_savvy.repo_path": "D:/PythonHome/Python_OpsDev2",
+							"syntax": "Packages/GitSavvy/syntax/make_commit.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 778.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "terminal.glue",
-					"semi_transient": false,
+					"file": "mycmdb.sublime-project",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 341,
+						"buffer_size": 531,
 						"regions":
 						{
 						},
@@ -504,13 +473,13 @@
 								7,
 								224,
 								6,
-								6,
-								15,
 								14,
-								14,
-								8,
-								119,
-								134,
+								20,
+								53,
+								19,
+								12,
+								39,
+								65,
 								113,
 								1,
 								133,
@@ -521,15 +490,93 @@
 								3,
 								46
 							],
-							"git_savvy.file_path": "D:\\PythonHome\\Python_OpsDev2\\Lesson03\\terminal.glue",
-							"git_savvy.repo_path": "D:/PythonHome/Python_OpsDev2",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"git_savvy.file_path": "D:\\PythonHome\\devops2\\04\\kangcunhua\\mycmdb.sublime-project",
+							"git_savvy.repo_path": "D:/PythonHome/devops2",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "mycmdb.sublime-workspace",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12938,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								6,
+								14,
+								20,
+								53,
+								19,
+								12,
+								43,
+								18,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"git_savvy.file_path": "D:\\PythonHome\\devops2\\04\\kangcunhua\\mycmdb.sublime-workspace",
+							"git_savvy.repo_path": "D:/PythonHome/devops2",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8370.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -568,7 +615,7 @@
 	"menu_visible": true,
 	"output.GitSavvy":
 	{
-		"height": 118.0
+		"height": 327.0
 	},
 	"output.exec":
 	{

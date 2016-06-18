@@ -3,12 +3,12 @@
 # @Author: kang.cunhua@qq.com
 # @Date:   2016-05-27 14:40:47
 # @Last Modified by:   kang.cunhua@qq.com
-# @Last Modified time: 2016-06-14 20:48:03
+# @Last Modified time: 2016-06-18 15:34:04
 from __future__ import unicode_literals
-from flask import render_template, request
+from flask import render_template, request, current_app
 from . import main
 import app.utils
-
+import json
 
 """
     IDC 列表页面
@@ -84,10 +84,12 @@ def resources_idc_delete():
 
 @main.route("/resources/server/list/", methods=["GET"])
 def resources_server_list():
+    ret = app.utils.api_action("server.get", {"where": {"status": 1}})
     return render_template("resources/server_list.html",
                            title="服务器信息",
                            show_resource=True,
-                           show_serverlist=True)
+                           show_serverlist=True,
+                           servers=ret)
 
 """
     添加服务器
@@ -96,11 +98,38 @@ def resources_server_list():
 
 @main.route("/resources/server/add/", methods=["GET"])
 def resources_server_add():
+    # 取制造商信息
     manufacturers = app.utils.api_action("manufacturers.get")
-
+    # 取业务线信息
+    products = app.utils.api_action("product.get", {"where": {"pid": 0}})
+    # 获取服务器状态
+    status = app.utils.api_action("status.get")
+    # 获取IDC状态
+    idc_info = app.utils.api_action("idc.get", {"output": ["idc_name", "id"]})
+    # 获取raids
+    raids = app.utils.api_action("raid.get")
+    # 获取raid类型
+    raidtypes = app.utils.api_action("raidtype.get")
+    # 获取电源功率
+    powers = app.utils.api_action("power.get")
+    # 远程管理卡型号
+    managementcardtypes = app.utils.api_action('managementcardtype.get')
+    # 获取供应商
+    suppliers = app.utils.api_action("supplier.get")
+    # 获取机柜号
+    cabinets = app.utils.api_action("cabinet.get")
     return render_template("resources/server_add.html",
                            title="添加服务器",
                            manufacturers=manufacturers,
+                           products=products,
+                           status=status,
+                           idc_info=idc_info,
+                           raids=raids,
+                           raidtypes=raidtypes,
+                           powers=powers,
+                           managementcardtypes=managementcardtypes,
+                           suppliers=suppliers,
+                           cabinets=cabinets,
                            show_resource=True,
                            show_serverlist=True)
 
@@ -112,7 +141,7 @@ def resources_server_add():
 
 @main.route("/resources/server/manufacturers/add/", methods=["GET"])
 def resources_manufacturers_add():
-    return render_template("resources/server_add_manufacturers.html",
+    return render_template("resources/server_manufacturers_add.html",
                            title="添加制造商")
 
 
@@ -149,7 +178,7 @@ def resources_doadd_manufacturers():
 @main.route("/resources/server/servertype/add/", methods=["GET"])
 def resources_server_type_add():
     manufacturers = app.utils.api_action("manufacturers.get")
-    return render_template("resources/server_add_servertype.html",
+    return render_template("resources/server_servertype_add.html",
                            title="添加服务器类型",
                            manufacturers=manufacturers)
 
@@ -188,7 +217,7 @@ def resources_ajax_get_server_type():
 @main.route("/resources/server/product/add/", methods=["GET"])
 def resources_server_product_add():
     products = app.utils.api_action("product.get", {"where": {"pid": 0}})
-    return render_template("resources/server_add_product.html",
+    return render_template("resources/server_product_add.html",
                            products=products)
 
 """
@@ -225,7 +254,7 @@ def resources_ajax_get_server_product():
 
 @main.route("/resources/status/add/", methods=["GET"])
 def resources_status_add():
-    return render_template("resources/server_add_status.html")
+    return render_template("resources/server_status_add.html")
 
 """
     执行添加服务器状态
@@ -245,14 +274,14 @@ def resources_doadd_status():
 
 @main.route("/resources/server/raid/add/", methods=["GET"])
 def resources_server_raid_add():
-    return render_template("resources/server_add_raid.html")
+    return render_template("resources/server_raid_add.html")
 
 """
     执行添加raid状态
 """
 
 
-@main.route("/resources/server_raid_doadd/", methods=["POST"])
+@main.route("/resources/server/raid/doadd/", methods=["POST"])
 def resources_doadd_server_raid():
     params = request.form.to_dict()
     ret = app.utils.api_action("raid.create", params)
@@ -266,9 +295,9 @@ def resources_doadd_server_raid():
 
 @main.route("/resources/cabinet/add/", methods=["GET"])
 def resources_server_raid_type_add():
-    idcs = app.utils.api_action("idc.get", {"output": ["name", "id"]})
+    idcs = app.utils.api_action("idc.get", {"output": ["idc_name", "id"]})
     powers = app.utils.api_action("power.get")
-    return render_template("resources/server_add_cabinet.html",
+    return render_template("resources/server_cabinet_add.html",
                            idcs=idcs,
                            powers=powers)
 
@@ -292,7 +321,7 @@ def resources_doadd_cabinet_type():
 
 @main.route("/resources/power/add/", methods=["GET"])
 def resources_power_add():
-    return render_template("resources/server_add_power.html")
+    return render_template("resources/server_power_add.html")
 
 """
     执行添加功率
@@ -330,14 +359,14 @@ def resources_ajax_get_cabinet():
 
 @main.route("/resources/server/raidcardtype/add/", methods=["GET"])
 def resources_server_raid_cardtype_add():
-    return render_template("resources/server_add_raidcardtype.html",)
+    return render_template("resources/server_raidcardtype_add.html",)
 
 """
     执行添加机柜号
 """
 
 
-@main.route("/resources/server_raidcardtype_doadd/", methods=["POST"])
+@main.route("/resources/server/raidcardtype/doadd/", methods=["POST"])
 def resources_doadd_raidtype_type():
     params = request.form.to_dict()
     ret = app.utils.api_action("raidtype.create", params)
@@ -352,7 +381,7 @@ def resources_doadd_raidtype_type():
 
 @main.route("/resources/server/managementcardtype/add/", methods=["GET"])
 def resources_server_managementcardtype_add():
-    return render_template("resources/server_add_managementcardtype.html",)
+    return render_template("resources/server_managementcardtype_add.html",)
 
 """
     执行添加远程管理卡
@@ -374,7 +403,7 @@ def resources_doadd_raidtydpe_type():
 
 @main.route("/resources/server/supplier/add/", methods=["GET"])
 def resources_server_supplier_add():
-    return render_template("resources/server_add_supplier.html",)
+    return render_template("resources/server_supplier_add.html",)
 
 """
     执行添加供应商
@@ -402,13 +431,61 @@ def resources_doadd_server():
 
 
 """
+    修改服务器
+"""
+
+
+@main.route("/resources/server/modify/<int:id>", methods=["GET"])
+def resources_server_modify(id):
+    # 获取此服务器信息
+    server = app.utils.api_action("server.get", {"where": {"id": id}})[0]
+    print server
+    # 取制造商信息
+    manufacturers = app.utils.api_action("manufacturers.get")
+    # 取业务线信息
+    products = app.utils.api_action("product.get", {})
+    # 获取服务器状态
+    statuses = app.utils.api_action("status.get")
+    # 获取IDC状态
+    idcs = app.utils.api_action("idc.get", {"output": ["idc_name", "id"]})
+    # 获取raids
+    raids = app.utils.api_action("raid.get")
+    # 获取raid类型
+    raidtypes = app.utils.api_action("raidtype.get")
+    # 获取电源功率
+    powers = app.utils.api_action("power.get")
+    # 远程管理卡型号
+    managementcardtypes = app.utils.api_action('managementcardtype.get')
+    # 获取供应商
+    suppliers = app.utils.api_action("supplier.get")
+    # 获取机柜号
+    cabinets = app.utils.api_action("cabinet.get")
+    return render_template("resources/server_edit.html",
+                           title="修改服务器",
+                           server=server,
+                           manufacturers=manufacturers,
+                           products=products,
+                           statuses=statuses,
+                           idcs=idcs,
+                           raids=raids,
+                           raidtypes=raidtypes,
+                           powers=powers,
+                           managementcardtypes=managementcardtypes,
+                           suppliers=suppliers,
+                           cabinets=cabinets,
+                           show_resource=True,
+                           show_serverlist=True)
+
+"""
     执行修改服务器
 """
 
 
-@main.route("/resources/server/modify/doadd/", methods=["POST"])
+@main.route("/resources/server/update/", methods=["POST"])
 def resources_doadd_modify_server():
     params = request.form.to_dict()
+    current_app.logger.debug("提交的数据为： {}".format(params))
+
     server_id = request.form.get('id')
     resource = {"data": params, "where": {"id": server_id}}
     ret = app.utils.api_action("server.update", resource)

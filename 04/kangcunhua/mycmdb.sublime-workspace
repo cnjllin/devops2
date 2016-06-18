@@ -4,12 +4,12 @@
 		"selected_items":
 		[
 			[
-				"mar",
-				"margin-bottom"
+				"s",
+				"Status	class"
 			],
 			[
-				"s",
-				"str"
+				"mar",
+				"margin-bottom"
 			],
 			[
 				"is",
@@ -48,36 +48,58 @@
 	"buffers":
 	[
 		{
-			"file": "modules/idc.py",
+			"file": "app/main/resources.py",
 			"settings":
 			{
-				"buffer_size": 2331,
+				"buffer_size": 13899,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "##进度\n + 首页： http://127.0.0.1:8000/dashboard/ \n + IT资产-->IDC信息： http://127.0.0.1:8000/resources/idc/ \n    - 列表，添加、修改、删除 \n + IT资产-->服务器： 列表 http://127.0.0.1:8000/resources/server/list/ \n    - 添加页面 http://127.0.0.1:8000/resources/server/add/ \n    - 添加功能尚未完成\n\nSigned-off-by: mdr <358608208@qq.com>\n\n\n## To make a commit, type your commit message and press CTRL-ENTER. To cancel\n## the commit, close the window. To sign off on the commit, press CTRL-S.\n\n## You may also reference or close a GitHub issue with this commit.  To do so,\n## type `#` followed by the `tab` key.  You will be shown a list of issues\n## related to the current repo.  You may also type `owner/repo#` plus the `tab`\n## key to reference an issue in a different GitHub repo.\n\n",
+			"file": "app/templates/resources/server_edit.html",
 			"settings":
 			{
-				"buffer_size": 741,
-				"line_ending": "Windows",
-				"name": "COMMIT: Python_OpsDev2",
-				"scratch": true
-			}
-		},
-		{
-			"file": "mycmdb.sublime-project",
-			"settings":
-			{
-				"buffer_size": 531,
+				"buffer_size": 17062,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "mycmdb.sublime-workspace",
+			"file": "app/models.py",
 			"settings":
 			{
-				"buffer_size": 12938,
+				"buffer_size": 6095,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "document/2016.06.06_debug.md",
+			"settings":
+			{
+				"buffer_size": 201681,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "readme.md",
+			"settings":
+			{
+				"buffer_size": 1022,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/templates/resources/server_list.html",
+			"settings":
+			{
+				"buffer_size": 8016,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/resources/server_add.html",
+			"settings":
+			{
+				"buffer_size": 15211,
 				"line_ending": "Unix"
 			}
 		}
@@ -105,17 +127,17 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "git co",
+		"height": 197.0,
+		"last_filter": "git push",
 		"selected_items":
 		[
 			[
-				"git co",
-				"git: commit"
-			],
-			[
 				"git push",
 				"git: push"
+			],
+			[
+				"git co",
+				"git: commit"
 			],
 			[
 				"git status",
@@ -182,12 +204,50 @@
 	},
 	"expanded_folders":
 	[
-		"/D/PythonHome/devops2/04/kangcunhua"
+		"/D/PythonHome/Python_OpsDev2/Lesson04",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/document",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/modules"
 	],
 	"file_history":
 	[
-		"/D/PythonHome/Python_OpsDev2/Lesson04/readme.md",
 		"/D/PythonHome/Python_OpsDev2/Lesson04/terminal.glue",
+		"/C/Users/kangcunhua/Desktop/(listfile)",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/app/templates/resources/server_modify.html",
+		"/C/Users/kangcunhua/Documents/Tencent Files/358608208/FileRecv/server_edit.html",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/modules/servertype.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/app/templates/resources/server_servertype_add.html",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/modules/server.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/modules/raid.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/modules/status.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/modules/raidtype.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/modules/product.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/modules/cabinet.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/modules/manufacturers.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/modules/power.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/modules/managementcardtype.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/modules/supplier.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/modules/__init__.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/app/main/resources.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/app/templates/resources/server_supplier_add.html",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/app/templates/resources/monitor_zabbix.html",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/app/templates/resources/server_add.html",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/app/templates/resources/server_managementcardtype_add.html",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/app/templates/resources/server_power_add.html",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/app/templates/resources/server_product_add.html",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/app/templates/resources/server_raid_add.html",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/app/templates/resources/server_raidcardtype_add.html",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/modules/idc.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/app/models.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/app/utils/__init__.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/test/tt.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/tt.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/readme.md",
+		"/C/Users/kangcunhua/Desktop/cubemain.txt",
+		"/C/Users/kangcunhua/AppData/Local/Temp/HZ$D.578.4538/weaponclass.txt",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/document/2016.06.01.md",
+		"/C/Users/kangcunhua/Desktop/server_add.html",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/app/templates/resources/server_idc_add.html",
+		"/D/PythonHome/Python_OpsDev2/Lesson04/app/templates/resources/server_add_idc.html",
 		"/D/PythonHome/Python_OpsDev2/Lesson04/app/__init__.py",
 		"/D/PythonHome/Python_OpsDev2/Lesson04/manage.py",
 		"/D/PythonHome/devops2/03/kangcunhua/app/main/resources.py",
@@ -286,9 +346,24 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"migrate",
+			"service_id",
+			"/doadd/",
+			"/resources/server/raid/doadd/",
+			"resources_ajax_get_server_type",
+			"/resources/ajax/",
+			"/resources/ajax/get_server_type",
+			"<form action=",
+			"/resources/server_servertype_doadd/",
+			"servertype",
+			"server_",
+			"(**kwargs):",
+			"Idc",
+			"idc",
+			"Idc",
 			"document",
 			"pep"
 		],
@@ -298,6 +373,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"(self,**kwargs):",
+			"self.Module",
+			"manufacturers",
+			"Manufacturers"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -313,19 +392,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "modules/idc.py",
+					"file": "app/main/resources.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2331,
+						"buffer_size": 13899,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								12378,
+								12378
 							]
 						],
 						"settings":
@@ -360,13 +439,13 @@
 								7,
 								224,
 								6,
-								3,
-								10,
-								18,
+								12,
+								20,
+								44,
 								14,
-								7,
-								205,
-								43,
+								6,
+								189,
+								178,
 								113,
 								1,
 								133,
@@ -377,14 +456,14 @@
 								3,
 								46
 							],
-							"git_savvy.file_path": "D:\\PythonHome\\Python_OpsDev2\\Lesson03\\modules\\idc.py",
+							"git_savvy.file_path": "D:\\PythonHome\\Python_OpsDev2\\Lesson04\\app\\main\\resources.py",
 							"git_savvy.repo_path": "D:/PythonHome/Python_OpsDev2",
 							"syntax": "Packages/Python/Python.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 7810.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -392,33 +471,78 @@
 				},
 				{
 					"buffer": 1,
+					"file": "app/templates/resources/server_edit.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 741,
+						"buffer_size": 17062,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								5472,
+								5472
 							]
 						],
 						"settings":
 						{
-							"git_savvy.commit_on_close": false,
-							"git_savvy.commit_view": true,
-							"git_savvy.commit_view.amend": false,
-							"git_savvy.commit_view.help_text": "\n\n## To make a commit, type your commit message and press CTRL-ENTER. To cancel\n## the commit, close the window. To sign off on the commit, press CTRL-S.\n\n## You may also reference or close a GitHub issue with this commit.  To do so,\n## type `#` followed by the `tab` key.  You will be shown a list of issues\n## related to the current repo.  You may also type `owner/repo#` plus the `tab`\n## key to reference an issue in a different GitHub repo.\n\n",
-							"git_savvy.commit_view.include_unstaged": false,
-							"git_savvy.get_long_text_view": true,
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								6,
+								13,
+								16,
+								8,
+								42,
+								12,
+								145,
+								193,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"git_savvy.file_path": "D:\\PythonHome\\Python_OpsDev2\\Lesson04\\app\\templates\\resources\\server_edit.html",
 							"git_savvy.repo_path": "D:/PythonHome/Python_OpsDev2",
-							"syntax": "Packages/GitSavvy/syntax/make_commit.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1757.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -426,19 +550,19 @@
 				},
 				{
 					"buffer": 2,
-					"file": "mycmdb.sublime-project",
-					"semi_transient": true,
+					"file": "app/models.py",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 531,
+						"buffer_size": 6095,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3887,
+								3887
 							]
 						],
 						"settings":
@@ -473,13 +597,13 @@
 								7,
 								224,
 								6,
-								14,
-								20,
-								53,
-								19,
 								12,
-								39,
-								65,
+								20,
+								44,
+								14,
+								6,
+								140,
+								214,
 								113,
 								1,
 								133,
@@ -490,12 +614,14 @@
 								3,
 								46
 							],
-							"git_savvy.file_path": "D:\\PythonHome\\devops2\\04\\kangcunhua\\mycmdb.sublime-project",
-							"git_savvy.repo_path": "D:/PythonHome/devops2",
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+							"git_savvy.file_path": "D:\\PythonHome\\Python_OpsDev2\\Lesson04\\app\\models.py",
+							"git_savvy.repo_path": "D:/PythonHome/Python_OpsDev2",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1674.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -503,11 +629,11 @@
 				},
 				{
 					"buffer": 3,
-					"file": "mycmdb.sublime-workspace",
-					"semi_transient": false,
+					"file": "document/2016.06.06_debug.md",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 12938,
+						"buffer_size": 201681,
 						"regions":
 						{
 						},
@@ -550,13 +676,13 @@
 								7,
 								224,
 								6,
-								14,
-								20,
-								53,
-								19,
 								12,
-								43,
-								18,
+								20,
+								44,
+								14,
+								12,
+								129,
+								183,
 								113,
 								1,
 								133,
@@ -567,16 +693,252 @@
 								3,
 								46
 							],
-							"git_savvy.file_path": "D:\\PythonHome\\devops2\\04\\kangcunhua\\mycmdb.sublime-workspace",
-							"git_savvy.repo_path": "D:/PythonHome/devops2",
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"git_savvy.file_path": "D:\\PythonHome\\Python_OpsDev2\\Lesson04\\document\\2016.06.06_debug.md",
+							"git_savvy.repo_path": "D:/PythonHome/Python_OpsDev2",
+							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 8370.0,
+						"translation.y": 3024.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "readme.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1022,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								921,
+								921
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								5,
+								29,
+								9,
+								55,
+								49,
+								6,
+								145,
+								113,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"git_savvy.file_path": "D:\\PythonHome\\Python_OpsDev2\\Lesson04\\readme.md",
+							"git_savvy.repo_path": "D:/PythonHome/Python_OpsDev2",
+							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 324.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/templates/resources/server_list.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8016,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4355,
+								4355
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								6,
+								12,
+								20,
+								44,
+								14,
+								12,
+								65,
+								55,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"git_savvy.file_path": "D:\\PythonHome\\Python_OpsDev2\\Lesson04\\app\\templates\\resources\\server_list.html",
+							"git_savvy.repo_path": "D:/PythonHome/Python_OpsDev2",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2113.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/templates/resources/server_add.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15211,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12898,
+								12905
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								6,
+								12,
+								20,
+								44,
+								14,
+								12,
+								39,
+								208,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"git_savvy.file_path": "D:\\PythonHome\\Python_OpsDev2\\Lesson04\\app\\templates\\resources\\server_add.html",
+							"git_savvy.repo_path": "D:/PythonHome/Python_OpsDev2",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4382.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -615,7 +977,7 @@
 	"menu_visible": true,
 	"output.GitSavvy":
 	{
-		"height": 327.0
+		"height": 118.0
 	},
 	"output.exec":
 	{
@@ -629,7 +991,7 @@
 	"project": "mycmdb.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -667,7 +1029,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 248.0,
+	"side_bar_width": 266.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

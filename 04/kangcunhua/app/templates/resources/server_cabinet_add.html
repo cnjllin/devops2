@@ -13,7 +13,7 @@
             <select name="idc_id" class="form-control" >
                 <option value='0'>请选择IDC</option>
                 {% for idc in idcs %}
-                <option value="{{ idc.name }}">{{ idc.name }}</option>
+                <option value="{{ idc.id }}">{{ idc.idc_name }}</option>
                 {% endfor %}
             </select>
         </div>

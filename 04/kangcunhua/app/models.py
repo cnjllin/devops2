@@ -3,10 +3,20 @@
 # @Author: kang.cunhua@qq.com
 # @Date:   2016-06-03 10:18:14
 # @Last Modified by:   kang.cunhua@qq.com
-# @Last Modified time: 2016-06-13 15:22:24
+# @Last Modified time: 2016-06-18 15:22:41
 
 from app import db
 from datetime import datetime
+
+
+# class Base_Module(db.Model):
+#     """创建一个基础类对应的表映射，方便测试基础module类
+
+#     Attributes:
+#         id (TYPE): Description
+#     """
+#     __tablename__ = 'Base_Module'
+#     id = db.Column(db.Integer, primary_key=True)
 
 
 class Idc(db.Model):
@@ -63,7 +73,7 @@ class Cabinet(db.Model):
     __tablename__ = 'cabinet'
     id = db.Column(db.Integer, primary_key=True,)
     name = db.Column(db.String(50), nullable=False, unique=True)
-    idc_id = db.Column(db.String(10), index=True, nullable=False)
+    idc_id = db.Column(db.Integer, nullable=True, default=0)
     power = db.Column(db.String(10))
 
 
@@ -100,7 +110,7 @@ class Server(db.Model):
     server_type = db.Column(db.String(50), nullable=True, default='')
     st = db.Column(db.String(50), nullable=True, default='')
     assets_no = db.Column(db.String(50), nullable=True, default='')
-    idc_id = db.Column(db.String(32), nullable=True, index=True, default=0)
+    idc_id = db.Column(db.Integer, nullable=True, default=0)
     cabinet_id = db.Column(db.Integer, nullable=True, index=True, default=0)
     uuid = db.Column(db.String(50), index=True, default='')
     cabinet_pos = db.Column(db.String(15), nullable=True, default='')

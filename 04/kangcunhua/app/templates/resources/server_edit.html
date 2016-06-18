@@ -9,7 +9,7 @@
 <div style="float:left;width:900px;margin-left:10px;margin-top:20px;padding-bottom: 80px;">
     <form action="/resources/server/update/" method='post' class="form-horizontal" role="form">
         <div class="form-group">
-            <label class="control-label"> >>添加业服务器</label>
+            <label class="control-label"> >>修改服务器</label>
         </div>
         <div class="form-group">
             <label for="inputEmail3" class="col-sm-2 control-label">ST：</label>
@@ -34,7 +34,7 @@
                     <option value="{{ manufacturer.id }}" {% if manufacturer.name == server.manufacturers %} selected {% endif %} data="{{ manufacturer.name }}">{{ manufacturer.name }}</option>
                     {% endfor %}
                 </select>
-                <input type="hidden" name="manufacturers" value="" id="manufacturers_input">
+                <!-- <input type="hidden" name="manufacturers" value="" id="manufacturers_input"> -->
             </div>
             <button type="button" class="btn btn-link">
                 <a href="/resources/server/addmanufacturers" target="_blank" ><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
@@ -58,7 +58,7 @@
                 <option value="0">请选择业务线</option>
                 {% for product in products %}
                     {% if product.pid == 0 %}
-                    <option value="{{ product.id }}" {% if product.name == server.service %} selected {% endif %} data="{{ product.name }}">{{ product.service_name }}</option>
+                    <option value="{{ product.id }}" {% if product.id == server.service_id %} selected {% endif %} data="{{ product.service_name }}">{{ product.service_name }}</option>
                     {% endif %}
                 {% endfor %}
                 </select>
@@ -66,10 +66,11 @@
             <label for="inputEmail3" class="col-sm-2 control-label">产品线：</label>
             <div class="col-xs-2">
                 <select name='server_purpose' class="form-control" id="server_purpose">
+                    <option value="0">请选择产品线</option>
                     {% for product in products %}
                         {% if product.id == server.server_purpose %}
-                        <option value="{{ server.server_purpose }}">{{ product.service_name }}</option>
-                        {% endif %}
+                            <option value="{{ product.id }}" selected data="{{ product.service_name }}">{{ product.service_name }}</option>
+                        {% endif %} 
                     {% endfor %}
 
 
@@ -97,10 +98,10 @@
             <label class="col-sm-2 control-label">IDC：</label>
             <div class="col-xs-4">
                 <select name='idc_id' class="form-control" id="idc_id">
-                <option value="0">请选择IDC</option>
-                {% for idc in idcs %}
-                <option value="{{ idc.name }}"{% if idc.name == server.idc_id %} selected {% endif %} data="{{ idc.name }}">{{ idc.name }}</option>
-                {% endfor %}
+                    <option value="0">请选择IDC</option>
+                    {% for idc in idcs %}
+                    <option value="{{ idc.id }}"{% if idc.id == server.idc_id %} selected {% endif %} data="{{ idc.idc_name }}">{{ idc.idc_name }}</option>
+                    {% endfor %}
                 </select>
             </div>
             <button type="button" class="btn btn-link">
@@ -113,13 +114,15 @@
                 <select name='cabinet_id' class="form-control" id="cabinet_id">
                 <option value="0">机柜号</option>
                 {% for cabinet in cabinets %}
-                <option value="{{ cabinet.id }}" {% if cabinet.id == server.cabinet_id %} selected {% endif %} data="{{ cabinet.name }}">{{ cabinet.name }}</option>
+                    {% if cabinet.idc_id == server.idc_id: %}
+                        <option value="{{ cabinet.id }}" {% if cabinet.id == server.cabinet_id %} selected {% endif %} data="{{ cabinet.name }}">{{ cabinet.name }}</option>
+                    {% endif %} 
                 {% endfor %}
                 </select>
             </div>
             <button type="button" style="float:left;" class="btn btn-link">
                 <a href="/resources/server/addcabinet" target="_blank" ><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
-            </button>
+                </button>
             <label class="col-sm-2 control-label">托盘位置：</label>
             <div class="col-xs-2">
                 <input type="text" autocomplete="off" name="cabinet_pos" class="form-control" placeholder="机柜内的位置" value="{{ server.cabinet_pos }}">
@@ -181,7 +184,7 @@
             <div class="col-xs-4">
                 <select name='remote_card' class="form-control">
                     <option value="0">请选择</option>
-                    {% for managementcard in managementcards %}
+                    {% for managementcard in managementcardtypes %}
                         <option value="{{ managementcard.m_type }}" {% if managementcard.m_type == server.remote_card %} selected {% endif %} data="{{ server.remote_card }}">{{ managementcard.m_type }}</option>
                     {% endfor %}
                 </select>
@@ -258,8 +261,8 @@ $(function(){
     $("#service_id").change(function(){
         var pid = $(this).val();
         if(pid != 0){
-            $.get("/api/ajax/get-server-product",{pid:pid},function(data){
-                var html = '<option value="0">请选择主品线</option>';
+            $.get("/resources/ajax/get/server/product/",{pid:pid},function(data){
+                var html = '<option value="0">请选择产品线</option>';
                 for (x in data) {
                     html += "<option value='"+data[x].id+"'>"+data[x].service_name+"</option>"
                 }
@@ -273,7 +276,7 @@ $(function(){
     $("#idc_id").change(function(){
         var idc_id = $(this).val();
         if(idc_id != 0){
-            $.get("/api/ajax/get-server-cabinet",{idc_id:idc_id},function(data){
+            $.get("/resources/ajax/get/cabinet/",{idc_id:idc_id},function(data){
                 var html = '<option value="0">请选择机柜号</option>';
                 for (x in data) {
                     html += "<option value='"+data[x].id+"'>"+data[x].name+"</option>"
@@ -295,10 +298,10 @@ $(function(){
                  $('#manufacturers_input').val(new_val)
              }
 
-         })
+         });
 
         if(manufacturers_id != 0){
-            $.get("/api/ajax/get-server-type",{manufacturers_id:manufacturers_id},function(data){
+            $.get("/resources/ajax/get/server/type",{manufacturers_id:manufacturers_id},function(data){
                 var html = '<option value="0">请选择服务器类型</option>';
                 for (x in data) {
                     html += "<option value='"+data[x].type+"'>"+data[x].type+"</option>"

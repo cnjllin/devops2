@@ -1,17 +1,16 @@
 {% extends "public/layout.html" %}
 {% block sidebar %}
 {% endblock %}
-
 {% block body %}
 <div style="float:left;min-width:800px;margin-left:10px;margin-top:20px;">
-<form action="/resources/server_supplier_doadd/" method='post' class="form-horizontal" role="form" id="supplier_form">
+<form action="/resources/server/raidcardtype/doadd/" method='post' class="form-horizontal" role="form" id="raidtype_form">
     <div class="form-group">
-        <label class="col-sm-3 control-label">添加供应商</label>
+        <label class="col-sm-4 control-label">添加RAID卡型号</label>
     </div>
     <div class="form-group">
-        <label class="col-sm-2 control-label">供应商名称: </label>
+        <label class="col-sm-3 control-label">RAID卡型号名称: </label>
         <div class="col-xs-4">
-            <input type="text" autocomplete="off" name="name" class="form-control" placeholder="请填写供应商名称">
+            <input type="text" autocomplete="off" name="name" class="form-control" placeholder="请输入RAID卡型号名称">
         </div>
         <label id="name-error" class="error col-sm-4 control-label"  for="name"></label>
     </div>
@@ -27,15 +26,17 @@
 <script src="/static/js/jquery.validate.min.js"></script>
 <script>
     $().ready(function() {
-    $("#supplier_form").validate({
+    $("#raidtype_form").validate({
         rules: {
             name: {
-                required: true
+                required: true,
+                minlength:2
             }
         },
         messages: {
             name: {
-                required: "请填写供应商名称"
+                required: "请输入RAID卡型号名称",
+                minlength: "请输入至少2个字"
             }
         }
     });

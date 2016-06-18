@@ -5,9 +5,12 @@
 
 {% block body %}
 <div style="float:left;width:900px;margin-left:10px;margin-top:20px;padding-bottom: 80px;">
-    <form action="/resources/server/doadd/" method='post' class="form-horizontal" role="form">
+    <form action="/resources/server/modify/doadd/" method='post' class="form-horizontal" role="form">
         <div class="form-group">
             <label class="control-label"> >>修改服务器信息</label>
+        </div>
+        <div class="form-group" style="display:none">
+            <input type="text" value="{{ server.id }}" name="id">
         </div>
         <div class="form-group">
             <label for="inputEmail3" class="col-sm-2 control-label">ST：</label>
@@ -41,15 +44,16 @@
         <div class="form-group">
             <label class="col-sm-2 control-label">服务器类型：</label>
             <div class="col-xs-4">
-                <select name='server_type' class="form-control" id="servertype">
-                <option value="0">请选择服务器类型</option>
-                </select>
+{#                <select name='server_type' class="form-control" id="servertype">#}
+{#                <option value="0">请选择服务器类型</option>#}
+{#                </select>#}
                 <select name='server_type' class="form-control" aa="{{ server.servertype }}" id="servertype">
                 <option value="{{ server.server_type }}">{{ server.server_type }}</option>
                 </select>
             </div>
             <button type="button" class="btn btn-link">
-                <a href="/resources/server_servertype_add/" target="_blank" ><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                <a href="/resources/server/servertype/add/" target="_blank" ><span class="glyphicon glyphicon-plus"
+                                                                                   aria-hidden="true"></span></a>
             </button>
         </div>
         <div class="form-group">
@@ -69,7 +73,8 @@
                 </select>
             </div>
             <button type="button" class="btn btn-link">
-                <a href="/resources/server_product_add/" target="_blank" ><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                <a href="/resources/server/product/add/" target="_blank" ><span class="glyphicon glyphicon-plus"
+                                                                                aria-hidden="true"></span></a>
             </button>
         </div>
         <div class="form-group">
@@ -115,14 +120,15 @@
             </button>
             <label class="col-sm-2 control-label">托盘位置：</label>
             <div class="col-xs-2">
-                <input type="text" autocomplete="off" name="cabinet_pos" class="form-control" placeholder="机柜内的位置">
+                <input type="text" autocomplete="off" name="cabinet_pos" class="form-control"
+                       placeholder="{{ server.cabinet_pos }}" value="{{ server.cabinet_pos }}">
             </div>
             <label id="name-cabinet_pos" class="col-sm-4 control-label error"  for="cabinet_pos"></label>
         </div>
         <div class="form-group">
             <label class="col-sm-2 control-label">主机名：</label>
             <div class="col-xs-4">
-                <input type="text" autocomplete="off" name="hostname" class="form-control" placeholder="请输入主机名">
+                <input type="text" autocomplete="off" name="hostname" class="form-control" placeholder="{{ server.hostname }}" value="{{ server.hostname }}">
             </div>
             <label id="name-hostname" class="col-sm-4 control-label error"  for="hostname"></label>
         </div>
@@ -130,7 +136,7 @@
             <label class="col-sm-2 control-label">ip：</label>
 
             <div class="col-xs-4">
-                <input type="text" autocomplete="off" name="inner_ip" class="form-control" placeholder="请输入ip">
+                <input type="text" autocomplete="off" name="inner_ip" class="form-control" placeholder="{{ server.inner_ip }}" value="{{ server.inner_ip }}">
             </div>
 
         </div>
@@ -145,7 +151,8 @@
                 </select>
             </div>
             <button type="button" class="btn btn-link">
-                <a href="/resources/server_raid_add/" target="_blank" ><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                <a href="/resources/server/raid/add/" target="_blank" ><span class="glyphicon glyphicon-plus"
+                                                                             aria-hidden="true"></span></a>
             </button>
         </div>
         <div class="form-group">
@@ -159,7 +166,8 @@
                 </select>
             </div>
             <button type="button" class="btn btn-link">
-                <a href="/resources/server_raidcardtype_add/" target="_blank" ><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                <a href="/resources/server/raidcardtype/add/" target="_blank" ><span class="glyphicon glyphicon-plus"
+                                                                                     aria-hidden="true"></span></a>
             </button>
         </div>
         <div class="form-group">
@@ -182,13 +190,14 @@
                 </select>
             </div>
             <button type="button" class="btn btn-link">
-                <a href="/resources/server_managementcardtype_add/" target="_blank" ><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                <a href="/resources/server/managementcardtype/add/" target="_blank" ><span class="glyphicon
+                glyphicon-plus" aria-hidden="true"></span></a>
             </button>
         </div>
         <div class="form-group">
             <label  class="col-sm-2 control-label">管理卡IP：</label>
             <div class="col-xs-4">
-                <input type="text" autocomplete="off" name="remote_cardip" class="form-control" placeholder="请输入管理ip">
+                <input type="text" autocomplete="off" name="remote_cardip" class="form-control" placeholder="{{ server.remote_cardip }}" value="{{ server.remote_cardip }}">
             </div>
         </div>
         <div class="form-group">
@@ -216,7 +225,8 @@
                 </select>
             </div>
             <button type="button" class="btn btn-link">
-                <a href="/resources/server_supplier_add/" target="_blank" ><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                <a href="/resources/server/supplier/add/" target="_blank" ><span class="glyphicon glyphicon-plus"
+                                                                                 aria-hidden="true"></span></a>
             </button>
         </div>
         <div class="form-group">
@@ -236,7 +246,7 @@
         </div>
         <div class="form-group">
             <div class="col-sm-offset-2 col-sm-10">
-                <button type="submit" class="btn btn-primary">添加</button>
+                <button type="submit" class="btn btn-primary">修改</button>
             </div>
         </div>
     </form>
@@ -248,11 +258,10 @@
 <script type="text/javascript" src="/static/js/bootstrap-datetimepicker.zh-CN.js" charset="UTF-8"></script>
 <script>
 $(function(){
-
     $("#service_id").change(function(){
         var pid = $(this).val();
         if(pid != 0){
-            $.get("/resources/ajax/get_server_product/",{pid:pid},function(data){
+            $.get("/resources/ajax/get/server/product/",{pid:pid},function(data){
                 var html = '<option value="0">请选择产品线</option>';
                 for (x in data) {
                     html += "<option value='"+data[x].id+"'>"+data[x].service_name+"</option>"
@@ -263,11 +272,10 @@ $(function(){
              $("#server_purpose").html('<option value="0">请选择业务</option>')
         }
     });
-
     $("#idc_id").change(function(){
         var idc_id = $(this).val();
         if(idc_id != 0){
-            $.get("/resources/ajax/get_cabinet/",{idc_id:idc_id},function(data){
+            $.get("/resources/ajax/get/cabinet/",{idc_id:idc_id},function(data){
                 var html = '<option value="0">请选择机柜号</option>';
                 for (x in data) {
                     html += "<option value='"+data[x].id+"'>"+data[x].name+"</option>"
@@ -278,7 +286,6 @@ $(function(){
              $("#cabinet_id").html('<option value="0">请选择机房</option>')
         }
     });
-
     $("#manufacturers").change(function(){
         var manufacturers_id = $(this).val();
         var opt_objs = $(this).find('option');
@@ -288,11 +295,9 @@ $(function(){
                  var new_val = new_obj.attr('data');
                  $('#manufacturers_input').val(new_val)
              }
-
          });
-
         if(manufacturers_id != 0){
-            $.get("/resources/ajax/get_server_type",{manufacturers_id:manufacturers_id},function(data){
+            $.get("/resources/ajax/get/server/type/",{manufacturers_id:manufacturers_id},function(data){
                 var html = '<option value="0">请选择服务器类型</option>';
                 for (x in data) {
                     html += "<option value='"+data[x].type+"'>"+data[x].type+"</option>"
@@ -303,7 +308,6 @@ $(function(){
              $("#servertype").html('<option value="0">请选择制造商</option>')
         }
     });
-
     // 时间插件
     $('.form_date').datetimepicker({
             language: 'zh-CN',
@@ -315,14 +319,12 @@ $(function(){
       minView: 2,
       forceParse: 0
     });
-
     $(".add_ip").click(function(){
         var oldobj = $(this).parents(".form-group");
         var newObject = jQuery.extend(true, {}, oldobj);
         oldobj.before('<div class="form-group">'+newObject.html()+'</div>');
         return false;
     })
-
     // ip name change
     $('.ip_info').change(function(){
         var sel_obj = $(this);
@@ -334,9 +336,7 @@ $(function(){
                  var new_val = new_obj.attr('data');
                  $('#ip_type').val(new_val)
              }
-
          })
-
     })
 })
 </script>

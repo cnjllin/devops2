@@ -9,24 +9,21 @@
 
 {% block custom_css %}
     <style>
-        .btn_mod {
-            font-size: 14px;
-            padding: 2px 6px;
-        }
+        .btn_mod{font-size: 14px;padding:2px 6px;}
     </style>
 {% endblock %}
 
 {% block body %}
-    <table class="table table-striped" style="width:1300px;">
+    <table class="table table-striped" style="width:83%;">
         <caption>
             <a class="btn btn-default" href="/resources/idc/add/" role="button">添加IDC</a>
 
         </caption>
         <tr>
             <th>#</th>
-            <th>IDC字母简称</th>
+            <th>简称</th>
             <th>idc名称</th>
-            <th>IDC详细地址</th>
+            <th>详细地址</th>
             <th>客服电话</th>
             <th>邮件地址</th>
             <th>IDC接口人</th>
@@ -36,6 +33,7 @@
             <th>操作</th>
         </tr>
         {% for idc in idcs %}
+            
             <tr>
 
                 <td>{{ loop.index }}</td>
@@ -50,7 +48,7 @@
                 <td>{{ idc.pact_cabinet_num }}</td>
                 <td>
                     <a href="/resources/idc/modify/{{ idc.id }}" class="btn btn-primary btn_mod">修改</a>
-                    <a btn-id="{{ idc.id }}" class="btn btn-danger btn_mod btn_delete">删除</a>
+                    <a href="#" data="{{ idc.id }}" class="btn btn-danger btn_mod btn_delete">删除</a>
                 </td>
             </tr>
         {% endfor %}
@@ -58,11 +56,11 @@
 {% endblock %}
 {% block js %}
     <script>
-        $(".btn_delete").click(function () {
-            var id = $(this).attr("btn-id")
-            console.log(id)
-            swal({
-                title: "确定删除吗?",
+        $(".btn_delete").click(function(){
+            obj_idc = $(this);
+            idc_id = obj_idc.attr('data');
+            console.log($(this).attr('data'));
+            swal({title: "确定删除吗?",
                 text: "即将删除这条IDC信息",
                 type: "warning",
                 showCancelButton: true,
@@ -70,43 +68,21 @@
                 confirmButtonText: "删除",
                 cancelButtonText: "取消",
                 closeOnConfirm: false
-            }, function () {
-                console.log(id)
-                var aj = $.ajax({
-                    url: '/resources/idc/delete',
-                    data: {
-                        id: id
-                    },
-                    type: 'post',
-                    cache: false,
-                    dataType: 'json',
-                    success: function (data) {
-                        if (data.ret == "1") {
-                            // view("修改成功！");
-                            swal({title:"删除成功!",
-                                    text:"",
-                                    type:"success"},
-                            function () {
-                                setTimeout(function () {
-                                    window.location.reload();
-                            }, 150);
+            }, function(){
 
-                            });
-                        } else {
-                            swal("删除失败!", "", "error");
-                        }
-                    },
-                    error: function () {
-                        // view("异常！");
-                        alert($(this).attr("btn-id"));
+                $.post("/resources/idc/delete/", {id:idc_id}, function(data){
+                    if(data == "1"){
+                        obj_idc.parents("tr").remove();
+                        swal("删除成功!", "", "success");
+                    }else{
+                        swal("删除失败!", "", "error");
                     }
                 });
-
-
 
             });
             return false
         });
+
     </script>
 {% endblock %}
 

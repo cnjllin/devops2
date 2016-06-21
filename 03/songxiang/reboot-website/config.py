@@ -20,7 +20,9 @@ class DevelopmentConfig(Config):
     DEBUG = True
     SQLALCHEMY_ECHO = True
     SQLALCHEMY_DATABASE_URI = "mysql://root:ciscoccnp@127.0.0.1/devops?charset=utf8"
-
+    ZABBIX_API_UIL = "http://192.168.99.14/zabbix"
+    ZABBIX_API_USER = "Admin"
+    ZABBIX_API_PASS = "zabbix"
     @classmethod
     def init_app(cls, app):
         Config.init_app(app)

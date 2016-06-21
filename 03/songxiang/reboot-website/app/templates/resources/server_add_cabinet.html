@@ -3,7 +3,7 @@
 {% endblock %}
 {% block body %}
 <div style="float:left;min-width:800px;margin-left:10px;margin-top:20px;">
-<form action="/resource/server_cabinet_doadd" method='post' class="form-horizontal" role="form" id="cabinet_form">
+<form action="/resources/cabinet/doadd/" method='post' class="form-horizontal" role="form" id="cabinet_form">
     <div class="form-group">
         <label class="col-sm-3 control-label">添加机柜</label>
     </div>
@@ -54,7 +54,7 @@
             name: {
                 required: true
             },
-            pwwer:{
+            power:{
                 required: true
             }
         },
@@ -62,7 +62,7 @@
             name: {
                 required: "没有输入制造商名称"
             },
-            pwwer:{
+            power:{
                 required: "请输入机柜电源功率"
             }
         }

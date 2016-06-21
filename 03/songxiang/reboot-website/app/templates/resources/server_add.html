@@ -5,7 +5,7 @@
 
 {% block body %}
 <div style="float:left;width:900px;margin-left:10px;margin-top:20px;padding-bottom: 80px;">
-    <form action="/resource/server_doadd" method='post' class="form-horizontal" role="form">
+    <form action="/resources/server/doadd/" method='post' class="form-horizontal" role="form">
         <div class="form-group">
             <label class="control-label"> >>添加业服务器</label>
         </div>
@@ -46,7 +46,8 @@
                 </select>
             </div>
             <button type="button" class="btn btn-link">
-                <a href="/resources/server_servertype_add/" target="_blank" ><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                <a href="/resources/server/servertype/add/" target="_blank" ><span class="glyphicon glyphicon-plus"
+                                                                                   aria-hidden="true"></span></a>
             </button>
         </div>
         <div class="form-group">
@@ -66,7 +67,8 @@
                 </select>
             </div>
             <button type="button" class="btn btn-link">
-                <a href="/resources/server_product_add/" target="_blank" ><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                <a href="/resources/server/product/add/" target="_blank" ><span class="glyphicon glyphicon-plus"
+                                                                                aria-hidden="true"></span></a>
             </button>
         </div>
         <div class="form-group">
@@ -80,7 +82,7 @@
                 </select>
             </div>
             <button type="button" class="btn btn-link">
-                <a href="/resource/server_status_add" target="_blank" ><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                <a href="/resources/status/add/" target="_blank" ><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
             </button>
         </div>
         <div class="form-group">
@@ -94,7 +96,7 @@
                 </select>
             </div>
             <button type="button" class="btn btn-link">
-                <a href="/resource/server_idc_add" target="_blank" ><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                <a href="/resources/idc/add/" target="_blank" ><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
             </button>
         </div>
         <div class="form-group">
@@ -102,13 +104,10 @@
             <div class="col-xs-2">
                 <select name='cabinet_id' class="form-control" id="cabinet_id">
                 <option value="0">机柜号</option>
-                {% for cabinet in cabinets %}
-                <option value="{{ service.id }}">{{ cabinet.name }}</option>
-                {% endfor %}
                 </select>
             </div>
             <button type="button" style="float:left;" class="btn btn-link">
-                <a href="/resource/server_cabinet_add" target="_blank" ><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                <a href="/resources/cabinet/add/" target="_blank" ><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
             </button>
             <label class="col-sm-2 control-label">托盘位置：</label>
             <div class="col-xs-2">
@@ -142,7 +141,8 @@
                 </select>
             </div>
             <button type="button" class="btn btn-link">
-                <a href="/resource/server_raid_add" target="_blank" ><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                <a href="/resources/server/raid/add/" target="_blank" ><span class="glyphicon glyphicon-plus"
+                                                                             aria-hidden="true"></span></a>
             </button>
         </div>
         <div class="form-group">
@@ -156,7 +156,8 @@
                 </select>
             </div>
             <button type="button" class="btn btn-link">
-                <a href="/resource/server_raidcardtype_add" target="_blank" ><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                <a href="/resources/server/raidcardtype/add/" target="_blank" ><span class="glyphicon glyphicon-plus"
+                                                                                     aria-hidden="true"></span></a>
             </button>
         </div>
         <div class="form-group">
@@ -179,7 +180,8 @@
                 </select>
             </div>
             <button type="button" class="btn btn-link">
-                <a href="/resource/server_managementcardtype_add" target="_blank" ><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                <a href="/resources/server/managementcardtype/add/" target="_blank" ><span class="glyphicon
+                glyphicon-plus" aria-hidden="true"></span></a>
             </button>
         </div>
         <div class="form-group">
@@ -199,7 +201,7 @@
                 </select>
             </div>
             <button type="button" class="btn btn-link">
-                <a href="/resource/server_power_add" target="_blank" ><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                <a href="/resources/power/add/" target="_blank" ><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
             </button>
         </div>
         <div class="form-group">
@@ -213,7 +215,8 @@
                 </select>
             </div>
             <button type="button" class="btn btn-link">
-                <a href="/resource/server_supplier_add" target="_blank" ><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+                <a href="/resources/server/supplier/add/" target="_blank" ><span class="glyphicon glyphicon-plus"
+                                                                                 aria-hidden="true"></span></a>
             </button>
         </div>
         <div class="form-group">
@@ -249,7 +252,7 @@ $(function(){
     $("#service_id").change(function(){
         var pid = $(this).val();
         if(pid != 0){
-            $.get("/resource/ajax/get_server_product/",{pid:pid},function(data){
+            $.get("/resources/ajax/get/server/product/",{pid:pid},function(data){
                 var html = '<option value="0">请选择产品线</option>';
                 for (x in data) {
                     html += "<option value='"+data[x].id+"'>"+data[x].service_name+"</option>"
@@ -264,7 +267,7 @@ $(function(){
     $("#idc_id").change(function(){
         var idc_id = $(this).val();
         if(idc_id != 0){
-            $.get("/resource/ajax/get_cabinet",{idc_id:idc_id},function(data){
+            $.get("/resources/ajax/get/cabinet/",{idc_id:idc_id},function(data){
                 var html = '<option value="0">请选择机柜号</option>';
                 for (x in data) {
                     html += "<option value='"+data[x].id+"'>"+data[x].name+"</option>"
@@ -289,7 +292,7 @@ $(function(){
          });
 
         if(manufacturers_id != 0){
-            $.get("/resource/ajax/get_server_type",{manufacturers_id:manufacturers_id},function(data){
+            $.get("/resources/ajax/get/server/type/",{manufacturers_id:manufacturers_id},function(data){
                 var html = '<option value="0">请选择服务器类型</option>';
                 for (x in data) {
                     html += "<option value='"+data[x].type+"'>"+data[x].type+"</option>"

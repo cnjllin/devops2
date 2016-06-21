@@ -1,10 +1,13 @@
 {% extends "public/layout.html" %}
 
+{% block sidebar %}
+    {% include "public/cmdb_left.html" %}
+{% endblock %}
 
 
 {% block body %}
 <div style="float:left;width:900px;margin-left:10px;margin-top:20px;padding-bottom: 80px;">
-    <form action="/resources/server/toupdateserver" method='post' class="form-horizontal" role="form">
+    <form action="/resources/server/update/" method='post' class="form-horizontal" role="form">
         <div class="form-group">
             <label class="control-label"> >>添加业服务器</label>
         </div>
@@ -54,16 +57,22 @@
                 <select name='service_id' class="form-control" id="service_id">
                 <option value="0">请选择业务线</option>
                 {% for product in products %}
-                <option value="{{ product.id }}" {% if product.name == server.service %} selected {% endif %} data="{{ product.name }}">{{ product.service_name }}</option>
+                    {% if product.pid == 0 %}
+                    <option value="{{ product.id }}" {% if product.name == server.service %} selected {% endif %} data="{{ product.name }}">{{ product.service_name }}</option>
+                    {% endif %}
                 {% endfor %}
                 </select>
             </div>
             <label for="inputEmail3" class="col-sm-2 control-label">产品线：</label>
             <div class="col-xs-2">
                 <select name='server_purpose' class="form-control" id="server_purpose">
-                {% for purpose in services %}
-                <option value="{{ purpose.id }}" {% if purpose.id == server.service_purpose %} selected {% endif %} data="{{ purpose.name }}">{{ purpose.service_name }}</option>
-                {% endfor %}
+                    {% for product in products %}
+                        {% if product.id == server.server_purpose %}
+                        <option value="{{ server.server_purpose }}">{{ product.service_name }}</option>
+                        {% endif %}
+                    {% endfor %}
+
+
                 </select>
             </div>
             <button type="button" class="btn btn-link">
@@ -75,7 +84,7 @@
             <div class="col-xs-4">
                 <select name='status' class="form-control">
                     <option value="0">请选择服务器状态</option>
-                    {% for status in service_status %}
+                    {% for status in statuses %}
                     <option value="{{ status.id }}"{% if status.id == server.status %} selected {% endif %} data="{{ server.status }}">{{ status.name }}</option>
                     {% endfor %}
                 </select>
@@ -90,7 +99,7 @@
                 <select name='idc_id' class="form-control" id="idc_id">
                 <option value="0">请选择IDC</option>
                 {% for idc in idcs %}
-                <option value="{{ idc.id }}"{% if idc.id == server.idc_id %} selected {% endif %} data="{{ idc.name }}">{{ idc.idc_name }}</option>
+                <option value="{{ idc.name }}"{% if idc.name == server.idc_id %} selected {% endif %} data="{{ idc.name }}">{{ idc.name }}</option>
                 {% endfor %}
                 </select>
             </div>
@@ -126,40 +135,9 @@
         </div>
         <div class="form-group">
             <label class="col-sm-2 control-label">ip：</label>
-            <div class="col-xs-2"  style="width:110px;padding-right:0px;">
-
-                <select class="form-control ip_info">
-                    <option value='0'>请选择</option>
-                    {% for iptype in iptypes %}
-                    <option value="{{ iptype.id }}" data="{{ iptype.name }}" >{{ iptype.name }}</option>
-                    {% endfor %}
-                </select>
-                <input type="hidden" name="ip_type" value="" id="ip_type">
+            <div class="col-xs-4">
+                <input type="text" autocomplete="off" {% if server.inner_ip %} readonly value="{{ server.inner_ip }}" {% endif %} name="inner_ip" class="form-control" placeholder="请输入ip">
             </div>
-            <button type="button" style="float:left;" class="btn btn-link">
-                <a href="/resources/server/addiptype" target="_blank" ><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
-            </button>
-            <label style="padding-left:0px;width:40px;padding-right:0px;" class="col-sm-2 control-label">地址:</label>
-            <div class="col-xs-2">
-                <input type="text" autocomplete="off" name="ip" class="form-control" placeholder="请输入ip">
-            </div>
-            <label for="inputPassword3" style="padding-left:0px;width:40px;padding-right:0px;"  class="col-sm-2 control-label">网口:</label>
-            <div class="col-xs-2" style="width:110px;padding-right:0px;" >
-                <select name='device' class="form-control">
-                    <option value="eth0">eth0</option>
-                    <option value="eth1">eth1</option>
-                    <option value="eth2">eth2</option>
-                    <option value="eth3">eth3</option>
-                    <option value="manage">manage</option>
-                </select>
-            </div>
-            <label style="padding-left:0px;width:80px;padding-right:0px;"   class="col-sm-2 control-label">MAC地址:</label>
-            <div class="col-xs-2">
-                <input type="text" autocomplete="off" name="mac" class="form-control" placeholder="请输入MAC地址">
-            </div>
-            <button type="button" style="float:left;" class="btn btn-link">
-                <a href="#" class="add_ip" ><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
-            </button>
         </div>
         <div class="form-group">
             <label for="inputPassword3" class="col-sm-2 control-label">RAID：</label>
@@ -193,8 +171,8 @@
             <label class="col-sm-2 control-label">UPS电源有无：</label>
             <div class="col-xs-4">
                 <select name='ups' class="form-control">
-                    <option value="0">无</option>
-                    <option value="1">有</option>
+                    <option value="0" {% if server.ups == 0 %} selected {% endif %}>无</option>
+                    <option value="1" {% if server.ups == 1 %} selected {% endif %}>有</option>
                 </select>
             </div>
         </div>
@@ -224,7 +202,7 @@
                 <select name='power' class="form-control">
                     <option value="0">请选择</option>
                     {% for power in powers %}
-                    <option value="{{ power.server_power }}">{{ power.server_power }}</option>
+                    <option value="{{ power.server_power }}"  {% if server.power == power.server_power %} selected {% endif %} >{{ power.server_power }}</option>
                     {% endfor %}
                 </select>
             </div>
@@ -258,12 +236,13 @@
         <div class="form-group">
             <label  class="col-sm-2 control-label">备注：</label>
             <div class="col-xs-6">
-                <textarea class="form-control" name="remark" rows="3"></textarea>
+                <textarea class="form-control" name="remark" rows="3">{% if server.remark %}{{ server.remark }} {% endif %}</textarea>
             </div>
         </div>
         <div class="form-group">
             <div class="col-sm-offset-2 col-sm-10">
-                <button type="submit" class="btn btn-primary">添加</button>
+                <input type="hidden" name="id" value="{{ server.id }}">
+                <button type="submit" class="btn btn-primary">修改</button>
             </div>
         </div>
     </form>
@@ -367,4 +346,4 @@ $(function(){
     })
 })
 </script>
-{% block %}
+{% endblock %}

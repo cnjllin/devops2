@@ -1,0 +1,52 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# All Vagrant configuration is done below. The "2" in Vagrant.configure
+# configures the configuration version (we support older styles for
+# backwards compatibility). Please don't change it unless you know what
+# you're doing.
+Vagrant.configure(2) do |config|
+
+  config.vm.box = "centos6.6"
+  
+  config.vm.define :default do |default_config|
+    default_config.vm.hostname = "reboot-devops-02"
+    default_config.vm.network :private_network, ip: "192.168.99.10"
+    default_config.vm.network :forwarded_port, guest: 8000, host: 8000
+    default_config.vm.synced_folder "D:/data", "/share_data"
+    default_config.vm.synced_folder "../", "/wwwroot"
+    default_config.vm.provider "virtualbox" do |vb|
+      vb.memory = "1024"
+      vb.cpus = 1
+    end
+  end
+
+  config.vm.define :webserver_01 do |webserver_01_config|
+    webserver_01_config.vm.hostname = "reboot-ms-web-01"
+    webserver_01_config.vm.network :private_network, ip: "192.168.99.11"
+    webserver_01_config.vm.synced_folder "D:/data", "/share_data"
+    webserver_01_config.vm.provider "virtualbox" do |vb|
+      vb.memory = "256"
+      vb.cpus = 1
+    end
+  end
+
+  config.vm.define :zabbix_server do |zabbix_server_config|
+    zabbix_server_config.vm.hostname = "zabbix-server-01"
+    zabbix_server_config.vm.network :private_network, ip: "192.168.99.14"
+    zabbix_server_config.vm.provider "virtualbox" do |vb|
+      vb.memory = "512"
+      vb.cpus = 1
+    end
+  end
+  config.vm.define :graphite do |graphite_config|
+    graphite_config.vm.hostname = "graphite-server"
+    graphite_config.vm.network :private_network, ip: "192.168.99.15"
+    graphite_config.vm.provider "virtualbox" do |vb|
+      vb.memory = "512"
+      vb.cpus = 1
+    end
+  end
+
+
+end

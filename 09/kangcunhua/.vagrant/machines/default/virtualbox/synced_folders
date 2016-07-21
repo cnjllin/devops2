@@ -1,0 +1,1 @@
+{"virtualbox":{"/share_data":{"guestpath":"/share_data","hostpath":"D:/Data","disabled":false,"__vagrantfile":true},"/wwwroot":{"guestpath":"/wwwroot","hostpath":"D:/PythonHome/Python_OpsDev2","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"D:/PythonHome/Python_OpsDev2/Lesson09","disabled":false,"__vagrantfile":true}}}

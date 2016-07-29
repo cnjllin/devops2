@@ -48,11 +48,11 @@
 	"buffers":
 	[
 		{
-			"file": "readme.md",
+			"file": "app/templates/resources/server_edit.html",
 			"settings":
 			{
-				"buffer_size": 166720,
-				"line_ending": "Windows"
+				"buffer_size": 17179,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -88,6 +88,10 @@
 				"git: push"
 			],
 			[
+				"git com",
+				"git: commit"
+			],
+			[
 				"git commit",
 				"git: commit"
 			],
@@ -98,10 +102,6 @@
 			[
 				"git status",
 				"git: status"
-			],
-			[
-				"git com",
-				"git: commit"
 			],
 			[
 				"pcd",
@@ -160,12 +160,15 @@
 	},
 	"expanded_folders":
 	[
-		"/D/PythonHome/devops2/04/kangcunhua"
+		"/D/PythonHome/devops2/04/kangcunhua",
+		"/D/PythonHome/devops2/04/kangcunhua/app",
+		"/D/PythonHome/devops2/04/kangcunhua/app/templates",
+		"/D/PythonHome/devops2/04/kangcunhua/app/templates/resources"
 	],
 	"file_history":
 	[
-		"/D/PythonHome/devops2/04/kangcunhua/app/models.py",
 		"/D/PythonHome/devops2/04/kangcunhua/readme.md",
+		"/D/PythonHome/devops2/04/kangcunhua/app/models.py",
 		"/D/PythonHome/devops2/04/kangcunhua/app/templates/resources/server_list.html",
 		"/D/PythonHome/devops2/04/kangcunhua/app/templates/resources/server_add.html",
 		"/D/PythonHome/devops2/04/kangcunhua/app/main/resources.py",
@@ -351,19 +354,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "readme.md",
+					"file": "app/templates/resources/server_edit.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 166720,
+						"buffer_size": 17179,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15,
-								1165
+								15739,
+								15739
 							]
 						],
 						"settings":
@@ -398,13 +401,13 @@
 								7,
 								224,
 								6,
-								14,
-								20,
-								53,
-								19,
-								12,
-								46,
-								229,
+								18,
+								16,
+								28,
+								45,
+								11,
+								166,
+								140,
 								113,
 								1,
 								133,
@@ -415,14 +418,14 @@
 								3,
 								46
 							],
-							"git_savvy.file_path": "D:\\PythonHome\\devops2\\04\\kangcunhua\\readme.md",
+							"git_savvy.file_path": "D:\\PythonHome\\devops2\\04\\kangcunhua\\app\\templates\\resources\\server_edit.html",
 							"git_savvy.repo_path": "D:/PythonHome/devops2",
-							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.sublime-syntax",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 311.0,
+						"translation.y": 6243.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

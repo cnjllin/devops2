@@ -123,21 +123,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "readme.md",
-			"settings":
-			{
-				"buffer_size": 3061,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -146,26 +131,10 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "git co",
+		"height": 243.0,
+		"last_filter": "auto",
 		"selected_items":
 		[
-			[
-				"git co",
-				"git: commit"
-			],
-			[
-				"git push",
-				"git: push"
-			],
-			[
-				"git com",
-				"git: commit"
-			],
-			[
-				"git comi",
-				"git: commit"
-			],
 			[
 				"auto",
 				"AutoDocstring: All"
@@ -177,6 +146,14 @@
 			[
 				"pci",
 				"Package Control: Install Package→安装插件"
+			],
+			[
+				"git push",
+				"git: push"
+			],
+			[
+				"git com",
+				"git: commit"
 			],
 			[
 				"pcd",
@@ -229,13 +206,8 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/D/Github_Bak/devops2/10/kangcunhua"
-	],
 	"file_history":
 	[
-		"/D/Github_Bak/devops2/10/kangcunhua/readme.md",
 		"/D/PythonHome/Python_OpsDev2/Lesson10/api_test.py",
 		"/D/PythonHome/Python_OpsDev2/Lesson10/log_test.py",
 		"/D/PythonHome/Python_OpsDev2/Lesson10/document/note/2016.07.25_02-mapping操作.md",
@@ -362,11 +334,12 @@
 		"/C/Users/kangcunhua/Desktop/Vagrantfile",
 		"/D/PythonHome/Python_OpsDev2/Lesson03/document/2016.06.04.md",
 		"/D/PythonHome/Python_OpsDev2/Lesson03/app/models.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson03/migrations/env.py"
+		"/D/PythonHome/Python_OpsDev2/Lesson03/migrations/env.py",
+		"/C/Users/kangcunhua/AppData/Local/Temp/HZ$D.222.1266/config.py"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -419,115 +392,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "readme.md",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 3061,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								273,
-								273
-							]
-						],
-						"settings":
-						{
-							"c_time":
-							[
-								128,
-								3,
-								99,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								100,
-								97,
-								116,
-								101,
-								116,
-								105,
-								109,
-								101,
-								10,
-								113,
-								0,
-								67,
-								10,
-								7,
-								224,
-								7,
-								29,
-								13,
-								9,
-								13,
-								9,
-								55,
-								190,
-								113,
-								1,
-								133,
-								113,
-								2,
-								82,
-								113,
-								3,
-								46
-							],
-							"git_savvy.file_path": "D:\\Github_Bak\\devops2\\10\\kangcunhua\\readme.md",
-							"git_savvy.repo_path": "D:/Github_Bak/devops2",
-							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -562,23 +428,15 @@
 		]
 	},
 	"menu_visible": true,
-	"output.GitSavvy":
-	{
-		"height": 106.0
-	},
-	"output.exec":
-	{
-		"height": 118.0
-	},
 	"output.find_results":
 	{
 		"height": 0.0
 	},
 	"pinned_build_system": "Anaconda Python Builder",
-	"project": "panda.sublime-project",
+	"project": "readme.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":

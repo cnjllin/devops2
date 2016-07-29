@@ -4,26 +4,6 @@
 		"selected_items":
 		[
 			[
-				"na",
-				"name_cn"
-			],
-			[
-				"exe",
-				"execute_update_sql"
-			],
-			[
-				"tra",
-				"traceback	module"
-			],
-			[
-				"if",
-				"ifmain	if __name__ == '__main__'"
-			],
-			[
-				"w",
-				"write_log	function"
-			],
-			[
 				"graphite_ky",
 				"graphite_key_ids"
 			],
@@ -127,14 +107,23 @@
 			"file": "readme.md",
 			"settings":
 			{
-				"buffer_size": 3061,
+				"buffer_size": 3486,
 				"line_ending": "Windows"
 			}
 		},
 		{
+			"file": "web/login.py",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 1334,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "document/note/2016.07.24_restful小栗子.md",
+			"settings":
+			{
+				"buffer_size": 949,
 				"line_ending": "Windows"
 			}
 		}
@@ -147,12 +136,20 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "git co",
+		"last_filter": "git",
 		"selected_items":
 		[
 			[
-				"git co",
-				"git: commit"
+				"git",
+				"git: push"
+			],
+			[
+				"auto",
+				"AutoDocstring: Current"
+			],
+			[
+				"pci",
+				"Package Control: Install Package→安装插件"
 			],
 			[
 				"git push",
@@ -161,22 +158,6 @@
 			[
 				"git com",
 				"git: commit"
-			],
-			[
-				"git comi",
-				"git: commit"
-			],
-			[
-				"auto",
-				"AutoDocstring: All"
-			],
-			[
-				"git",
-				"git: push"
-			],
-			[
-				"pci",
-				"Package Control: Install Package→安装插件"
 			],
 			[
 				"pcd",
@@ -231,62 +212,19 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Github_Bak/devops2/10/kangcunhua"
+		"/D/PythonHome/Python_OpsDev2/Lesson11",
+		"/D/PythonHome/Python_OpsDev2/Lesson11/api",
+		"/D/PythonHome/Python_OpsDev2/Lesson11/document/note",
+		"/D/PythonHome/Python_OpsDev2/Lesson11/web"
 	],
 	"file_history":
 	[
-		"/D/Github_Bak/devops2/10/kangcunhua/readme.md",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/api_test.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/log_test.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/document/note/2016.07.25_02-mapping操作.md",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/document/note/2016.07.29_09-框架跑通及讲解.md",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/readme.md",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/conf/service.conf",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/conf/logger.conf",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/conf/logger (2).conf",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/util.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/document/note/2016.07.25_03-es的api使用.md",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/document/note/2017.07.26_07-项目框架运行及配置flask配置文件加载详解.md",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/document/note/2017.07.27_08-包组织代码I结构及token加密解密工具函数编写.md",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/demo/token_demo.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/demo/utils_test.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/demo/log_test.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/demo/flaskdemo/app/admin.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/demo/flaskdemo/__init__.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/demo/flaskdemo/run.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/demo/flaskdemo/admin.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/demo/flaskdemo/views.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/document/note/2017.07.26_06-将config和logging模块封装工具函数utils模块中.md",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/demo/logger_conf_test.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/document/2017.07.26_06-将config和logging模块封装工具函数utils模块中.md",
-		"/D/PythonHome/Python_OpsDev2/Lesson11/utils.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson11/util.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/requirement.txt",
-		"/C/Users/kangcunhua/Documents/Tencent Files/358608208/FileRecv/logger.conf",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/document/note/2016.07.26_05-configParse模块及列表字典生成式.md",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/demo/configparser_test.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/demo/configparser_test.conf",
-		"/F/Per2/reboot自动化/10/1.txt",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/elastic_search_test.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/elastic_search_api_test.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/conf.d/changwei.json",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/Vagrantfile",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/document/note/2016.07.20ES使用Demo.md",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/api/__init__.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/user_test.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/power_test.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/api/power.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/power.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/utils.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/db.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/restful.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/request_jsonrpc_test.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/jsonapi_test.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/dict_test.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/2016.07.24.md",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/test/api_test.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/db_api_test.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson10/__init__.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson11/jsonapi_test.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson11/conf/service.conf",
+		"/C/Users/kangcunhua/AppData/Local/Temp/HZ$D.478.3938/role.html",
+		"/D/PythonHome/Python_OpsDev2/Lesson11/document/note/2016.07.20Kibana使用介绍.md",
+		"/C/Users/kangcunhua/AppData/Local/Temp/HZ$D.143.942/reboot.sql",
+		"/D/PythonHome/Python_OpsDev2/Lesson11/readme.md",
 		"/D/PythonHome/Python_OpsDev2/Lesson10/document/note/2016.06.26_ELK安装配置.md",
 		"/D/Github_Bak/devops2/09/kangcunhua/readme.md",
 		"/D/Github_Bak/devops2/09/kangcunhua/test/carbon.py",
@@ -362,11 +300,54 @@
 		"/C/Users/kangcunhua/Desktop/Vagrantfile",
 		"/D/PythonHome/Python_OpsDev2/Lesson03/document/2016.06.04.md",
 		"/D/PythonHome/Python_OpsDev2/Lesson03/app/models.py",
-		"/D/PythonHome/Python_OpsDev2/Lesson03/migrations/env.py"
+		"/D/PythonHome/Python_OpsDev2/Lesson03/migrations/env.py",
+		"/C/Users/kangcunhua/AppData/Local/Temp/HZ$D.222.1266/config.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/document/2016.06.03.md",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/migrations/alembic.ini",
+		"/C/Users/kangcunhua/AppData/Local/Temp/HZ$D.222.1267/__init__.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/manage.py",
+		"/D/Program/Sublime Text 3x64/Data/Packages/Glue/keymaps/Default (Windows).sublime-keymap",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/document/terminal.glue",
+		"/C/Users/kangcunhua/AppData/Local/Temp/HZ$D.222.1265/models.py",
+		"/C/Users/kangcunhua/AppData/Local/Temp/HZ$D.222.1264/manufacturers.py",
+		"/C/Users/kangcunhua/AppData/Local/Temp/HZ$D.222.1263/idc.py",
+		"/D/Program/Sublime Text 3x64/Data/Packages/User/Anaconda.sublime-settings",
+		"/D/Program/Sublime Text 3x64/Data/Packages/User/Python.sublime-settings",
+		"/D/Program/Sublime Text 3x64/Data/Packages/Anaconda/Anaconda.sublime-settings",
+		"/D/Program/Sublime Text 3x64/Data/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/D/Program/Sublime Text 3x64/Data/Packages/SublimeLinter/Default (Windows).sublime-keymap",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/app/._.DS_Store",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/requirements.txt",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/app/templates/404.html",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/jsonrpc.py",
+		"/D/vagrant_server/anaconda/server.py",
+		"/D/vagrant_server/anaconda/config.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson02/Vagrantfile",
+		"/D/PythonHome/Python_OpsDev2/Lesson02/mycmdb.sublime-project",
+		"/D/Program/Sublime Text 3x64/Data/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/PythonHome/Python_OpsDev2/Lesson02/test.py",
+		"/D/Program/Sublime Text 3x64/Data/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/kangcunhua/Downloads/Python.sublime-settings",
+		"/D/PythonHome/Python_OpsDev2/Lesson02/jsonrpc.py",
+		"/D/Program/Sublime Text 3x64/Data/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/D/Program/Sublime Text 3x64/Data/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/D/PythonHome/Python_OpsDev2/Lesson02/sf.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson02/manage.py",
+		"/D/Program/pstart/PStart.xml",
+		"/D/Reboot/Vagrantfile",
+		"/C/Users/kangcunhua/Desktop/Sublime Text 3x64/Data/Packages/User/Vagrant.sublime-settings",
+		"/D/PythonHome/Python_OpsDev2/Lesson02/lessson02.sublime-project",
+		"/C/Users/kangcunhua/Desktop/Sublime Text 3x64/Data/Packages/User/Preferences.sublime-settings",
+		"/C/Users/kangcunhua/Desktop/Sublime Text 3x64/Data/Packages/Vagrant/Vagrant.sublime-settings",
+		"/C/Users/kangcunhua/Desktop/Sublime Text 3x64/Data/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/kangcunhua/Desktop/Sublime Text 3x64/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/D/PythonHome/Python_OpsDev2/Lesson02/document/2016.05.30.md",
+		"/C/Users/kangcunhua/Desktop/Sublime Text 3x64/Data/Packages/User/Anaconda.sublime-settings",
+		"/D/PythonHome/Python_OpsDev2/Lesson02/document/ttd.py"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -383,9 +364,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"png",
-			".51reboot",
-			"output",
 			");\n",
 			"reden",
 			"get_graphite_key_by_group",
@@ -408,7 +386,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -425,18 +402,18 @@
 				{
 					"buffer": 0,
 					"file": "readme.md",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3061,
+						"buffer_size": 3486,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								273,
-								273
+								409,
+								409
 							]
 						],
 						"settings":
@@ -471,13 +448,13 @@
 								7,
 								224,
 								7,
-								29,
-								13,
-								9,
-								13,
-								9,
-								55,
-								190,
+								22,
+								18,
+								48,
+								54,
+								4,
+								175,
+								68,
 								113,
 								1,
 								133,
@@ -488,8 +465,8 @@
 								3,
 								46
 							],
-							"git_savvy.file_path": "D:\\Github_Bak\\devops2\\10\\kangcunhua\\readme.md",
-							"git_savvy.repo_path": "D:/Github_Bak/devops2",
+							"git_savvy.file_path": "D:\\PythonHome\\Python_OpsDev2\\Lesson11\\readme.md",
+							"git_savvy.repo_path": "D:/PythonHome/Python_OpsDev2",
 							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
@@ -503,10 +480,11 @@
 				},
 				{
 					"buffer": 1,
-					"semi_transient": false,
+					"file": "web/login.py",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1334,
 						"regions":
 						{
 						},
@@ -519,7 +497,58 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								7,
+								24,
+								11,
+								1,
+								52,
+								0,
+								202,
+								30,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"git_savvy.file_path": "D:\\PythonHome\\Python_OpsDev2\\Lesson11\\web\\login.py",
+							"git_savvy.repo_path": "D:/PythonHome/Python_OpsDev2",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -527,13 +556,90 @@
 					},
 					"stack_index": 1,
 					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "document/note/2016.07.24_restful小栗子.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 949,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11,
+								0
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								7,
+								24,
+								14,
+								49,
+								44,
+								7,
+								54,
+								210,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"git_savvy.file_path": "D:\\PythonHome\\Python_OpsDev2\\Lesson11\\document\\note\\2016.07.24.md",
+							"git_savvy.repo_path": "D:/PythonHome/Python_OpsDev2",
+							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -578,7 +684,7 @@
 	"project": "panda.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -616,7 +722,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 305.0,
+	"side_bar_width": 367.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

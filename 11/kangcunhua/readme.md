@@ -2,8 +2,32 @@
 # Panda老师课程简介
 第七次课、第十次、第十一次、第十二次为Panda老师授课；
 
+# Lesson 11
+## 课程目标
+
++ mysql抽象类的讲解实现（上周遗留）
+    + 今天项目的效果图
+    + 项目文档，需求分析
+    + 任何离开场景谈技术，都是耍流氓
++ API认证 -- 装饰器
++ jsonrpc demo VS resfulapi
+    + jsonrpc : zabbix api
+    + resful: es api
++ API对权限表的操作 -- 权限表最简单，没有依赖，public + api + 测试用例
++ API对角色表的操作 -- 依赖权限表
++ API对用户表的操作 -- 依赖角色表
++ 前端套页面
+
+本次课程主要讲解了通过jsonrpc实现rbac权限管理的后端代码
+
+## 代码清单
++ api/__init__.py
++ api/login.py
++ api/power.py
++ api/user.py
 
 # Lesson 10
+
 ## 课程目标
 
 + 介绍讲课风格
@@ -15,7 +39,7 @@
 + mysql抽象类的讲解实现（半小时）
 + 公共基础设施编写
 + 在基础设施的基础上，实现生产环境下的用户登录和token生成 
-+ rbac思想介绍 
++ rbac思想介绍
 
 ## 课程笔记
 
@@ -93,7 +117,7 @@ ELK 安装配置应用
 ## [2017.07.26_07-项目框架运行及配置flask配置文件加载详解](document/note/2017.07.26_07-项目框架运行及配置flask配置文件加载详解.md)
 ## [2017.07.27_08-包组织代码I结构及token加密解密工具函数编写](document/note/2017.07.27_08-包组织代码I结构及token加密解密工具函数编写.md)
 ## [2016.07.29_09-框架跑通及讲解](document/note/2016.07.29_09-框架跑通及讲解.md)
-
+## [2016.07.24_restful小栗子](document/note/2016.07.24_restful小栗子.md)
 
 
 

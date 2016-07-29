@@ -1,0 +1,676 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"na",
+				"name_cn"
+			],
+			[
+				"exe",
+				"execute_update_sql"
+			],
+			[
+				"tra",
+				"traceback	module"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"w",
+				"write_log	function"
+			],
+			[
+				"graphite_ky",
+				"graphite_key_ids"
+			],
+			[
+				"serv",
+				"service_purpose"
+			],
+			[
+				"servi",
+				"service_id"
+			],
+			[
+				"per",
+				"performance_data"
+			],
+			[
+				"api",
+				"api_action"
+			],
+			[
+				"host",
+				"hostlist"
+			],
+			[
+				"ser",
+				"service_purpose"
+			],
+			[
+				"module",
+				"module_letter"
+			],
+			[
+				"produ",
+				"products"
+			],
+			[
+				"Tr",
+				"Treeview"
+			],
+			[
+				"lo",
+				"loads	function"
+			],
+			[
+				"curr",
+				"current_app"
+			],
+			[
+				"t",
+				"try	Try/Except"
+			],
+			[
+				"cur",
+				"current_app"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"s",
+				"str"
+			],
+			[
+				"is",
+				"isValidMethod	function"
+			],
+			[
+				"isv",
+				"isValidModule	statement"
+			],
+			[
+				"fale",
+				"False	keyword"
+			],
+			[
+				"l",
+				"loads	function"
+			],
+			[
+				"or",
+				"order_by_list"
+			],
+			[
+				"order",
+				"order_by"
+			],
+			[
+				"user",
+				"user_phone"
+			],
+			[
+				"idc",
+				"idc_name"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "readme.md",
+			"settings":
+			{
+				"buffer_size": 3061,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "document/note/2016.07.29_09-框架跑通及讲解.md",
+			"settings":
+			{
+				"buffer_size": 10207,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 197.0,
+		"last_filter": "git push",
+		"selected_items":
+		[
+			[
+				"git push",
+				"git: push"
+			],
+			[
+				"git com",
+				"git: commit"
+			],
+			[
+				"git comi",
+				"git: commit"
+			],
+			[
+				"auto",
+				"AutoDocstring: All"
+			],
+			[
+				"git",
+				"git: push"
+			],
+			[
+				"pci",
+				"Package Control: Install Package→安装插件"
+			],
+			[
+				"pcd",
+				"Package Control: Disable Package→禁用插件"
+			],
+			[
+				"vagrant halt",
+				"Vagrant: Halt"
+			],
+			[
+				"vagrant up",
+				"Vagrant: Up"
+			],
+			[
+				"pcr",
+				"Package Control: Remove Package→删除插件"
+			],
+			[
+				"pce",
+				"Package Control: Enable Package→启用插件"
+			],
+			[
+				"vag",
+				"Anaconda: Vagrant Up"
+			],
+			[
+				"vagr",
+				"Vagrant: Up"
+			],
+			[
+				"vagrantu",
+				"Vagrant: Up"
+			]
+		],
+		"width": 608.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/PythonHome/Python_OpsDev2/Lesson10",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/conf",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/demo",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/document"
+	],
+	"file_history":
+	[
+		"/D/PythonHome/Python_OpsDev2/Lesson10/api_test.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/log_test.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/document/note/2016.07.25_02-mapping操作.md",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/document/note/2016.07.29_09-框架跑通及讲解.md",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/readme.md",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/conf/service.conf",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/conf/logger.conf",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/conf/logger (2).conf",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/util.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/document/note/2016.07.25_03-es的api使用.md",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/document/note/2017.07.26_07-项目框架运行及配置flask配置文件加载详解.md",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/document/note/2017.07.27_08-包组织代码I结构及token加密解密工具函数编写.md",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/demo/token_demo.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/demo/utils_test.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/demo/log_test.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/demo/flaskdemo/app/admin.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/demo/flaskdemo/__init__.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/demo/flaskdemo/run.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/demo/flaskdemo/admin.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/demo/flaskdemo/views.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/document/note/2017.07.26_06-将config和logging模块封装工具函数utils模块中.md",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/demo/logger_conf_test.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/document/2017.07.26_06-将config和logging模块封装工具函数utils模块中.md",
+		"/D/PythonHome/Python_OpsDev2/Lesson11/utils.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson11/util.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/requirement.txt",
+		"/C/Users/kangcunhua/Documents/Tencent Files/358608208/FileRecv/logger.conf",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/document/note/2016.07.26_05-configParse模块及列表字典生成式.md",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/demo/configparser_test.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/demo/configparser_test.conf",
+		"/F/Per2/reboot自动化/10/1.txt",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/elastic_search_test.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/elastic_search_api_test.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/conf.d/changwei.json",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/Vagrantfile",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/document/note/2016.07.20ES使用Demo.md",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/api/__init__.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/user_test.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/power_test.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/api/power.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/power.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/utils.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/db.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/restful.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/request_jsonrpc_test.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/jsonapi_test.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/dict_test.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/2016.07.24.md",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/test/api_test.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/db_api_test.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/__init__.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson10/document/note/2016.06.26_ELK安装配置.md",
+		"/D/Github_Bak/devops2/09/kangcunhua/readme.md",
+		"/D/Github_Bak/devops2/09/kangcunhua/test/carbon.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson09/document/2016.07.10.md",
+		"/D/PythonHome/Python_OpsDev2/Lesson09/Vagrantfile",
+		"/D/PythonHome/Python_OpsDev2/Lesson09/test/__init__.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson09/test/_del_sysinfo.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson09/app/templates/monitor/graphite_group_keys.html",
+		"/D/PythonHome/Python_OpsDev2/Lesson09/app/main/monitor.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson08/document/2016.07.10.md",
+		"/D/PythonHome/Python_OpsDev2/Lesson08/readme.md",
+		"/D/PythonHome/Python_OpsDev2/Lesson08/app/models.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson08/app/utils/__init__.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson08/app/templates/monitor/graphite_group_keys.html",
+		"/D/PythonHome/Python_OpsDev2/Lesson08/document/2016.07.03.md",
+		"/D/PythonHome/Python_OpsDev2/Lesson08/app/templates/monitor/monitor_graphite_keys.html",
+		"/D/PythonHome/Python_OpsDev2/Lesson08/config.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson08/app/utils/graphite/__init__.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson08/test/test_zabbix_maintenance.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson08/test/test_zabbix_host_and_group.py",
+		"/D/PythonHome/zhuangzhuang/Vagrantfile",
+		"/D/PythonHome/zhuangzhuang/mylib/document/dn_20160627_001.md",
+		"/D/PythonHome/zhuangzhuang/mylib/document/note/2016.06.01.md",
+		"/D/PythonHome/zhuangzhuang/mylib/test_modules/__init__.py",
+		"/D/PythonHome/zhuangzhuang/mylib/test_modules/idc.py",
+		"/D/PythonHome/zhuangzhuang/mylib/test_jsonrpc/jsonrpc.py",
+		"/D/PythonHome/zhuangzhuang/mylib/test_overload.py",
+		"/D/PythonHome/zhuangzhuang/DevOpsDreams.sublime-project",
+		"/D/PythonHome/zhuangzhuang/.gitignore",
+		"/D/PythonHome/Python_OpsDev2/Lesson07/Vagrantfile",
+		"/D/PythonHome/zhuangzhuang/test/jsonrpc.py",
+		"/D/PythonHome/zhuangzhuang/app/utils/__init__.py",
+		"/D/PythonHome/zhuangzhuang/modules/__init__.py",
+		"/D/PythonHome/zhuangzhuang/mylib/jsonrpc.py",
+		"/D/PythonHome/zhuangzhuang/mylib/test_idc.py",
+		"/D/PythonHome/zhuangzhuang/mylib/document/dn_prepare_001.md",
+		"/D/PythonHome/zhuangzhuang/terminal.glue",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/terminal.glue",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/app/templates/resources/server_idc_list.html",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/readme.md",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/modules/idc.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/app/main/errors.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/app/main/__init__.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/app/__init__.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/app/main/resources.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/document/2016.06.01.md",
+		"/D/Program/Sublime Text 3x64/Data/Packages/User/sbc-setting.sublime-settings",
+		"/D/Program/Sublime Text 3x64/Data/Packages/Better Completion/sbc-setting.sublime-settings",
+		"/D/Program/Sublime Text 3x64/Data/Packages/Anaconda/README.md",
+		"/D/Program/Sublime Text 3x64/Data/Packages/Anaconda/Default (Windows).sublime-keymap",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/app/templates/public/success.html",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/app/templates/public/cmdb_left.html",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/app/templates/resources/server_list.html",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/app/main/views.py",
+		"/D/Program/Sublime Text 3x64/Data/Packages/User/AutoDocstring.sublime-settings",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/app/base/__init__.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/app/utils/__init__.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/test/testutil.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/test/testidc.py",
+		"/D/Program/Sublime Text 3x64/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/D/Program/Sublime Text 3x64/Data/Packages/AutoDocstring/AutoDocstring.sublime-settings",
+		"/D/Program/Sublime Text 3x64/Data/Packages/User/Preferences.sublime-settings",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/mycmdb.sublime-project",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/test/testAPI.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/test/jsonrpc.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/config.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/Vagrantfile",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/document/2016.06.06_debug.md",
+		"/C/Users/kangcunhua/AppData/Local/Temp/HZ$D.904.313/idc.py",
+		"/C/Users/kangcunhua/AppData/Local/Temp/HZ$D.904.312/views.py",
+		"/C/Users/kangcunhua/AppData/Local/Temp/HZ$D.904.311/views.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson05/Vagrantfile",
+		"/C/Users/kangcunhua/Desktop/Vagrantfile",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/document/2016.06.04.md",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/app/models.py",
+		"/D/PythonHome/Python_OpsDev2/Lesson03/migrations/env.py",
+		"/C/Users/kangcunhua/AppData/Local/Temp/HZ$D.222.1266/config.py"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"D:\\PythonHome\\Python_OpsDev2\\Lesson08",
+			"D:\\PythonHome\\zhuangzhuang",
+			"D:\\PythonHome\\Python_OpsDev2\\Lesson03"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"png",
+			".51reboot",
+			"output",
+			");\n",
+			"reden",
+			"get_graphite_key_by_group",
+			"service_purposeservice_purpose",
+			"service_purpose",
+			"/monitor/ajax/graphite/del/key/group",
+			"ajax",
+			"/monitor/ajax/graphite/group/get_keys",
+			"show variables like",
+			"*\",",
+			"from app.utils import check_field_exists",
+			"requests",
+			"retw",
+			"document",
+			"pep"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "readme.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3061,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								72,
+								72
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								7,
+								22,
+								18,
+								48,
+								54,
+								4,
+								175,
+								68,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"git_savvy.file_path": "D:\\PythonHome\\Python_OpsDev2\\Lesson10\\readme.md",
+							"git_savvy.repo_path": "D:/PythonHome/Python_OpsDev2",
+							"parser": null,
+							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.sublime-syntax",
+							"tab_size": 4,
+							"target": "disk",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "document/note/2016.07.29_09-框架跑通及讲解.md",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 10207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								224,
+								7,
+								29,
+								10,
+								16,
+								27,
+								14,
+								219,
+								9,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"git_savvy.file_path": "D:\\PythonHome\\Python_OpsDev2\\Lesson10\\document\\note\\2016.07.29_09-框架跑通及讲解.md",
+							"git_savvy.repo_path": "D:/PythonHome/Python_OpsDev2",
+							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GitSavvy":
+	{
+		"height": 106.0
+	},
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Anaconda Python Builder",
+	"project": "panda.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 305.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
